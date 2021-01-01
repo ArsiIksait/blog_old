@@ -2,7 +2,7 @@
 if not exist "run.bat" (
 (
 echo.@echo off
-echo.call cmd /c start /min ²ÊºçÊı×ÖÓê.bat^&exit
+echo.call cmd /c start /min %0^&exit
 )>run.bat
 start run.bat&exit
 ) else (
