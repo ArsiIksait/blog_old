@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>ArsiIksait 博客 qwq</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="ArsiIksait's Blog." content="Wecome To ArsiIksait's Blog!" />
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script src="javascripts/boxfunctionmsg.js"></script>
+	<style class="text_RGB">
+	.text_RGB {
+	color: #f35626;
+	font-family: 微软雅黑;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+	}
+	@-webkit-keyframes hue {
+	from {
+	
+	-webkit-filter: hue-rotate(0deg);
+	-moz-filter: hue-rotate(0deg);
+	}
+	to {
+	-webkit-filter: hue-rotate(-360deg);
+	-moz-filter: hue-rotate(-360deg);
+	}
+	}
+	</style>
+</head>
+<body>
+<div style="background-repeat:no-repeat; background-attachment:fixed;background-size:cover;background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);" height=100% width=100%>
+	<h1 style="color:#CCFF00;text-align:center;">欢迎来到我的博客!</h1>
+	<div id="button_list">
+		<button id="showbatchscripts0">批处理脚本下载</button>
+		<button id="showbatchscripts1">关闭下载地址栏</button>
+		<button id="showAD0" onclick="playAD()">显示赞助商</button>
+		<button id="showAD1" onclick="stopAD()">关闭广告</button>
+		<!-- <button id="sakuraOff">关闭樱花特效</button> -->
+		<!-- <button id="sakuraOn">开启樱花特效</button> -->
+		</div>
+	<div id="hidden_list">
+		<div style="background-color:rgba(0,0,0,0.5);" id="batch_scripts">
+		<div class="text_RGB" id="batch_scripts" style="text-decoration:nonel;border:3px solid #00F;text-align:center;" height=auto width=auto>
+			<a href="assets/Base64超级全自动生成文件脚本生成器.zip" id="batch_scripts" style="text-decoration:none;">Base64超级全自动生成文件脚本生成器</a> 
+			<a href="assets/CScript16进制加密运行.zip" id="batch_scripts" style="text-decoration:none;">CScript16进制加密运行</a> 
+			<a href="assets/一份礼物.zip" id="batch_scripts" style="text-decoration:none;">一份礼物</a> 
+			<a href="assets/全盘查找分类文件.bat" id="batch_scripts" style="text-decoration:none;">全盘查找分类文件</a> 
+			<a href="assets/判断字符串中是否有某个字符.bat" id="batch_scripts" style="text-decoration:none;">判断字符串中是否有某个字符</a> 
+			<a href="assets/啊巴啊巴编码(摩尔斯电码衍生品).7z" id="batch_scripts" style="text-decoration:none;">啊巴啊巴编码(摩尔斯电码衍生品)</a> 
+			<a href="assets/奇怪的知识增加了.zip" id="batch_scripts" style="text-decoration:none;">奇怪的知识增加了</a> 
+			<a href="assets/彩虹数字雨.bat" id="batch_scripts" style="text-decoration:none;">彩虹数字雨</a> 
+			<a href="assets/摩尔斯电码转换.zip" id="batch_scripts" style="text-decoration:none;">摩尔斯电码转换</a> 
+			<a href="assets/文件一键分类.zip" id="batch_scripts" style="text-decoration:none;">文件一键分类</a> 
+			<a href="assets/文件到16进制转换.zip" id="batch_scripts" style="text-decoration:none;">文件到16进制转换</a> 
+			<a href="assets/文件搜索器.bat" id="batch_scripts" style="text-decoration:none;">文件搜索器</a> 
+			<a href="assets/日志检查器(计时时钟).bat" id="batch_scripts" style="text-decoration:none;">日志检查器(计时时钟)</a> 
+			<a href="assets/登陆系统.bat" id="batch_scripts" style="text-decoration:none;">登陆系统</a> 
+			<a href="assets/简单的批处理钢琴.zip" id="batch_scripts" style="text-decoration:none;">简单的批处理钢琴</a> 
+			<a href="assets/简单的批处理钢琴和嗡鸣器音乐.zip" id="batch_scripts" style="text-decoration:none;">简单的批处理钢琴和嗡鸣器音乐</a> 
+			<a href="assets/获取文件信息.bat" id="batch_scripts" style="text-decoration:none;">获取文件信息</a> 
+			<a href="assets/语音系统.zip" id="batch_scripts" style="text-decoration:none;">语音系统</a>
+		</div>
+		</div>
+		<div class="text_RGB" id="AD_Indihome" style="right"><video id="IndihomeADVideo" src="video/Indihome.mp4" type="video/mp4"></video></div>
+	</div>
+	<text>
+		<p style="color:white">az暂时不知道写什么好...总之就是非常感谢你来参观!</p>
+	</text>
+<script name="jQuery">
+$(document).ready(function(){
+	$("#batch_scripts").hide();
+	$("#showbatchscripts1").hide();
+	$("#AD_Indihome").hide();
+	$("#showAD1").hide();
+	$("#sakuraOn").hide();
+  $("#showbatchscripts0").click(function(){
+	$("#batch_scripts").show();
+	$("#showbatchscripts0").hide();
+	$("#showbatchscripts1").show();
+  });
+  $("#showbatchscripts1").click(function(){
+	$("#batch_scripts").hide();
+	$("#showbatchscripts1").hide();
+	$("#showbatchscripts0").show();
+  });
+
+  $("#showAD0").click(function(){
+	$("#AD_Indihome").show();
+	$("#IndihomeADVideo").show();
+	$("#showAD0").hide();
+	$("#showAD1").show();
+  });
+  $("#showAD1").click(function(){
+	$("#IndihomeADVideo").hide();
+	$("#AD_Indihome").hide();
+	$("#showAD1").hide();
+	$("#showAD0").show();
+  });
+});
+</script>
+<script name="javascript">
+function playAD() {
+	var video = document.getElementById('IndihomeADVideo');
+	if (video.paused) {
+		video.play();
+	}
+};
+function stopAD() {
+	var video = document.getElementById('IndihomeADVideo');
+	video.pause();
+};
+</script>
+<script id="sakura" name="樱花飘落效果" type="text/javascript">
+//From https://blog.mbrjun.cn/archives/35
+var system ={};
+var p = navigator.platform;
+system.win = p.indexOf("Win") == 0;
+system.mac = p.indexOf("Mac") == 0;
+system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+if(system.win||system.mac||system.xll){//如果是电脑
+    $.getScript("https://cdn.jsdelivr.net/gh/ivampiresp/special-JavaScript/yinghua.js");
+}else{ //如果是手机
+}
+</script>
+	<div name="背景图自动覆盖网页"><!-- TOOD:阿巴阿巴,有大佬会整吗? --><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+<div style="background-color:rgba(255,255,255,0.2);">
+<div class="text_RGB" style="box-shadow: 5px 5px 5px #888888;border:2px solid;border-radius:15px;text-align:center;position:relative;right:0;left:0;bottom:0;top:0;">
+	<footer>
+	
+	<p>Copyright  © 2020-2021 <a href="https://arsiiksait.github.io/blog" style="text-decoration:none">ArsiIksait's Blog</a>. All Rights Reserved.<br>Theme <a href="https://www.cnblogs.com/litterjoan/articles/5581257.html" target="_blank" rel="nofollow" style="text-decoration:none">Gaochunling css3控制字体动态变换颜色demo</a>,<a href="https://www.xjh.me" target="_blank" rel="nofollow" style="text-decoration:none">岁月小筑</a>.<br>Made by <a href="https://space.bilibili.com/33144842" target="_blank" rel="friend" id="0" onclick="setTimeout(showHidetext2,3000);">ArsiIksait</a>.<br><input type="button" id="1" onclick="showHidetext1()" style="border-style:none;outline:none;border:none;cursor:pointer;-moz-opacity:1.0;opacity:0.03;"/><br>
+	</p>
+	</footer>
+	</div>
+	</div>
+</div>
+</body>
+	</html>
