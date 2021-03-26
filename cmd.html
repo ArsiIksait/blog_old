@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="image/favicon.ico">
+<meta charset="utf-8" />
+<title>CMD</title>
+<link href="css/cmd.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $(document).keyup(function(event){
+	if(event.keyCode ==13){  
+	  $.ajax({
+		type: "POST",
+		url: "api/cmd.php",
+		data: "code="+$("#in").val(), 
+		success: function(msg){
+		  $("ul").append("<li>"+$("#in").val()+"</li>");  //将输入的输出到界面
+		  $("ul").append("<li>"+msg+"</li>");             //获取返回值并输出
+		  $("#in").val("");                               //清空输入框
+		  $("#text").scrollTop($("#text").scrollTop()+32);//滚动条拉到最下面，显示出输入框
+		}
+	  });
+	}
+  });
+  $("#in")[0].focus();
+});
+</script>
+</head>
+ 
+<body>
+<div style="background-repeat:no-repeat; background-attachment:fixed;background-size:cover;background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);" height=100% width=100%>
+	<div class="window" id="window">
+        <div class="title">
+            <img src="image/cmdmini.ico">
+            <span id="DOSTITLE">管理员：C:\Windows\system32\cmd.exe</span>
+        </div>
+        <div id="text">
+        	<ul>
+            	<li>Microsoft Windows [版本 6.1.7601]</li>
+            	<li>版权所有 (c) 2009 Microsoft Corporation。保留所有权利。</li>
+				<li><br></li>
+				<li>C:\Users\Administrator></li>
+            </ul>
+            <input type="text" name="" id='in'>
+        </div>
+	</div><div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+</div>
+<script>
+        const box = document.getElementById('window')
+        let isDown = false
+        let mouse = {}
+        box.onmousedown = (e) => {
+            isDown = true
+            box.style.cursor = 'move'
+            //保存初始位置
+            mouse = {
+                startX: e.clientX,
+                startY: e.clientY,
+                offsetLeft: box.offsetLeft,
+                offsetTop: box.offsetTop,
+            }
+        }
+
+        box.onmousemove = (e) => {
+            if (!isDown) {
+                return
+            }
+            //计算偏移位置
+            let offsetLeft = mouse.offsetLeft + e.clientX - mouse.startX
+            let offsetTop = mouse.offsetTop + e.clientY - mouse.startY
+
+            //设置偏移距离的范围[0,window.innerWidth - 400]
+            offsetLeft = Math.max(0, Math.min(offsetLeft, window.innerWidth - 400))
+            offsetTop = Math.max(0, Math.min(offsetTop, window.innerHeight - 400))
+            
+            box.style.left = offsetLeft + 'px';
+            box.style.top = offsetTop + 'px';
+
+        }
+        //当鼠标滑的太快时，容易移出box，所以在window上监听此事件
+        window.onmouseup = () => {
+            isDown = false
+            box.style.cursor = 'default'
+            mouse = null
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	font:"Î¢ÈíÑÅºÚ";
+	font-size:14px;}
+	
+.window {
+	border:6px #ccc outset;
+	width:680px;
+	height:442px;
+	background-color:rgba(0,0,0,0.2);
+	position:absolute;
+	top:20px;
+	left:34px;
+	overflow:hidden}
+	
+	.title {
+		background-color:rgba(8,36,107,0.35);
+		padding:2px;}
+	
+	#text {
+		background-color:rgba(0,0,0,0.5);
+		border-top:#ccc outset 2px;
+		height:420px;
+		overflow-y:scroll;}
+	
+	ul {
+		margin:0px;
+		padding:0px;
+		list-style:none;}
+	
+	input {
+		background-color:rgba(0,0,0,0.1);
+		border:0;
+		color:#fff;
+		outline:none;
+		/*font-size:12px;*/
+		width:100%}
+		
