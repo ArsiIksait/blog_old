@@ -37,8 +37,8 @@
 		<button id="showbatchscripts1">关闭下载地址栏</button>
 		<button id="showAD0" onclick="playAD()">显示赞助商</button>
 		<button id="showAD1" onclick="stopAD()">关闭广告</button>
-		<!-- <button id="sakuraOff">关闭樱花特效</button> -->
-		<!-- <button id="sakuraOn">开启樱花特效</button> -->
+		<button id="sakuraOff">关闭樱花特效</button>
+		<button id="sakuraOn">开启樱花特效</button>
 		</div>
 	<div id="hidden_list">
 		<div style="background-color:rgba(0,0,0,0.5);" id="batch_scripts">
@@ -70,6 +70,11 @@
 	</text>
 <script name="jQuery">
 $(document).ready(function(){
+	var sakuraEffect=getCookie("sakuraEffect");
+	if (sakuraEffect="isOff")
+	{
+	$("#canvas_sakura").remove();
+	}
 	$("#batch_scripts").hide();
 	$("#showbatchscripts1").hide();
 	$("#AD_Indihome").hide();
@@ -85,7 +90,6 @@ $(document).ready(function(){
 	$("#showbatchscripts1").hide();
 	$("#showbatchscripts0").show();
   });
-
   $("#showAD0").click(function(){
 	$("#AD_Indihome").show();
 	$("#IndihomeADVideo").show();
@@ -97,6 +101,18 @@ $(document).ready(function(){
 	$("#AD_Indihome").hide();
 	$("#showAD1").hide();
 	$("#showAD0").show();
+  });
+  $("#sakuraOff").click(function(){
+	$("#canvas_sakura").remove();
+	document.cookie="sakuraEffect=isOff";
+	$("#sakuraOff").hide();
+	$("#sakuraOn").show();
+  });
+  $("#sakuraOn").click(function(){
+	load_sakura_js()
+	document.cookie="sakuraEffect=isOn";
+	$("#sakuraOn").hide();
+	$("#sakuraOff").show();
   });
 });
 </script>
@@ -114,6 +130,8 @@ function stopAD() {
 </script>
 <script id="sakura" name="樱花飘落效果" type="text/javascript">
 //From https://blog.mbrjun.cn/archives/35
+function load_sakura_js()
+{
 var system ={};
 var p = navigator.platform;
 system.win = p.indexOf("Win") == 0;
@@ -123,6 +141,21 @@ if(system.win||system.mac||system.xll){//如果是电脑
     $.getScript("https://cdn.jsdelivr.net/gh/ivampiresp/special-JavaScript/yinghua.js");
 }else{ //如果是手机
 }
+}
+load_sakura_js()
+</script>
+<script>
+function getCookie(cname)
+{
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0; i<ca.length; i++) 
+  {
+    var c = ca[i].trim();
+    if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+  }
+  return "";
+};
 </script>
 	<div name="背景图自动覆盖网页"><!-- TOOD:阿巴阿巴,有大佬会整吗? --><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 <div style="background-color:rgba(255,255,255,0.2);">
