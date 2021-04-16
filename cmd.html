@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <title>CMD</title>
 <link href="css/cmd.css" rel="stylesheet" type="text/css">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js">
+<script src="https://code.jquery.com/jquery-1.10.2.min.js">
 </script>
 <script>
 $(document).ready(function(){
@@ -13,7 +13,7 @@ $(document).ready(function(){
 	if(event.keyCode ==13){  
 	  $.ajax({
 		type: "POST",
-		url: "http://arsiiksait.github.io/blog/api/cmd.php",
+		url: "https://arsiiksait.github.io/blog/api/cmd.php",
 		data: "code="+$("#in").val(), 
 		success: function(msg){
 		  $("ul").append("<li>"+$("#in").val()+"</li>");  //将输入的输出到界面
