@@ -12,7 +12,7 @@ $(document).ready(function(){
   $(document).keyup(function(event){
 	if(event.keyCode ==13){  
 	  $.ajax({
-		type: "POST",
+		type: "GET",
 		url: "https://arsiiksait.github.io/blog/api/cmd.php",
 		data: "code="+$("#in").val(), 
 		success: function(msg){
