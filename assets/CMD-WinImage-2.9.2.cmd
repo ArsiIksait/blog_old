@@ -5,32 +5,32 @@ call :ImDisk
 set "+=JKMDXYEBFPQGNHLAUVWZCIORSTrstdxcpqjkmyzauvMDAZqwioYu"
 set "length="
 for /f "skip=1 delims=:" %%w in ('^(echo."!-!"^&echo.^)^|findstr /o ".*"') do set /a "length=%%w-7"
-if /i "!-:~-2,1!" neq "!-:~%length%,1!" cls&&echo.&&echo.±¾¹¤¾ßÂ·¾¶°üº¬ÖÐÎÄ£¬Õâ¿ÉÄÜ»áµ¼ÖÂÄ³Ð©¹¦ÄÜ²»Õý³££¬Çë°´ÈÎÒâ¼üÍË³öºóÖØÃüÃûÂ·¾¶...&&pause>nul&&goto :End
-"!Windir!\System32\FLTMC.exe" >nul 2>nul || cls && echo. && echo.ÇëÒÔ¹ÜÀíÔ±Éí·ÝÔËÐÐ±¾¹¤¾ß£¬Çë°´ÈÎÒâ¼üÍË³ö.....&&pause>nul&&goto :End
+if /i "!-:~-2,1!" neq "!-:~%length%,1!" cls&&echo.&&echo.æœ¬å·¥å…·è·¯å¾„åŒ…å«ä¸­æ–‡ï¼Œè¿™å¯èƒ½ä¼šå¯¼è‡´æŸäº›åŠŸèƒ½ä¸æ­£å¸¸ï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡ºåŽé‡å‘½åè·¯å¾„...&&pause>nul&&goto :End
+"!Windir!\System32\FLTMC.exe" >nul 2>nul || cls && echo. && echo.è¯·ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œæœ¬å·¥å…·ï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡º.....&&pause>nul&&goto :End
 cls&echo.
-echo.    _______________________________ Ê¹ÓÃÐëÖª _______________________________
+echo.    _______________________________ ä½¿ç”¨é¡»çŸ¥ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows-ÀëÏßÕûºÏ¹¤¾ß£¬ÎÞÐèÐéÄâ»ú£¬ÎÞÐè°²×°ÏµÍ³£¬ÎÞÐèÏà¹ØÖªÊ¶£¬¼òµ¥   ^|
+echo.   ^|   Windows-ç¦»çº¿æ•´åˆå·¥å…·ï¼Œæ— éœ€è™šæ‹Ÿæœºï¼Œæ— éœ€å®‰è£…ç³»ç»Ÿï¼Œæ— éœ€ç›¸å…³çŸ¥è¯†ï¼Œç®€å•   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼¸²½¾Í¿ÉÒÔµÃµ½Ò»¸öÇ¿´óµÄÏµÍ³¾µÏñ¡£Ö§³Ö Windows 7 8 10 Æä¹¤×÷Ô­Àí¾Í   ^|
+echo.   ^|   å‡ æ­¥å°±å¯ä»¥å¾—åˆ°ä¸€ä¸ªå¼ºå¤§çš„ç³»ç»Ÿé•œåƒã€‚æ”¯æŒ Windows 7 8 10 å…¶å·¥ä½œåŽŸç†å°±   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÊÇ°ÑÓ³Ïñ½âÑ¹¿ª£¬È»ºó×öÒ»Ð©ÐÞ¸ÄºóÖØÐÂ±£´æ³ÉÐÂµÄÓ³Ïñ¡£ºÃ´¦ÊÇ²»ÐèÒª½«   ^|
+echo.   ^|   æ˜¯æŠŠæ˜ åƒè§£åŽ‹å¼€ï¼Œç„¶åŽåšä¸€äº›ä¿®æ”¹åŽé‡æ–°ä¿å­˜æˆæ–°çš„æ˜ åƒã€‚å¥½å¤„æ˜¯ä¸éœ€è¦å°†   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÏµÍ³°²×°µ½»òÐéÄâ»ú´ÅÅÌ£¬²»»á²úÉúÀ¬»ø£¬Ò²²»»áÕûºÏÊ§°Ü¡£               ^|
+echo.   ^|   ç³»ç»Ÿå®‰è£…åˆ°æˆ–è™šæ‹Ÿæœºç£ç›˜ï¼Œä¸ä¼šäº§ç”Ÿåžƒåœ¾ï¼Œä¹Ÿä¸ä¼šæ•´åˆå¤±è´¥ã€‚               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÒÔÏÂÊÇÊ¹ÓÃÐëÖª£¬ÓÐ±ØÒªÏÈ¿´Ò»ÏÂ¡£                                     ^|
+echo.   ^|   ä»¥ä¸‹æ˜¯ä½¿ç”¨é¡»çŸ¥ï¼Œæœ‰å¿…è¦å…ˆçœ‹ä¸€ä¸‹ã€‚                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   1¡¢´Ë¹¤¾ßÄÚµÄËùÓÐÎÄ¼þ»òÎÄ¼þ¼Ð¶¼²»ÒªÖØÃüÃû¡£                          ^|
+echo.   ^|   1ã€æ­¤å·¥å…·å†…çš„æ‰€æœ‰æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹éƒ½ä¸è¦é‡å‘½åã€‚                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   2¡¢´Ë¹¤¾ßËùÔÚÂ·¾¶×îºÃ²»Òª°üº¬¿Õ¸ñ£¬²»ÒªÓÐÖÐÎÄÎÄ¼þ¼Ð¡£                ^|
+echo.   ^|   2ã€æ­¤å·¥å…·æ‰€åœ¨è·¯å¾„æœ€å¥½ä¸è¦åŒ…å«ç©ºæ ¼ï¼Œä¸è¦æœ‰ä¸­æ–‡æ–‡ä»¶å¤¹ã€‚                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   3¡¢×îºÃ½«´Ë¹¤¾ß·ÅÔÚSSDÓ²ÅÌ£¬¹ÒÔØºÍ±£´æÏµÍ³ËÙ¶È»á¸ü¿ì¡£               ^|
+echo.   ^|   3ã€æœ€å¥½å°†æ­¤å·¥å…·æ”¾åœ¨SSDç¡¬ç›˜ï¼ŒæŒ‚è½½å’Œä¿å­˜ç³»ç»Ÿé€Ÿåº¦ä¼šæ›´å¿«ã€‚               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   4¡¢Èô²»ÄÜÕý³£¹¤×÷£¬Çë³¢ÊÔÍË³öµçÄÔ¹Ü¼Ò360Ö®ÀàµÄÈí¼þ¡£                 ^|
+echo.   ^|   4ã€è‹¥ä¸èƒ½æ­£å¸¸å·¥ä½œï¼Œè¯·å°è¯•é€€å‡ºç”µè„‘ç®¡å®¶360ä¹‹ç±»çš„è½¯ä»¶ã€‚                 ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
-echo. & echo.^>^>^>^>^>^>^>Çë°´ÈÎÒâ¼ü¼ÌÐø...
+echo. & echo.^>^>^>^>^>^>^>è¯·æŒ‰ä»»æ„é”®ç»§ç»­...
 pause>nul
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "1" /f >nul 2>nul
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableRealtimeMonitoring" /t REG_DWORD /d "1" /f >nul 2>nul
@@ -69,32 +69,32 @@ if not exist "Mount\Windows\System32\config\software" goto :menu1
 "!Dism!" /English /Get-MountedImageInfo:"Mount"|find /i "Status : Ok" >nul 2>nul&&goto :menu2||"!Dism!" /Remount-Image /MountDir:"Mount" >nul 2>nul&&goto :menu2
 
 :menu1
-cls&mode con cols=80 lines=30&title CMD-WindowsÕûºÏ¹¤¾ß-2.9.2
+cls&mode con cols=80 lines=30&title CMD-Windowsæ•´åˆå·¥å…·-2.9.2
 echo.
-echo.    _______________________________ ÕûºÏ¹¤¾ß _______________________________
+echo.    _______________________________ æ•´åˆå·¥å…· _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ¹ÒÔØÓ³Ïñ                                                         ^|
+echo.   ^|   [1] æŒ‚è½½æ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ²¶×½Ó³Ïñ                                                         ^|
+echo.   ^|   [2] æ•æ‰æ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Ð¶ÔØÓ³Ïñ                                                         ^|
+echo.   ^|   [3] å¸è½½æ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ¸ñÊ½×ª»»                                                         ^|
+echo.   ^|   [4] æ ¼å¼è½¬æ¢                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] Ó³Ïñ±à¼­                                                         ^|
+echo.   ^|   [5] æ˜ åƒç¼–è¾‘                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [6] ÏÂÔØÄ¸ÅÌ                                                         ^|
+echo.   ^|   [6] ä¸‹è½½æ¯ç›˜                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [7] Windows ÏµÍ³ÓÅ»¯                                                 ^|
+echo.   ^|   [7] Windows ç³»ç»Ÿä¼˜åŒ–                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [8] Ïà¹Ø½Ì³Ì                                                         ^|
+echo.   ^|   [8] ç›¸å…³æ•™ç¨‹                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ÍË³ö                                                             ^|
+echo.   ^|   [X] é€€å‡º                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12345678X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12345678X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 9 goto :End
 if errorlevel 8 goto :jiaocheng
 if errorlevel 7 goto :xitongyouhua
@@ -106,31 +106,31 @@ if errorlevel 2 goto :SaveImage
 if errorlevel 1 goto :MountImage
 
 :menu2
-cls&mode con cols=80 lines=30&title CMD-WindowsÕûºÏ¹¤¾ß-2.9.2
+cls&mode con cols=80 lines=30&title CMD-Windowsæ•´åˆå·¥å…·-2.9.2
 reg query HKLM\ZTM >nul 2>nul||reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 echo.
-echo.    _______________________________ ÕûºÏ¹¤¾ß _______________________________
+echo.    _______________________________ æ•´åˆå·¥å…· _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ¹ÒÔØÓ³Ïñ   [G] ×ªµ½ÕûºÏ²Ëµ¥                                      ^|
+echo.   ^|   [1] æŒ‚è½½æ˜ åƒ   [G] è½¬åˆ°æ•´åˆèœå•                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ²¶×½Ó³Ïñ   [L] ×ªµ½¾«¼ò²Ëµ¥                                      ^|
+echo.   ^|   [2] æ•æ‰æ˜ åƒ   [L] è½¬åˆ°ç²¾ç®€èœå•                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Ð¶ÔØÓ³Ïñ   ×¢Òâ£ºÕûºÏºÍ¾«¼ò²»ÄÜÍ¬Ê±²Ù×÷                          ^|
+echo.   ^|   [3] å¸è½½æ˜ åƒ   æ³¨æ„ï¼šæ•´åˆå’Œç²¾ç®€ä¸èƒ½åŒæ—¶æ“ä½œ                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ¸ñÊ½×ª»»                                                         ^|
+echo.   ^|   [4] æ ¼å¼è½¬æ¢                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] Ó³Ïñ±à¼­                                                         ^|
+echo.   ^|   [5] æ˜ åƒç¼–è¾‘                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [6] ÏÂÔØÄ¸ÅÌ                                                         ^|
+echo.   ^|   [6] ä¸‹è½½æ¯ç›˜                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [7] Ïà¹Ø½Ì³Ì                                                         ^|
+echo.   ^|   [7] ç›¸å…³æ•™ç¨‹                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ÍË³ö                                                             ^|
+echo.   ^|   [X] é€€å‡º                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1234567GLX /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1234567GLX /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 10 goto :End
 if errorlevel 9 goto :RemoveMenu
 if errorlevel 8 goto :menu3
@@ -143,7 +143,7 @@ if errorlevel 2 goto :SaveImage
 if errorlevel 1 goto :MountImage
 
 :menu3
-cls&mode con cols=80 lines=44&title ÀëÏßÕûºÏ²Ëµ¥
+cls&mode con cols=80 lines=44&title ç¦»çº¿æ•´åˆèœå•
 reg query HKLM\ZTM >nul 2>nul||reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 if exist "Mount\Windows\SysWOW64" (set "Bit=64") else (set "Bit=86")
 for /f "tokens=4 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do (set "Version=%%i")
@@ -152,48 +152,48 @@ set "AppPath="
 set "Item="
 set "goto="
 echo.       
-echo.    _______________________________ ÕûºÏ²Ëµ¥ _______________________________
+echo.    _______________________________ æ•´åˆèœå• _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [A] °²×°²¹¶¡                                                         ^|
+echo.   ^|   [A] å®‰è£…è¡¥ä¸                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [B] Éý¼¶ä¯ÀÀÆ÷ÖÁIE-11»òChromiumÄÚºËEdge                              ^|
+echo.   ^|   [B] å‡çº§æµè§ˆå™¨è‡³IE-11æˆ–Chromiumå†…æ ¸Edge                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [C] ÕûºÏÔËÐÐ¿â                                                       ^|
+echo.   ^|   [C] æ•´åˆè¿è¡Œåº“                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [D] ÕûºÏÇý¶¯                                                         ^|
+echo.   ^|   [D] æ•´åˆé©±åŠ¨                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [E] ÕûºÏ×Ô¶¯¼¤»î                                                     ^|
+echo.   ^|   [E] æ•´åˆè‡ªåŠ¨æ¿€æ´»                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [F] ×Ô¶¯ÔËÐÐÆäËûÓ¦ÓÃ³ÌÐò (Ö§³Ö¾²Ä¬²ÎÊý)                              ^|
+echo.   ^|   [F] è‡ªåŠ¨è¿è¡Œå…¶ä»–åº”ç”¨ç¨‹åº (æ”¯æŒé™é»˜å‚æ•°)                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [G] ÓÅ»¯ÏµÍ³                                                         ^|
+echo.   ^|   [G] ä¼˜åŒ–ç³»ç»Ÿ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [H] ¼¯³ÉCMD-PE (Äã½«µÃµ½Ò»¸ö°²×°²»»µµÄÏµÍ³¾µÏñ)                      ^|
+echo.   ^|   [H] é›†æˆCMD-PE (ä½ å°†å¾—åˆ°ä¸€ä¸ªå®‰è£…ä¸åçš„ç³»ç»Ÿé•œåƒ)                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [I] ¿ªÆôCompact OS (½ô´ÕÐÍ²Ù×÷ÏµÍ³)                                  ^|
+echo.   ^|   [I] å¼€å¯Compact OS (ç´§å‡‘åž‹æ“ä½œç³»ç»Ÿ)                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [J] OEMÐÅÏ¢ÉèÖÃ                                                      ^|
+echo.   ^|   [J] OEMä¿¡æ¯è®¾ç½®                                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [K] IEä¯ÀÀÆ÷Ö÷Ò³ÉèÖÃ                                                 ^|
+echo.   ^|   [K] IEæµè§ˆå™¨ä¸»é¡µè®¾ç½®                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [L] Windows¸üÐÂÉèÖÃ                                                  ^|
+echo.   ^|   [L] Windowsæ›´æ–°è®¾ç½®                                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [M] ¹Ø±ÕWindowsÈÎºÎ·þÎñ                                              ^|
+echo.   ^|   [M] å…³é—­Windowsä»»ä½•æœåŠ¡                                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [N] ÕûºÏ×Ô¶¯ÇåÀí                                                     ^|
+echo.   ^|   [N] æ•´åˆè‡ªåŠ¨æ¸…ç†                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [O] Õë¶ÔÆ»¹ûµçÄÔÓÅ»¯ (×Ô¶¯ËÑË÷²¢°²×°BootCampÇý¶¯£¬Éµ¹ÏÊ½´´½¨¶à·ÖÇø)  ^|
+echo.   ^|   [O] é’ˆå¯¹è‹¹æžœç”µè„‘ä¼˜åŒ– (è‡ªåŠ¨æœç´¢å¹¶å®‰è£…BootCampé©±åŠ¨ï¼Œå‚»ç“œå¼åˆ›å»ºå¤šåˆ†åŒº)  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [P] ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×°                                             ^|
+echo.   ^|   [P] æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£…                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|       ²Ù×÷¼ÇÂ¼±£´æÔÚ^<²Ù×÷ÈÕÖ¾.log^>                                     ^|
+echo.   ^|       æ“ä½œè®°å½•ä¿å­˜åœ¨^<æ“ä½œæ—¥å¿—.log^>                                     ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:ABCDEFGHIJKLMNOPX /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:ABCDEFGHIJKLMNOPX /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 17 goto :begin
 if errorlevel 16 goto :input16
 if errorlevel 15 goto :input15
@@ -214,50 +214,50 @@ if errorlevel 1 goto :input1
 
 :input1
 cls&mode con cols=80 lines=30
-title °²×°Windows!Version!_x!Bit!²¹¶¡
-set "Item=°²×°Windows!Version!_x!Bit!²¹¶¡"
+title å®‰è£…Windows!Version!_x!Bit!è¡¥ä¸
+set "Item=å®‰è£…Windows!Version!_x!Bit!è¡¥ä¸"
 set "goto=menu3"
 echo.         
-echo.    _______________________________ °²×°²¹¶¡ _______________________________
+echo.    _______________________________ å®‰è£…è¡¥ä¸ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ö§³Ö.CABºÍ.MSU¸ñÊ½µÄ²¹¶¡°²×°¡£                                       ^|
+echo.   ^|   æ”¯æŒ.CABå’Œ.MSUæ ¼å¼çš„è¡¥ä¸å®‰è£…ã€‚                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] °²×°²¹¶¡                                                         ^|
+echo.   ^|   [1] å®‰è£…è¡¥ä¸                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÏÂÔØWindows7²¹¶¡                                                 ^|
+echo.   ^|   [2] ä¸‹è½½Windows7è¡¥ä¸                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :menu3
 if errorlevel 2 goto :DownloadUpdate
 if errorlevel 1 goto :UpdateNext
 
 :UpdateNext
 cls&echo. 
-echo.    _______________________________ °²×°²¹¶¡ _______________________________
+echo.    _______________________________ å®‰è£…è¡¥ä¸ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-if /i "!Version!"=="7" echo.   ^|   ÇëÑ¡Ôñ°üº¬Windows!Version!_x!Bit!²¹¶¡µÄÎÄ¼þ¼Ð                                   ^|
-if /i "!Version!"=="10" echo.   ^|   ÇëÑ¡Ôñ°üº¬Windows!Version!_x!Bit!²¹¶¡µÄÎÄ¼þ¼Ð                                  ^|
-if /i "!Version!"=="8" echo.   ^|   ÇëÑ¡Ôñ°üº¬Windows!Version!_x!Bit!²¹¶¡µÄÎÄ¼þ¼Ð                                   ^|
-if /i "!Version!"=="8.1" echo.   ^|   ÇëÑ¡Ôñ°üº¬Windows!Version!_x!Bit!²¹¶¡µÄÎÄ¼þ¼Ð                                 ^|
+if /i "!Version!"=="7" echo.   ^|   è¯·é€‰æ‹©åŒ…å«Windows!Version!_x!Bit!è¡¥ä¸çš„æ–‡ä»¶å¤¹                                   ^|
+if /i "!Version!"=="10" echo.   ^|   è¯·é€‰æ‹©åŒ…å«Windows!Version!_x!Bit!è¡¥ä¸çš„æ–‡ä»¶å¤¹                                  ^|
+if /i "!Version!"=="8" echo.   ^|   è¯·é€‰æ‹©åŒ…å«Windows!Version!_x!Bit!è¡¥ä¸çš„æ–‡ä»¶å¤¹                                   ^|
+if /i "!Version!"=="8.1" echo.   ^|   è¯·é€‰æ‹©åŒ…å«Windows!Version!_x!Bit!è¡¥ä¸çš„æ–‡ä»¶å¤¹                                 ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
 set "Source="
-set /p Source=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Source cls&&echo.&&echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...... && pause>nul&&goto :UpdateNext
+set /p Source=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Source cls&&echo.&&echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...... && pause>nul&&goto :UpdateNext
 set "Source=!Source:"=!"
 if /i "!Source!" equ "x" goto :input1
-if not exist "!Source!" cls&&echo.&&echo.ÄúµÄÊäÈë"!Source!"²»ÊÇÍêÕûÂ·¾¶£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...... && pause>nul&&goto :UpdateNext
-echo "!Source!"|findstr " / * ? < > | "&&cls&&echo.&&echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...... && pause>nul&&goto :UpdateNext
-if /i "!Source:.=!" equ "" cls&&echo.&&echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...... && pause>nul&&goto :UpdateNext
-dir /a-d /b /s "!source!"|findstr /i ".cab .msu">nul 2>nul || cls && echo. && echo.ÄúÊäÈëµÄÂ·¾¶"!source!\"ÄÚ£¬Î´·¢ÏÖ¿ÉÓÃ²¹¶¡¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :updatenext
-cls && echo. && echo.ÕýÔÚÎªwindows!version!_x!bit!°²×°²¹¶¡£¬ÇëÉÔµÈ...
+if not exist "!Source!" cls&&echo.&&echo.æ‚¨çš„è¾“å…¥"!Source!"ä¸æ˜¯å®Œæ•´è·¯å¾„ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...... && pause>nul&&goto :UpdateNext
+echo "!Source!"|findstr " / * ? < > | "&&cls&&echo.&&echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...... && pause>nul&&goto :UpdateNext
+if /i "!Source:.=!" equ "" cls&&echo.&&echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...... && pause>nul&&goto :UpdateNext
+dir /a-d /b /s "!source!"|findstr /i ".cab .msu">nul 2>nul || cls && echo. && echo.æ‚¨è¾“å…¥çš„è·¯å¾„"!source!\"å†…ï¼Œæœªå‘çŽ°å¯ç”¨è¡¥ä¸ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :updatenext
+cls && echo. && echo.æ­£åœ¨ä¸ºwindows!version!_x!bit!å®‰è£…è¡¥ä¸ï¼Œè¯·ç¨ç­‰...
 taskkill /f /im dism++x64.exe >nul 2>nul
 taskkill /f /im regedit.exe >nul 2>nul
 reg unload hklm\ztm >nul 2>nul
@@ -266,7 +266,7 @@ reg load hklm\ztm "mount\windows\system32\config\software" >nul 2>nul
 call :log & call :achiexe
 
 :DownloadUpdate
-if !Version! neq 7 (cls && echo. && echo.ÒÑ¹ÒÔØÓ³ÏñÊÇWindows!Version!_x!Bit!£¬Ä¿Ç°Ö»Ìá¹©Windows7µÄ²¹¶¡ÏÂÔØ¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input1)
+if !Version! neq 7 (cls && echo. && echo.å·²æŒ‚è½½æ˜ åƒæ˜¯Windows!Version!_x!Bit!ï¼Œç›®å‰åªæä¾›Windows7çš„è¡¥ä¸ä¸‹è½½ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input1)
 if /i "!Bit!"=="64" ( 
 	start https://pan.baidu.com/s/1-KmJ1eRsv1wtSUIbxUdfEw & goto :input1
 ) else (
@@ -274,33 +274,33 @@ if /i "!Bit!"=="64" (
 )
 
 :input2
-cls&mode con cols=80 lines=30&title OEMÐÅÏ¢ÉèÖÃ
+cls&mode con cols=80 lines=30&title OEMä¿¡æ¯è®¾ç½®
 set "Item="
 set "goto=input10"
 echo.
-echo.    ______________________________ Éý¼¶ä¯ÀÀÆ÷ ______________________________
+echo.    ______________________________ å‡çº§æµè§ˆå™¨ ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] Éý¼¶IEä¯ÀÀÆ÷ÖÁIE 11                                              ^|
+echo.   ^|   [1] å‡çº§IEæµè§ˆå™¨è‡³IE 11                                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] Éý¼¶Edgeä¯ÀÀÆ÷ÖÁÐÂ°æChromiumÄÚºËEdge                             ^|
+echo.   ^|   [2] å‡çº§Edgeæµè§ˆå™¨è‡³æ–°ç‰ˆChromiumå†…æ ¸Edge                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :menu3
 if errorlevel 2 goto :Edge
 if errorlevel 1 goto :IE11
 
 :IE11
-cls&mode con cols=80 lines=30&title Éý¼¶IEä¯ÀÀÆ÷ÖÁIE-11&set "Item=Éý¼¶IEä¯ÀÀÆ÷ÖÁIE-11"
+cls&mode con cols=80 lines=30&title å‡çº§IEæµè§ˆå™¨è‡³IE-11&set "Item=å‡çº§IEæµè§ˆå™¨è‡³IE-11"
 set "goto=menu3"
-if /i not "!Version!"=="7" (cls&&echo.&&echo.ÒÑ¹ÒÔØÓ³ÏñÊÇ Windows !Version! x!Bit!£¬Ã»ÓÐ±ØÒªÔÙ°²×°IE11¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :menu3)
+if /i not "!Version!"=="7" (cls&&echo.&&echo.å·²æŒ‚è½½æ˜ åƒæ˜¯ Windows !Version! x!Bit!ï¼Œæ²¡æœ‰å¿…è¦å†å®‰è£…IE11ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :menu3)
 for /f "tokens=3 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Internet Explorer" /v "Version"') do set "IeVersion=%%i"
-if /i "!IeVersion:~2,2!"=="11" cls&&echo.&&echo.¸ÃÓ³ÏñÄÚµÄIEä¯ÀÀÆ÷°æ±¾ÒÑÎªIE11£¬Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :menu3
-cls&&echo.&&echo.ÕýÔÚ°²×° IE11 ä¯ÀÀÆ÷£¬ÇëÉÔµÈ...
+if /i "!IeVersion:~2,2!"=="11" cls&&echo.&&echo.è¯¥æ˜ åƒå†…çš„IEæµè§ˆå™¨ç‰ˆæœ¬å·²ä¸ºIE11ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :menu3
+cls&&echo.&&echo.æ­£åœ¨å®‰è£… IE11 æµè§ˆå™¨ï¼Œè¯·ç¨ç­‰...
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
@@ -309,7 +309,7 @@ reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 reg query "HKLM\ZTM\Microsoft\Internet Explorer" /v "svcVersion" >nul 2>nul&&call :Log&&call :Achiexe||call :Failure
 
 :Edge
-cls&mode con cols=80 lines=30&title Éý¼¶Edgeä¯ÀÀÆ÷ÖÁÐÂ°æChromiumÄÚºËEdge&set "Item=Éý¼¶Edgeä¯ÀÀÆ÷ÖÁÐÂ°æChromiumÄÚºËEdge"
+cls&mode con cols=80 lines=30&title å‡çº§Edgeæµè§ˆå™¨è‡³æ–°ç‰ˆChromiumå†…æ ¸Edge&set "Item=å‡çº§Edgeæµè§ˆå™¨è‡³æ–°ç‰ˆChromiumå†…æ ¸Edge"
 set "goto=menu3"
 set "AppPath=File\Edge\MicrosoftEdgeEnterpriseX!Bit!.msi"
 
@@ -326,30 +326,30 @@ if exist "!Scripts!\MicrosoftEdgeEnterpriseX!Bit!.msi" (
 )
 
 :input3
-cls&mode con cols=80 lines=30&title ÕûºÏÔËÐÐ¿â
+cls&mode con cols=80 lines=30&title æ•´åˆè¿è¡Œåº“
 set "Apppath="
 set "Item="
 set "Goto="
 for /f "tokens=4 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do (set "Version=%%i")
 echo.         
-echo.    ______________________________ ÕûºÏÔËÐÐ¿â ______________________________
+echo.    ______________________________ æ•´åˆè¿è¡Œåº“ ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÕûºÏ.NET_Framework_4.8.4                                         ^|
+echo.   ^|   [1] æ•´åˆ.NET_Framework_4.8.4                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÕûºÏ.NET_Framework_4.8.4_ÖÐÎÄÓïÑÔ°ü                              ^|
+echo.   ^|   [2] æ•´åˆ.NET_Framework_4.8.4_ä¸­æ–‡è¯­è¨€åŒ…                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ÕûºÏ.NET_Framework_3.5                                           ^|
+echo.   ^|   [3] æ•´åˆ.NET_Framework_3.5                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ÕûºÏVC++ÔËÐÐ¿â×îÐÂ°æ                                             ^|
+echo.   ^|   [4] æ•´åˆVC++è¿è¡Œåº“æœ€æ–°ç‰ˆ                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] ÕûºÏDirectX9ÔËÐÐ¿â×îÖÕ°æ                                         ^|
+echo.   ^|   [5] æ•´åˆDirectX9è¿è¡Œåº“æœ€ç»ˆç‰ˆ                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12345X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12345X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 6 goto :menu3
 if errorlevel 5 goto :InstallDX9
 if errorlevel 4 goto :InstallVC
@@ -358,87 +358,87 @@ if errorlevel 2 goto :InstallNetLanguage
 if errorlevel 1 goto :InstallNet48
 
 :InstallNet48
-cls&title ÕûºÏ.Net Framework_4.8.4_x!bit!
-set "item=ÕûºÏ.Net Framework_4.8.4_x!bit!"
+cls&title æ•´åˆ.Net Framework_4.8.4_x!bit!
+set "item=æ•´åˆ.Net Framework_4.8.4_x!bit!"
 set "goto=input3"
 if /i "!version!"=="7" (
-	cls && echo.&&echo.ÕýÔÚÕûºÏ.Net Framework_4.8.4_x!bit!£¬ÇëÉÔµÈ...
+	cls && echo.&&echo.æ­£åœ¨æ•´åˆ.Net Framework_4.8.4_x!bit!ï¼Œè¯·ç¨ç­‰...
 	"!toolspath!\7z.exe" -y x "file\net\dotnetfx48_x!bit!.7z" -o"mount" >nul 2>nul
 	reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce" /v "InstallNet" /t REG_SZ /d "cmd.exe /c regedit /s \"!windir!\microsoft.net\framework\v4.0.30319\ndp\" && del /f /q \"!windir!\microsoft.net\framework\v4.0.30319\ndp\"" /f  >nul 2>nul
 ) else (
-	cls&&echo.&&echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇWindows!version!_x!bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :input3
+	cls&&echo.&&echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!version!_x!bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :input3
 )
 reg query "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce"|find /i "InstallNet" >nul 2>nul&&call :Log&&call :Achiexe || call :Failure
 
 :InstallNetLanguage
 cls
-title ÕûºÏ.NET Framework_4.8.4_x!Bit!ÖÐÎÄÓïÑÔ°ü
-set "Item=ÕûºÏ.NET Framework_4.8.4_x!Bit!ÖÐÎÄÓïÑÔ°ü"
+title æ•´åˆ.NET Framework_4.8.4_x!Bit!ä¸­æ–‡è¯­è¨€åŒ…
+set "Item=æ•´åˆ.NET Framework_4.8.4_x!Bit!ä¸­æ–‡è¯­è¨€åŒ…"
 set "goto=input3"
 if /i "!Version!"=="7" (
-	cls&&echo.&&echo.ÕýÔÚÕûºÏ.NET Framework_4.8_x!Bit!ÖÐÎÄÓïÑÔ°ü£¬ÇëÉÔµÈ...
+	cls&&echo.&&echo.æ­£åœ¨æ•´åˆ.NET Framework_4.8_x!Bit!ä¸­æ–‡è¯­è¨€åŒ…ï¼Œè¯·ç¨ç­‰...
 	"!ToolsPath!\7z.exe" -y x "File\Net\dotNetFx48LP_x!Bit!_CHS.7z" -o"Mount" >nul 2>nul
 	reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce" /v "InstallNetLanguage" /t REG_SZ /d "cmd.exe /c regedit /s \"!windir!\Microsoft.NET\Framework\v4.0.30319\NDPCHS\" && del /f /q \"!windir!\Microsoft.NET\Framework\v4.0.30319\NDPCHS\"" /f >nul 2>nul
 ) else ( 
-	cls&&echo.&&echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :input3
+	cls&&echo.&&echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :input3
 )
 reg query "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce"|find /i "InstallNetLanguage" >nul 2>nul&&call :Log&&call :Achiexe || call :Failure
 
 :InstallNet35
 cls
-title ÕûºÏ.NET Framework_3.5_x!Bit!
-set "Item=ÕûºÏ.NET Framework_3.5_x!Bit!"
+title æ•´åˆ.NET Framework_3.5_x!Bit!
+set "Item=æ•´åˆ.NET Framework_3.5_x!Bit!"
 set "goto=input3"
 set "NetTargetFile="
-IF /I "!Version!"=="7" (echo.&&echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :input3)
+IF /I "!Version!"=="7" (echo.&&echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :input3)
 IF /I "!Bit!"=="64" (set "MountBit=amd64") else (set "MountBit=x86")
 if not exist "File\Net\Windows!Version!_x!Bit!_Net3.5\!ReleaseId!\microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~!MountBit!~~.cab" (
 	cls && echo.        
-	echo.    ________________________ ÕûºÏ.NET Framework_3.5 ________________________
+	echo.    ________________________ æ•´åˆ.NET Framework_3.5 ________________________
 	echo.   ^|                        ------------------------                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   ÇëÑ¡Ôñ°üº¬Windows!Version!_x!Bit!µÄ.NET Framework_3.5°²×°°üµÄÎÄ¼þ¼Ð            ^|
+	echo.   ^|   è¯·é€‰æ‹©åŒ…å«Windows!Version!_x!Bit!çš„.NET Framework_3.5å®‰è£…åŒ…çš„æ–‡ä»¶å¤¹            ^|
 	echo.   ^|                                                                        ^|
 		echo.
 	set "Source="
-	for /f "tokens=*" %%a in ('!ToolsPath!\Wfolder.exe "++" "D:" "ÇëÑ¡Ôñ°üº¬.NET Framework_3.5°²×°°üµÄÎÄ¼þ¼Ð"') do set "source=%%a"
+	for /f "tokens=*" %%a in ('!ToolsPath!\Wfolder.exe "++" "D:" "è¯·é€‰æ‹©åŒ…å«.NET Framework_3.5å®‰è£…åŒ…çš„æ–‡ä»¶å¤¹"') do set "source=%%a"
 	if defined source set "source=!source:++ =!"&&set "source=!source:"=!"
 	if not defined source goto :input3
 	if /i "!Version!"=="10" (
 		if not exist "!Source!\microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~!MountBit!~~.cab" (
-			cls&&echo.&&echo.¸ÃÎÄ¼þ¼Ð"!Source!"ÄÚ²¢Î´·¢ÏÖÊÊºÏWindows!Version!_x!Bit!µÄ.NET Framework_3.5°²×°°ü£¬ÇëÖØÐÂÑ¡Ôñ¡£
-			echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :InstallNet35
+			cls&&echo.&&echo.è¯¥æ–‡ä»¶å¤¹"!Source!"å†…å¹¶æœªå‘çŽ°é€‚åˆWindows!Version!_x!Bit!çš„.NET Framework_3.5å®‰è£…åŒ…ï¼Œè¯·é‡æ–°é€‰æ‹©ã€‚
+			echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :InstallNet35
 		)	
 	)
 	set "NetTargetFile=!Source!" 
 ) else (
 	if !Version! equ 10 set "NetTargetFile=File\Net\Windows!Version!_x!Bit!_Net3.5\!ReleaseId!"
 )
-cls&&echo.&&echo.ÕýÔÚÕûºÏ.NET Framework_3.5_x!Bit!£¬ÇëÉÔµÈ...
+cls&&echo.&&echo.æ­£åœ¨æ•´åˆ.NET Framework_3.5_x!Bit!ï¼Œè¯·ç¨ç­‰...
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
 set "NetStatus="
-"!Dism!" /Image:"Mount" /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:"!NetTargetFile!"&&set "NetStatus=ok"||(cls&&echo.&&echo.ÕûºÏ.NET Framework_3.5_x!Bit!Ê§°Ü£¬Çë¼ì²é¹ÒÔØÄ¿Â¼ÊÇ·ñÎª´¿Ó¢ÎÄÂ·¾¶£¬Çë°´ÈÎÒâ¼ü¼ÌÐø...&&pause>nul)
+"!Dism!" /Image:"Mount" /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:"!NetTargetFile!"&&set "NetStatus=ok"||(cls&&echo.&&echo.æ•´åˆ.NET Framework_3.5_x!Bit!å¤±è´¥ï¼Œè¯·æ£€æŸ¥æŒ‚è½½ç›®å½•æ˜¯å¦ä¸ºçº¯è‹±æ–‡è·¯å¾„ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­...&&pause>nul)
 reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 if /i "!NetStatus!"=="ok" (call :Log && call :Achiexe) else (call :Failure)
 
 :InstallVC
-cls&title ÕûºÏVC++ÔËÐÐ¿â_x!Bit!
-set "Item=ÕûºÏVC++ÔËÐÐ¿â_x!Bit!"
+cls&title æ•´åˆVC++è¿è¡Œåº“_x!Bit!
+set "Item=æ•´åˆVC++è¿è¡Œåº“_x!Bit!"
 set "goto=input3"
 if /i "!Version:~0,1!"=="8" set "Version=10"
-cls&&echo.&&echo.ÕýÔÚÕûºÏVC++ÔËÐÐ¿â_x!Bit!£¬ÇëÉÔµÈ...
+cls&&echo.&&echo.æ­£åœ¨æ•´åˆVC++è¿è¡Œåº“_x!Bit!ï¼Œè¯·ç¨ç­‰...
 "!ToolsPath!\7z.exe" -y x "File\VC\MSVBCRT_x!Bit!.7z" -o"Mount" "-xr^!MSVBCRT*" >nul 2>nul
 "!ToolsPath!\7z.exe" -y x "File\VC\MSVBCRT_x!Bit!.7z" "Windows\System32\MSVBCRT!Version!" -o"Mount" >nul 2>nul
 reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce" /v "InstallMSVBCRT" /t REG_SZ /d "cmd.exe /c regedit /s \"!windir!\System32\MSVBCRT!Version!\" && del /f /q \"!windir!\System32\MSVBCRT!Version!\"" /f >nul 2>nul
 reg query "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce"|find /i "InstallMSVBCRT" >nul 2>nul&&call :Log&&call :Achiexe || call :Failure
 
 :InstallDX9
-cls&title ÕûºÏDirectX9ÔËÐÐ¿â_x!Bit!
-set "Item=ÕûºÏDirectX9ÔËÐÐ¿â_x!Bit!"
+cls&title æ•´åˆDirectX9è¿è¡Œåº“_x!Bit!
+set "Item=æ•´åˆDirectX9è¿è¡Œåº“_x!Bit!"
 set "goto=input3"
-cls&&echo.&&echo.ÕýÔÚÕûºÏDirectX9ÔËÐÐ¿â_x!Bit!£¬ÇëÉÔµÈ...
+cls&&echo.&&echo.æ­£åœ¨æ•´åˆDirectX9è¿è¡Œåº“_x!Bit!ï¼Œè¯·ç¨ç­‰...
 if /i "!Version!"=="7" (
 	"!ToolsPath!\7z.exe" -y x "File\DX9\DirectX9.0c_x!Bit!.7z" -o"Mount" >nul 2>nul
 	reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce" /v "InstallDirectX" /t REG_SZ /d "cmd.exe /c regedit /s \"!windir!\System32\DirectX\" && del /f /q \"!windir!\System32\DirectX\"" /f >nul 2>nul
@@ -454,35 +454,35 @@ if /i "!Version!"=="7" (
 )
 
 :input4
-cls&mode con cols=80 lines=30&title ÕûºÏÇý¶¯
+cls&mode con cols=80 lines=30&title æ•´åˆé©±åŠ¨
 set "AppPath="
 set "Item="
 set "goto=input4"
 echo.        
-echo.    _______________________________ ÕûºÏÇý¶¯ _______________________________
+echo.    _______________________________ æ•´åˆé©±åŠ¨ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÕûºÏUSBÇý¶¯                                                      ^|
+echo.   ^|   [1] æ•´åˆUSBé©±åŠ¨                                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÕûºÏNVMEÇý¶¯  (Ê¹windows7Ö§³ÖM.2¹ÌÌ¬Ó²ÅÌ)                        ^|
+echo.   ^|   [2] æ•´åˆNVMEé©±åŠ¨  (ä½¿windows7æ”¯æŒM.2å›ºæ€ç¡¬ç›˜)                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ÕûºÏE3_RAIDÇý¶¯                                                  ^|
+echo.   ^|   [3] æ•´åˆE3_RAIDé©±åŠ¨                                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ÕûºÏKabyLake_RAIDÇý¶¯                                            ^|
+echo.   ^|   [4] æ•´åˆKabyLake_RAIDé©±åŠ¨                                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] Ìí¼ÓÇý¶¯×Ü²Ã                                                     ^|
+echo.   ^|   [5] æ·»åŠ é©±åŠ¨æ€»è£                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [6] Ìí¼ÓÍòÄÜÇý¶¯                                                     ^|
+echo.   ^|   [6] æ·»åŠ ä¸‡èƒ½é©±åŠ¨                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [7] ÕûºÏÆ»¹ûÇý¶¯                                                     ^|
+echo.   ^|   [7] æ•´åˆè‹¹æžœé©±åŠ¨                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [8] ÕûºÏ×Ô¶¨ÒåÇý¶¯                                                   ^|
+echo.   ^|   [8] æ•´åˆè‡ªå®šä¹‰é©±åŠ¨                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12345678X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12345678X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 9 goto :menu3
 if errorlevel 8 goto :UserDrives
 if errorlevel 7 goto :AppleDrive
@@ -494,53 +494,53 @@ if errorlevel 2 goto :NVME
 if errorlevel 1 goto :USB
 
 :UserDrives
-cls&title ÕûºÏ×Ô¶¨ÒåÇý¶¯&set "Item=ÕûºÏ×Ô¶¨ÒåÇý¶¯"
+cls&title æ•´åˆè‡ªå®šä¹‰é©±åŠ¨&set "Item=æ•´åˆè‡ªå®šä¹‰é©±åŠ¨"
 echo.        
-echo.    ______________________________ ×Ô¶¨ÒåÇý¶¯ ______________________________
+echo.    ______________________________ è‡ªå®šä¹‰é©±åŠ¨ ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Çë°üº¬Çý¶¯µÄÎÄ¼þ¼Ð¡£                                                 ^|
+echo.   ^|   è¯·åŒ…å«é©±åŠ¨çš„æ–‡ä»¶å¤¹ã€‚                                                 ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
 set "Source="
-for /f "tokens=*" %%a in ('!ToolsPath!\Wfolder.exe "++" "D:" "ÇëÑ¡Ôñ°üº¬Çý¶¯µÄÎÄ¼þ¼Ð"') do set "source=%%a"
+for /f "tokens=*" %%a in ('!ToolsPath!\Wfolder.exe "++" "D:" "è¯·é€‰æ‹©åŒ…å«é©±åŠ¨çš„æ–‡ä»¶å¤¹"') do set "source=%%a"
 if defined source set "source=!source:++ =!"&&set "source=!source:"=!"
 if not defined source goto :input4
-dir /a-d /b /s "!Source!"|findstr /i ".sys .inf .cat" >nul 2>nul||cls&&echo.&&echo.ÄúÊäÈëµÄÂ·¾¶"!Source!\"ÄÚ£¬Î´·¢ÏÖ¿ÉÓÃÇý¶¯¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÑ¡Ôñ...&&pause>nul&&goto :UserDrives
-cls&&echo.&&echo.ÕýÔÚÕûºÏÇý¶¯ÖÐ£¬ÇëÉÔµÈ...
+dir /a-d /b /s "!Source!"|findstr /i ".sys .inf .cat" >nul 2>nul||cls&&echo.&&echo.æ‚¨è¾“å…¥çš„è·¯å¾„"!Source!\"å†…ï¼Œæœªå‘çŽ°å¯ç”¨é©±åŠ¨ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°é€‰æ‹©...&&pause>nul&&goto :UserDrives
+cls&&echo.&&echo.æ­£åœ¨æ•´åˆé©±åŠ¨ä¸­ï¼Œè¯·ç¨ç­‰...
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
 "!Dism!" /image:"Mount" /add-driver /driver:"!Source!" /Recurse /ForceUnsigned
 reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
-cls&&echo.&&echo.Çý¶¯ÕûºÏÍê³É£¬Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :input4
+cls&&echo.&&echo.é©±åŠ¨æ•´åˆå®Œæˆï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :input4
 
 :USB
-cls&title ÕûºÏUSBÇý¶¯&set "Item=ÕûºÏUSBÇý¶¯"
+cls&title æ•´åˆUSBé©±åŠ¨&set "Item=æ•´åˆUSBé©±åŠ¨"
 echo.        
-echo.    ______________________________ ÕûºÏUSBÇý¶¯ ______________________________
+echo.    ______________________________ æ•´åˆUSBé©±åŠ¨ ______________________________
 echo.   ^|                              -------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:ÏµÍ³²¿ÊðÊ±»á¸ù¾ÝÓ²¼þÖÇÄÜ°²×°USB3.*Çý¶¯¡£                     ^|
+echo.   ^|   é€‰é¡¹[1]:ç³»ç»Ÿéƒ¨ç½²æ—¶ä¼šæ ¹æ®ç¡¬ä»¶æ™ºèƒ½å®‰è£…USB3.*é©±åŠ¨ã€‚                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:½«USB3.*Çý¶¯ÕûºÏÖÁÔØÓ³Ïñ£¬Ê¹ÆäÔ­ÉúÖ§³ÖUSB3.*½Ó¿Ú¡£           ^|
+echo.   ^|   é€‰é¡¹[2]:å°†USB3.*é©±åŠ¨æ•´åˆè‡³è½½æ˜ åƒï¼Œä½¿å…¶åŽŸç”Ÿæ”¯æŒUSB3.*æŽ¥å£ã€‚           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÖÇÄÜ°²×°USBÇý¶¯                                                  ^|
+echo.   ^|   [1] æ™ºèƒ½å®‰è£…USBé©±åŠ¨                                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÕûºÏUSBÇý¶¯ÖÁÓ³Ïñ                                                ^|
+echo.   ^|   [2] æ•´åˆUSBé©±åŠ¨è‡³æ˜ åƒ                                                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ:
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©:
 if errorlevel 3 goto :input4
 if errorlevel 2 goto :UsbToImage
 if errorlevel 1 goto :CeoMSX
 
 :CeoMSX
-cls&title ÕûºÏUSBÇý¶¯&set "Item=ÕûºÏUSBÇý¶¯"
+cls&title æ•´åˆUSBé©±åŠ¨&set "Item=æ•´åˆUSBé©±åŠ¨"
 set "AppPath=File\Driver\DrvCeonw.7z"
 if /i "!Version!"=="7" (
 	if exist "!AppPath!" (
@@ -553,7 +553,7 @@ if /i "!Version!"=="7" (
 		call :AppPath	
 	)
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
 )
 if exist "!Scripts!\USB\USB_x!Bit!.exe" (
 	if exist "!ScriptsLog!\USB.log" ( call :Log & call :Achiexe ) else ( call :Failure )
@@ -562,7 +562,7 @@ if exist "!Scripts!\USB\USB_x!Bit!.exe" (
 )
 
 :UsbToImage
-cls&title ÕûºÏUSBÇý¶¯&set "Item=ÕûºÏUSBÇý¶¯"
+cls&title æ•´åˆUSBé©±åŠ¨&set "Item=æ•´åˆUSBé©±åŠ¨"
 if /i "!Version!"=="7" (
 	taskkill /f /IM Dism++x64.exe >nul 2>nul
 	taskkill /f /IM regedit.exe >nul 2>nul
@@ -571,25 +571,25 @@ if /i "!Version!"=="7" (
 	reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 	call :Log & call :Achiexe
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
 )
 
 :NVME
-cls&title ÕûºÏNVMEÇý¶¯&set "Item=ÕûºÏNVMEÇý¶¯"
+cls&title æ•´åˆNVMEé©±åŠ¨&set "Item=æ•´åˆNVMEé©±åŠ¨"
 if "!Version!"=="7" (
 	taskkill /f /IM Dism++x64.exe >nul 2>nul
 	taskkill /f /IM regedit.exe >nul 2>nul
 	reg unload HKLM\ZTM >nul 2>nul
-	cls&&echo.&&echo.ÕýÔÚ°²×°NVMEÇý¶¯ÖÐ£¬ÇëÉÔµÈ...
+	cls&&echo.&&echo.æ­£åœ¨å®‰è£…NVMEé©±åŠ¨ä¸­ï¼Œè¯·ç¨ç­‰...
 	"!Dism!" /image:"Mount" /add-package /packagepath:"File\NVME\x!Bit!\Hotfix"
 	reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 	call :Log & call :Achiexe
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
 )
 
 :E3RAID
-cls&title ÕûºÏE3_RAID&set "Item=ÕûºÏE3_RAID"
+cls&title æ•´åˆE3_RAID&set "Item=æ•´åˆE3_RAID"
 if /i "!Version!"=="7" (
 	taskkill /f /IM Dism++x64.exe >nul 2>nul
 	taskkill /f /IM regedit.exe >nul 2>nul
@@ -598,11 +598,11 @@ if /i "!Version!"=="7" (
 	reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 	call :Log & call :Achiexe
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
 )
 
 :KabyLakeRAID
-cls&title ÕûºÏKabyLake_RAID&set "Item=ÕûºÏKabyLake_RAID"
+cls&title æ•´åˆKabyLake_RAID&set "Item=æ•´åˆKabyLake_RAID"
 if /i "!Version!"=="7" (
 	taskkill /f /IM Dism++x64.exe >nul 2>nul
 	taskkill /f /IM regedit.exe >nul 2>nul
@@ -611,41 +611,41 @@ if /i "!Version!"=="7" (
 	reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 	call :Log & call :Achiexe
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!_x!Bit!£¬ÇëºöÂÔ´ËÏî¡£Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!_x!Bit!ï¼Œè¯·å¿½ç•¥æ­¤é¡¹ã€‚è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
 )
 
 :DrvCeonw
-cls&mode con cols=80 lines=30&title ÕûºÏÇý¶¯×Ü²ÃÍø¿¨°æ 
+cls&mode con cols=80 lines=30&title æ•´åˆé©±åŠ¨æ€»è£ç½‘å¡ç‰ˆ 
 set "AppPath="
 set "Item="
 echo.         
-echo.    _____________________________ ÕûºÏÇý¶¯×Ü²Ã _____________________________
+echo.    _____________________________ æ•´åˆé©±åŠ¨æ€»è£ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:½«Çý¶¯×Ü²ÃÍø¿¨°æ±£´æÔÚÓ³ÏñÄÚ£¬½ø×ÀÃæÇ°×Ô¶¯°²×°Íø¿¨Çý¶¯¡£Ê×´Î ^|
+echo.   ^|   é€‰é¡¹[1]:å°†é©±åŠ¨æ€»è£ç½‘å¡ç‰ˆä¿å­˜åœ¨æ˜ åƒå†…ï¼Œè¿›æ¡Œé¢å‰è‡ªåŠ¨å®‰è£…ç½‘å¡é©±åŠ¨ã€‚é¦–æ¬¡ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÁªÍøºó£¬Ôò»áÔÙ´Îµ÷ÓÃ°²×°ÆäËûÇý¶¯¡£                                   ^|
+echo.   ^|   è”ç½‘åŽï¼Œåˆ™ä¼šå†æ¬¡è°ƒç”¨å®‰è£…å…¶ä»–é©±åŠ¨ã€‚                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:ÏµÍ³²¿ÊðÊ±»á×Ô¶¯²éÕÒCÅÌÖ®ÍâµÄËùÓÐ´ÅÅÌ¸ùÄ¿Â¼£¬Èç²éÕÒµ½ÓëÏµÍ³  ^|
+echo.   ^|   é€‰é¡¹[2]:ç³»ç»Ÿéƒ¨ç½²æ—¶ä¼šè‡ªåŠ¨æŸ¥æ‰¾Cç›˜ä¹‹å¤–çš„æ‰€æœ‰ç£ç›˜æ ¹ç›®å½•ï¼Œå¦‚æŸ¥æ‰¾åˆ°ä¸Žç³»ç»Ÿ  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Æ¥ÅäµÄÇý¶¯×Ü²Ã»á×Ô¶¯½âÑ¹²¢µ÷ÓÃ£¬µ÷ÓÃ¸ñÊ½Ö§³Ö.iso .zip .7z .rar¡£     ^|
+echo.   ^|   åŒ¹é…çš„é©±åŠ¨æ€»è£ä¼šè‡ªåŠ¨è§£åŽ‹å¹¶è°ƒç”¨ï¼Œè°ƒç”¨æ ¼å¼æ”¯æŒ.iso .zip .7z .rarã€‚     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] Çý¶¯×Ü²ÃÄÚÖÃ                                                     ^|
+echo.   ^|   [1] é©±åŠ¨æ€»è£å†…ç½®                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] Çý¶¯×Ü²ÃÍâÖÃ                                                     ^|
+echo.   ^|   [2] é©±åŠ¨æ€»è£å¤–ç½®                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input4
 if errorlevel 2 goto :DrvCeonwOut
 if errorlevel 1 goto :DrvCeonwIn
 
 :DrvCeonwIn
-if /i "!Version:~0,1!"=="8" cls && echo. && echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇ Windows !Version! x!Bit!£¬Ã»ÓÐ´Ë°æ±¾µÄÇý¶¯×Ü²Ã¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4
-cls&set "Item=ÕûºÏÇý¶¯×Ü²Ã-ÄÚÖÃ"
+if /i "!Version:~0,1!"=="8" cls && echo. && echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯ Windows !Version! x!Bit!ï¼Œæ²¡æœ‰æ­¤ç‰ˆæœ¬çš„é©±åŠ¨æ€»è£ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4
+cls&set "Item=æ•´åˆé©±åŠ¨æ€»è£-å†…ç½®"
 set "DrvCeonw="
 set "DrvCeonw=!ScriptsLog!\DrvCeonwIn.log"
 set "AppPath=File\Driver\DrvCeonw.7z"
@@ -668,8 +668,8 @@ if exist "Mount\Windows\Driver\DrvCeonw\DrvCeox!Bit!.exe" (
 )
 
 :DrvCeonwOut
-if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇ Windows !Version! x!Bit!£¬Ã»ÓÐ´Ë°æ±¾µÄÇý¶¯×Ü²Ã¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4 )
-cls&set "Item=ÕûºÏÇý¶¯×Ü²Ã-ÍâÖÃ"
+if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯ Windows !Version! x!Bit!ï¼Œæ²¡æœ‰æ­¤ç‰ˆæœ¬çš„é©±åŠ¨æ€»è£ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4 )
+cls&set "Item=æ•´åˆé©±åŠ¨æ€»è£-å¤–ç½®"
 set "DrvCeonw="
 set "DrvCeonw=!ScriptsLog!\DrvCeonwOut.log"
 set "AppPath=File\Driver\DrvCeonw.7z"
@@ -686,35 +686,35 @@ if exist "!Scripts!\Drvceo.ini" (
 )
 
 :EasyDrv
-cls&mode con cols=80 lines=30&title ÕûºÏÍòÄÜÇý¶¯
+cls&mode con cols=80 lines=30&title æ•´åˆä¸‡èƒ½é©±åŠ¨
 set "AppPath="
 set "Item="
 echo.
-echo.    _____________________________ ÕûºÏÍòÄÜÇý¶¯ _____________________________
+echo.    _____________________________ æ•´åˆä¸‡èƒ½é©±åŠ¨ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:½«ÍòÄÜÇý¶¯»á±£´æÔÚÓ³ÏñÄÚ£¬»áÔö¼ÓÓ³ÏñÌå»ý¡£                   ^|
+echo.   ^|   é€‰é¡¹[1]:å°†ä¸‡èƒ½é©±åŠ¨ä¼šä¿å­˜åœ¨æ˜ åƒå†…ï¼Œä¼šå¢žåŠ æ˜ åƒä½“ç§¯ã€‚                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:ÏµÍ³²¿ÊðÊ±»á×Ô¶¯²éÕÒCÅÌÖ®ÍâµÄËùÓÐ´ÅÅÌ¸ùÄ¿Â¼£¬Èç²éÕÒµ½ÓëÏµÍ³  ^|
+echo.   ^|   é€‰é¡¹[2]:ç³»ç»Ÿéƒ¨ç½²æ—¶ä¼šè‡ªåŠ¨æŸ¥æ‰¾Cç›˜ä¹‹å¤–çš„æ‰€æœ‰ç£ç›˜æ ¹ç›®å½•ï¼Œå¦‚æŸ¥æ‰¾åˆ°ä¸Žç³»ç»Ÿ  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Æ¥ÅäµÄÍòÄÜÇý¶¯Ôò»á×Ô¶¯½âÑ¹²¢µ÷ÓÃ£¬µ÷ÓÃ¸ñÊ½Ö§³Ö.iso .zip .7z .rar¡£   ^|
+echo.   ^|   åŒ¹é…çš„ä¸‡èƒ½é©±åŠ¨åˆ™ä¼šè‡ªåŠ¨è§£åŽ‹å¹¶è°ƒç”¨ï¼Œè°ƒç”¨æ ¼å¼æ”¯æŒ.iso .zip .7z .rarã€‚   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÍòÄÜÇý¶¯ÄÚÖÃ                                                     ^|
+echo.   ^|   [1] ä¸‡èƒ½é©±åŠ¨å†…ç½®                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÍòÄÜÇý¶¯ÍâÖÃ                                                     ^|
+echo.   ^|   [2] ä¸‡èƒ½é©±åŠ¨å¤–ç½®                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input4
 if errorlevel 2 goto :EasyDrvOut
 if errorlevel 1 goto :EasyDrvIn
 
 :EasyDrvIn
-if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇ Windows !Version! x!Bit!£¬Ã»ÓÐ´Ë°æ±¾µÄÍòÄÜÇý¶¯¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4 )
-cls&set "Item=ÕûºÏÍòÄÜÇý¶¯-ÄÚÖÃ"
+if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯ Windows !Version! x!Bit!ï¼Œæ²¡æœ‰æ­¤ç‰ˆæœ¬çš„ä¸‡èƒ½é©±åŠ¨ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4 )
+cls&set "Item=æ•´åˆä¸‡èƒ½é©±åŠ¨-å†…ç½®"
 set "EasyDrv="
 set "EasyDrv=!ScriptsLog!\EasyDrvIn.log"
 set "AppPath=File\Driver\EasyDrv7_Win!Version!.x!Bit!*.*"
@@ -723,7 +723,7 @@ if exist "!AppPath!" (
 	"!ToolsPath!\7z.exe" -y x "!AppPath!" -pitsk.com -o"Mount\Windows\Driver\EasyDrv7_Win!Version!.x!Bit!"
 	echo "%%WinDir%%\Driver\EasyDrv7_Win!Version!.x!Bit!\EasyDrv7(Win!Version!.x!Bit!).exe" /a /c ^&^& reg delete "HKLM\SOFTWARE\EasyDrv7" /f ^&^& rd /s /q %%WinDir%%\Driver\EasyDrv7_Win!Version!.x!Bit! ^&^& goto :Next > "!EasyDrv!"
 ) else (
-	cls&&echo.&&echo.ÇëÏÈ½«ÊÊÓÃÓÚWindows!Version! x!Bit!µÄÍòÄÜÇý¶¯·ÅÈë±¾¹¤¾ßµÄ"File\Driver"ÎÄ¼þ¼ÐÄÚ¡£&&echo.&&echo.ÎÄ¼þÃû³ÆÓë¹ÙÍøµÄÒ»ÖÂ£¬¸ñÊ½Ö§³Ö.ISO.7Z.ZIP.RAR¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :EasyDrv
+	cls&&echo.&&echo.è¯·å…ˆå°†é€‚ç”¨äºŽWindows!Version! x!Bit!çš„ä¸‡èƒ½é©±åŠ¨æ”¾å…¥æœ¬å·¥å…·çš„"File\Driver"æ–‡ä»¶å¤¹å†…ã€‚&&echo.&&echo.æ–‡ä»¶åç§°ä¸Žå®˜ç½‘çš„ä¸€è‡´ï¼Œæ ¼å¼æ”¯æŒ.ISO.7Z.ZIP.RARã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :EasyDrv
 )
 if exist "Mount\Windows\Driver\EasyDrv7_Win!Version!.x!Bit!\EasyDrv7(Win!Version!.x!Bit!).exe" (
 	if exist "!EasyDrv!" ( call :Log & call :Achiexe ) else ( call :Failure )
@@ -732,34 +732,34 @@ if exist "Mount\Windows\Driver\EasyDrv7_Win!Version!.x!Bit!\EasyDrv7(Win!Version
 )
 
 :EasyDrvOut
-if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.ÒÑ¹ÒÔØµÄÏµÍ³ÊÇ Windows !Version! x!Bit!£¬Ã»ÓÐ´Ë°æ±¾µÄÍòÄÜÇý¶¯¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input4 )
-cls&set "Item=ÕûºÏÍòÄÜÇý¶¯-ÍâÖÃ"
+if /i "!Version:~0,1!"=="8" ( cls && echo. && echo.å·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯ Windows !Version! x!Bit!ï¼Œæ²¡æœ‰æ­¤ç‰ˆæœ¬çš„ä¸‡èƒ½é©±åŠ¨ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input4 )
+cls&set "Item=æ•´åˆä¸‡èƒ½é©±åŠ¨-å¤–ç½®"
 set "EasyDrv="
 set "EasyDrv=!ScriptsLog!\EasyDrvOut.log"
 echo FOR %%%%a in ^(D E F G H I J K L M N O P Q R S T U V W X Y Z^) do ^(FOR %%%%i in ^("%%%%a:\*.*"^) do ^(echo %%%%~xi^|findstr /i ".iso .zip .7z .rar" ^&^& 7z l "%%%%i" "EasyDrv7(Win!Version!.x!Bit!).exe"^|findstr /i "EasyDrv7(Win!Version!.x!Bit!).exe" ^&^& 7z -y x "%%%%i" -o"%%%%~dpni" ^&^& "%%%%~dpni\EasyDrv7(Win!Version!.x!Bit!).exe" /a /c ^&^& reg delete "HKLM\SOFTWARE\EasyDrv7" /f ^&^& goto :Next^)^) > "!EasyDrv!"
 if exist "!EasyDrv!" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :AppleDrive
-cls&mode con cols=80 lines=30&title ÕûºÏÆ»¹ûÇý¶¯
+cls&mode con cols=80 lines=30&title æ•´åˆè‹¹æžœé©±åŠ¨
 set "AppPath="
-set "Item=ÕûºÏÆ»¹ûÇý¶¯"
+set "Item=æ•´åˆè‹¹æžœé©±åŠ¨"
 set "goto=input4"
 echo.
-echo.    _____________________________ ÕûºÏÆ»¹ûÇý¶¯ _____________________________
+echo.    _____________________________ æ•´åˆè‹¹æžœé©±åŠ¨ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´ËÑ¡Ïî¿ÉÒÔÕûºÏÈ«ÏµÁÐÆ»¹ûµçÄÔ¹Ø¼üÇý¶¯£¬ÀýÈçÍø¿¨£¬´¥¿Ø°å£¬¼üÅÌµÈ...    ^|
+echo.   ^|   æ­¤é€‰é¡¹å¯ä»¥æ•´åˆå…¨ç³»åˆ—è‹¹æžœç”µè„‘å…³é”®é©±åŠ¨ï¼Œä¾‹å¦‚ç½‘å¡ï¼Œè§¦æŽ§æ¿ï¼Œé”®ç›˜ç­‰...    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÕûºÏÆ»¹ûÇý¶¯                                                     ^|
+echo.   ^|   [1] æ•´åˆè‹¹æžœé©±åŠ¨                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 2 goto :input4
-if not exist "File\AppleDrive\Win!Version!" cls&&echo.&&echo.Ã»ÓÐ´Ë°æ±¾µÄÆ»¹ûÇý¶¯£¬Çë¹ÒÔØWindows7»òwindows10£¬Çë°´ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :input4
-cls&&echo.&&echo.ÕýÔÚÕûºÏÆ»¹ûÇý¶¯ÖÐ£¬ÇëÉÔµÈ...
+if not exist "File\AppleDrive\Win!Version!" cls&&echo.&&echo.æ²¡æœ‰æ­¤ç‰ˆæœ¬çš„è‹¹æžœé©±åŠ¨ï¼Œè¯·æŒ‚è½½Windows7æˆ–windows10ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :input4
+cls&&echo.&&echo.æ­£åœ¨æ•´åˆè‹¹æžœé©±åŠ¨ä¸­ï¼Œè¯·ç¨ç­‰...
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
@@ -768,27 +768,27 @@ reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 call :Log & call :Achiexe
 
 :input5
-cls&mode con cols=80 lines=30&title ÕûºÏ×Ô¶¯¼¤»î
+cls&mode con cols=80 lines=30&title æ•´åˆè‡ªåŠ¨æ¿€æ´»
 set "AppPath="
-set "Item=ÕûºÏ×Ô¶¯¼¤»î"
+set "Item=æ•´åˆè‡ªåŠ¨æ¿€æ´»"
 set "goto=menu3"
 echo.
-echo.    _____________________________ ÕûºÏ×Ô¶¯¼¤»î _____________________________
+echo.    _____________________________ æ•´åˆè‡ªåŠ¨æ¿€æ´» _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows_7 ´ÅÅÌMBR·ÖÇøÓÀ¾Ã¼¤»î£¬GPT·ÖÇøÇëÊÖ¶¯¼¤»î¡£                   ^|
+echo.   ^|   Windows_7 ç£ç›˜MBRåˆ†åŒºæ°¸ä¹…æ¿€æ´»ï¼ŒGPTåˆ†åŒºè¯·æ‰‹åŠ¨æ¿€æ´»ã€‚                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows_8 ÎªKMS¼¤»î°ëÄê£¬×Ô¶¯ÐøÆÚ¡£                                  ^|
+echo.   ^|   Windows_8 ä¸ºKMSæ¿€æ´»åŠå¹´ï¼Œè‡ªåŠ¨ç»­æœŸã€‚                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows10 ÓÀ¾Ã¼¤»î£¬µÇÂ½Î¢ÈíºóÎ¢Èí¹ÙÍø¿É²éÑ¯ÊÚÈ¨Éè±¸¡£               ^|
+echo.   ^|   Windows10 æ°¸ä¹…æ¿€æ´»ï¼Œç™»é™†å¾®è½¯åŽå¾®è½¯å®˜ç½‘å¯æŸ¥è¯¢æŽˆæƒè®¾å¤‡ã€‚               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] Ìí¼Ó×Ô¶¯¼¤»î                                                     ^|
+echo.   ^|   [1] æ·»åŠ è‡ªåŠ¨æ¿€æ´»                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 2 goto :menu3
 if errorlevel 1 goto :activation
 
@@ -822,32 +822,32 @@ if exist "!AppPath!" (
 )
 
 :input6
-cls&mode con cols=80 lines=30&title ÕûºÏ×Ô¶¯ÔËÐÐÆäËûÓ¦ÓÃ³ÌÐò
+cls&mode con cols=80 lines=30&title æ•´åˆè‡ªåŠ¨è¿è¡Œå…¶ä»–åº”ç”¨ç¨‹åº
 set "Item="
 set "goto="
 if not exist "[App]" md "[App]" >nul 2>nul
 echo.
-echo.    _________________________ ×Ô¶¯ÔËÐÐÆäËûÓ¦ÓÃ³ÌÐò _________________________
+echo.    _________________________ è‡ªåŠ¨è¿è¡Œå…¶ä»–åº”ç”¨ç¨‹åº _________________________
 echo.   ^|                         ----------------------                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ö§³Ö.exe .cmd .bat .vbsÎÄ¼þ£¬Ö§³ÖÔËÐÐ²ÎÊý¡£                          ^|
+echo.   ^|   æ”¯æŒ.exe .cmd .bat .vbsæ–‡ä»¶ï¼Œæ”¯æŒè¿è¡Œå‚æ•°ã€‚                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÏÈ½«ÒªÔËÐÐµÄÎÄ¼þ»òÎÄ¼þ¼Ð·ÅÈë±¾¹¤¾ßµÄ[App]ÎÄ¼þ¼ÐÄÚ¡£                ^|
+echo.   ^|   è¯·å…ˆå°†è¦è¿è¡Œçš„æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹æ”¾å…¥æœ¬å·¥å…·çš„[App]æ–‡ä»¶å¤¹å†…ã€‚                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   È»ºóÔÚÏÂÃæ¹â±ê´¦ÊäÈë"³ÌÐòÃû|²ÎÊý",ÎÞÐèÊäÈëÂ·¾¶,Çë²Î¿¼ÏÂÐÐµÄÀý×Ó¡£    ^|
+echo.   ^|   ç„¶åŽåœ¨ä¸‹é¢å…‰æ ‡å¤„è¾“å…¥"ç¨‹åºå|å‚æ•°",æ— éœ€è¾“å…¥è·¯å¾„,è¯·å‚è€ƒä¸‹è¡Œçš„ä¾‹å­ã€‚    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÎÞ²ÎÊý:QQ.exe ÓÐ²ÎÊý:QQ.exe^|/S£¨ÈôÓÐ²ÎÊý£¬²ÎÊýÇ°µÄ^|ºÅÊÇ±ØÒªµÄ£¡£©    ^|
+echo.   ^|   æ— å‚æ•°:QQ.exe æœ‰å‚æ•°:QQ.exe^|/Sï¼ˆè‹¥æœ‰å‚æ•°ï¼Œå‚æ•°å‰çš„^|å·æ˜¯å¿…è¦çš„ï¼ï¼‰    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÊäÈëµÄ³ÌÐòÃû³ÆÐèÓë·ÅÔÚ[App]ÎÄ¼þ¼ÐÄÚ¶ÔÓ¦³ÌÐòÃû³ÆÒ»ÖÂ£¡                ^|
+echo.   ^|   è¾“å…¥çš„ç¨‹åºåç§°éœ€ä¸Žæ”¾åœ¨[App]æ–‡ä»¶å¤¹å†…å¯¹åº”ç¨‹åºåç§°ä¸€è‡´ï¼                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÇëÊäÈë X È»ºó»Ø³µ¡£                                          ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¯·è¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                          ^|
 echo.   ^|                                                                        ^|
 echo.
 set "SourceApp="
-set /p SourceApp=^>^>^>^>^>^>^>ÇëÊäÈë£º
-if not defined SourceApp cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input6
+set /p SourceApp=^>^>^>^>^>^>^>è¯·è¾“å…¥ï¼š
+if not defined SourceApp cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input6
 set "SourceApp=!SourceApp:"=!"
-if not defined SourceApp cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input6
+if not defined SourceApp cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input6
 if /i "!SourceApp!" equ "x" goto :menu3
 set "AppName="
 set "AppParameter="
@@ -855,10 +855,10 @@ set "SourceAppPath="
 set "SourceAppFolder="
 set "Copy="
 for /f "tokens=1,2 delims=|" %%a in ("!SourceApp!") do (set "AppName=%%a"&set "AppParameter=%%b")
-echo .exe.cmd.vbs.bat|find /i "!AppName:~-4!" >nul 2>nul||(cls&&echo.&&echo.ÄúµÄÊäÈë"!SourceApp!"²»ÊÇºÏ¸ñµÄÎÄ¼þÃû³Æ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :input6)
-echo .exe.cmd.vbs.bat|find /i "!AppName!" >nul 2>nul&&(cls&&echo.&&echo.ÄúµÄÊäÈë"!SourceApp!"²»ÊÇºÏ¸ñµÄÎÄ¼þÃû³Æ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :input6)
+echo .exe.cmd.vbs.bat|find /i "!AppName:~-4!" >nul 2>nul||(cls&&echo.&&echo.æ‚¨çš„è¾“å…¥"!SourceApp!"ä¸æ˜¯åˆæ ¼çš„æ–‡ä»¶åç§°ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :input6)
+echo .exe.cmd.vbs.bat|find /i "!AppName!" >nul 2>nul&&(cls&&echo.&&echo.æ‚¨çš„è¾“å…¥"!SourceApp!"ä¸æ˜¯åˆæ ¼çš„æ–‡ä»¶åç§°ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :input6)
 for /f %%i in ('dir /a-d /b /s "[App]\!AppName!"') do (set "SourceAppPath=%%~dpi"&set "AppName=%%~nxi")
-if not exist "!SourceAppPath!!AppName!" cls&&echo.&&echo.±¾¹¤¾ßµÄ[App]ÎÄ¼þ¼ÐÄÚÎ´·¢ÏÖ"!AppName!"ÎÄ¼þ»òÎÄ¼þ¼Ð¡£&&echo.&&echo.ÄãÐèÒªÏÈ°Ñ"!AppName!"ÎÄ¼þ»òÎÄ¼þ¼Ð·ÅÈë[App]ÎÄ¼þ¼ÐÄÚ¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&&start "" explorer.exe "[App]"&&pause>nul&&goto :input6 )
+if not exist "!SourceAppPath!!AppName!" cls&&echo.&&echo.æœ¬å·¥å…·çš„[App]æ–‡ä»¶å¤¹å†…æœªå‘çŽ°"!AppName!"æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹ã€‚&&echo.&&echo.ä½ éœ€è¦å…ˆæŠŠ"!AppName!"æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹æ”¾å…¥[App]æ–‡ä»¶å¤¹å†…ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&&start "" explorer.exe "[App]"&&pause>nul&&goto :input6 )
 if not defined AppParameter (set "AppParameter=") else (set "AppParameter= !AppParameter!")
 for /f "tokens=2 delims=[" %%a in ("!SourceAppPath!") do set "SourceAppPath=[%%a"
 if /i "!SourceAppPath!" equ "[App]\" (
@@ -869,47 +869,47 @@ if /i "!SourceAppPath!" equ "[App]\" (
 )
 
 :AppSet
-cls&mode con cols=80 lines=30&title !AppName!ÉèÖÃ
+cls&mode con cols=80 lines=30&title !AppName!è®¾ç½®
 set "goto=input6"
 set "TargetAppPath="
 set "Run="
 set "FilePath="
 echo.
-echo.    ____________________________ ³ÌÐòÔËÐÐÉèÖÃ ______________________________
+echo.    ____________________________ ç¨‹åºè¿è¡Œè®¾ç½® ______________________________
 echo.   ^|                            --------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Èç¹ûÃ»ÓÐ»ò²»È·¶¨³ÌÐòµÄ¾²Ä¬²ÎÊýÊÇ·ñÕýÈ·£¬ÇëÑ¡Ê×´Î½ø×ÀÃæºóÖ´ÐÐ£¬ÒÔÃâ   ^|
+echo.   ^|   å¦‚æžœæ²¡æœ‰æˆ–ä¸ç¡®å®šç¨‹åºçš„é™é»˜å‚æ•°æ˜¯å¦æ­£ç¡®ï¼Œè¯·é€‰é¦–æ¬¡è¿›æ¡Œé¢åŽæ‰§è¡Œï¼Œä»¥å…   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Èí¼þ²»ÄÜ×Ô¶¯»¯°²×°¶øÍ£ÔÚÈí¼þ°²×°½çÃæ¡£                               ^|
+echo.   ^|   è½¯ä»¶ä¸èƒ½è‡ªåŠ¨åŒ–å®‰è£…è€Œåœåœ¨è½¯ä»¶å®‰è£…ç•Œé¢ã€‚                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] Ê×´Î½ø×ÀÃæÇ°ÔËÐÐ£¬Ö»ÔËÐÐÒ»´Î£¬ÔËÐÐÍê×Ô¶¯Çå³ý¡£                   ^|
+echo.   ^|   [1] é¦–æ¬¡è¿›æ¡Œé¢å‰è¿è¡Œï¼Œåªè¿è¡Œä¸€æ¬¡ï¼Œè¿è¡Œå®Œè‡ªåŠ¨æ¸…é™¤ã€‚                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] Ê×´Î½ø×ÀÃæºóÔËÐÐ£¬Ö»ÔËÐÐÒ»´Î£¬ÔËÐÐÍê×Ô¶¯Çå³ý¡£                   ^|
+echo.   ^|   [2] é¦–æ¬¡è¿›æ¡Œé¢åŽè¿è¡Œï¼Œåªè¿è¡Œä¸€æ¬¡ï¼Œè¿è¡Œå®Œè‡ªåŠ¨æ¸…é™¤ã€‚                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Ã¿´Î½ø×ÀÃæºóÔËÐÐ£¬Ã¿´ÎÆô¶¯¶¼ÔËÐÐ¡£                               ^|
+echo.   ^|   [3] æ¯æ¬¡è¿›æ¡Œé¢åŽè¿è¡Œï¼Œæ¯æ¬¡å¯åŠ¨éƒ½è¿è¡Œã€‚                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:123X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:123X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 4 goto :input6
 if errorlevel 3 goto :AppAfter
 if errorlevel 2 goto :AppAfterOnce
 if errorlevel 1 goto :AppBefore
 :AppBefore
-set "Item=ÕûºÏÊ×´Î½ø×ÀÃæÇ°ÔËÐÐ"!AppName!!AppParameter!""
+set "Item=æ•´åˆé¦–æ¬¡è¿›æ¡Œé¢å‰è¿è¡Œ"!AppName!!AppParameter!""
 set "TargetAppPath=!Scripts!"
 set "Run="
 goto :AppNext
 :AppAfterOnce
-set "Item=ÕûºÏÊ×´Î½ø×ÀÃæºóÔËÐÐ"!AppName!!AppParameter!"£¬Ö»ÔËÐÐÒ»´Î"
+set "Item=æ•´åˆé¦–æ¬¡è¿›æ¡Œé¢åŽè¿è¡Œ"!AppName!!AppParameter!"ï¼Œåªè¿è¡Œä¸€æ¬¡"
 set "TargetAppPath=!Sysprep!"
 set "Run=RunOnce"
 set "FilePath=Sysprep"
 goto :AppNext
 :Appafter
-set "Item=ÕûºÏ½ø×ÀÃæºóÔËÐÐ"!AppName!!AppParameter!"£¬Ã¿´ÎÆô¶¯¶¼ÔËÐÐ"
+set "Item=æ•´åˆè¿›æ¡Œé¢åŽè¿è¡Œ"!AppName!!AppParameter!"ï¼Œæ¯æ¬¡å¯åŠ¨éƒ½è¿è¡Œ"
 set "TargetAppPath=Mount\Windows\RunApp"
 set "Run=Run"
 set "FilePath=RunApp"
@@ -926,343 +926,343 @@ if "!Run!" equ "" (
 if exist "!TargetAppPath!\!SourceAppPath!!AppName!" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input7
-cls&mode con cols=80 lines=44&title ÓÅ»¯ÏµÍ³
+cls&mode con cols=80 lines=44&title ä¼˜åŒ–ç³»ç»Ÿ
 set "AppPath="
-set "Item=ÓÅ»¯Windows!Version!_x!Bit!"
+set "Item=ä¼˜åŒ–Windows!Version!_x!Bit!"
 set "goto=menu3"
 echo.
-echo.    _______________________________ ÓÅ»¯ÏµÍ³ _______________________________
+echo.    _______________________________ ä¼˜åŒ–ç³»ç»Ÿ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***×ÀÃæÍ¼±ê£¬ÈÎÎñÀ¸£¬ÒÔ¼°¿ªÊ¼²Ëµ¥ÓÅ»¯***                             ^|
+echo.   ^|   ***æ¡Œé¢å›¾æ ‡ï¼Œä»»åŠ¡æ ï¼Œä»¥åŠå¼€å§‹èœå•ä¼˜åŒ–***                             ^|
 if /i "!Version!"=="7" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚ×ÀÃæÏÔÊ¾¼ÆËã»ú                                                     ^|
+echo.   ^|   åœ¨æ¡Œé¢æ˜¾ç¤ºè®¡ç®—æœº                                                     ^|
 )
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚ×ÀÃæÏÔÊ¾´ËµçÄÔ                                                     ^|
+echo.   ^|   åœ¨æ¡Œé¢æ˜¾ç¤ºæ­¤ç”µè„‘                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚ×ÀÃæÏÔÊ¾¿ØÖÆÃæ°å                                                   ^|
+echo.   ^|   åœ¨æ¡Œé¢æ˜¾ç¤ºæŽ§åˆ¶é¢æ¿                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½«ÈÎÎñÀ¸ÖÐµÄCortanaµ÷ÕûÎª½öÏÔÊ¾Í¼±ê                                  ^|
+echo.   ^|   å°†ä»»åŠ¡æ ä¸­çš„Cortanaè°ƒæ•´ä¸ºä»…æ˜¾ç¤ºå›¾æ ‡                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈÎÎñÀ¸Ê±ÖÓ¾«È·µ½Ãë                                                   ^|
+echo.   ^|   ä»»åŠ¡æ æ—¶é’Ÿç²¾ç¡®åˆ°ç§’                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÒÆ³ýÈÎÎñÀ¸ÓÊÏä°´Å¥                                                   ^|
+echo.   ^|   ç§»é™¤ä»»åŠ¡æ é‚®ç®±æŒ‰é’®                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÏÔÊ¾¿ªÊ¼²Ëµ¥¡¢ÈÎÎñÀ¸¡¢²Ù×÷ÖÐÐÄºÍ±êÌâÀ¸µÄÑÕÉ«                         ^|
+echo.   ^|   æ˜¾ç¤ºå¼€å§‹èœå•ã€ä»»åŠ¡æ ã€æ“ä½œä¸­å¿ƒå’Œæ ‡é¢˜æ çš„é¢œè‰²                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ê¹¿ªÊ¼²Ëµ¥¡¢ÈÎÎñÀ¸¡¢²Ù×÷ÖÐÐÄÍ¸Ã÷                                     ^|
+echo.   ^|   ä½¿å¼€å§‹èœå•ã€ä»»åŠ¡æ ã€æ“ä½œä¸­å¿ƒé€æ˜Ž                                     ^|
 )
 if  /i "!Version:~0,1!"=="8" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚ×ÀÃæÏÔÊ¾´ËµçÄÔ                                                     ^|
+echo.   ^|   åœ¨æ¡Œé¢æ˜¾ç¤ºæ­¤ç”µè„‘                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚ×ÀÃæÏÔÊ¾¿ØÖÆÃæ°å                                                   ^|
+echo.   ^|   åœ¨æ¡Œé¢æ˜¾ç¤ºæŽ§åˆ¶é¢æ¿                                                   ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   µ±ÈÎÎñÀ¸±»Õ¼ÂúÊ±Ê¼ÖÕºÏ²¢                                             ^|
+echo.   ^|   å½“ä»»åŠ¡æ è¢«å æ»¡æ—¶å§‹ç»ˆåˆå¹¶                                             ^|
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²ØÈÎÎñÀ¸ÉÏµÄÈËÂö°´Å¥                                               ^|
+echo.   ^|   éšè—ä»»åŠ¡æ ä¸Šçš„äººè„‰æŒ‰é’®                                               ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓïÑÔÀ¸Òþ²Øµ½ÈÎÎñÀ¹                                                   ^|
+echo.   ^|   è¯­è¨€æ éšè—åˆ°ä»»åŠ¡æ‹¦                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   È¡ÏûÓïÑÔÀ¸ÉÏµÄ°ïÖú°´Å¥                                               ^|
+echo.   ^|   å–æ¶ˆè¯­è¨€æ ä¸Šçš„å¸®åŠ©æŒ‰é’®                                               ^|
 if /i "!Version!"=="7" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ¿ªÆôWin7 AeroÖ÷Ìâ                                                    ^|
+echo.   ^|   å¼€å¯Win7 Aeroä¸»é¢˜                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¿ªÆôDWMÖÐµÄÍ¸Ã÷¹û                                                    ^|
+echo.   ^|   å¼€å¯DWMä¸­çš„é€æ˜Žæžœ                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ¿ªÊ¼²Ëµ¥"Í»³öÏÔÊ¾ÐÂ°²×°µÄ³ÌÐò"                                   ^|
+echo.   ^|   å…³é—­å¼€å§‹èœå•"çªå‡ºæ˜¾ç¤ºæ–°å®‰è£…çš„ç¨‹åº"                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¿ªÊ¼²Ëµ¥ÏÔÊ¾ÔËÐÐ                                                     ^|
+echo.   ^|   å¼€å§‹èœå•æ˜¾ç¤ºè¿è¡Œ                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   È¡ÏûÓÎÏ·Àï"ÏÂÔØÓÐ¹ØÒÑ°²×°ÓÎÏ·µÄ¼¼ÇÉºÍÐÅÏ¢"ºÍ"ÊÕ¼¯×î½üÍæ¹ýµÄÓÎÏ·ÐÅÏ¢" ^|
+echo.   ^|   å–æ¶ˆæ¸¸æˆé‡Œ"ä¸‹è½½æœ‰å…³å·²å®‰è£…æ¸¸æˆçš„æŠ€å·§å’Œä¿¡æ¯"å’Œ"æ”¶é›†æœ€è¿‘çŽ©è¿‡çš„æ¸¸æˆä¿¡æ¯" ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***×ÊÔ´¹ÜÀíÆ÷ÓÅ»¯***                                                 ^|
+echo.   ^|   ***èµ„æºç®¡ç†å™¨ä¼˜åŒ–***                                                 ^|
 )
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ²»ÔÊÐíÔÚ¿ªÊ¼²Ëµ¥ÏÔÊ¾½¨Òé                                             ^|
+echo.   ^|   ä¸å…è®¸åœ¨å¼€å§‹èœå•æ˜¾ç¤ºå»ºè®®                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÔÚÓ¦ÓÃÉÌµêÖÐ²éÕÒ¹ØÁªÓ¦ÓÃ                                         ^|
+echo.   ^|   å…³é—­åœ¨åº”ç”¨å•†åº—ä¸­æŸ¥æ‰¾å…³è”åº”ç”¨                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÅ¼¶ûÔÚ¿ªÊ¼²Ëµ¥ÖÐÏÔÊ¾µÄÍÆ¼öÓ¦ÓÃ                                   ^|
+echo.   ^|   å…³é—­å¶å°”åœ¨å¼€å§‹èœå•ä¸­æ˜¾ç¤ºçš„æŽ¨èåº”ç”¨                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕWindows InkÍÆ¹ãÓ¦ÓÃ                                              ^|
+echo.   ^|   å…³é—­Windows InkæŽ¨å¹¿åº”ç”¨                                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕËøÆÁÊ±µÄWindows ¾Û½¹ÍÆ¹ã                                         ^|
+echo.   ^|   å…³é—­é”å±æ—¶çš„Windows èšç„¦æŽ¨å¹¿                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ"Ê¹ÓÃWindowsÊ±»ñÈ¡¼¼ÇÉºÍ½¨Òé"                                    ^|
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   å…³é—­"ä½¿ç”¨Windowsæ—¶èŽ·å–æŠ€å·§å’Œå»ºè®®"                                    ^|
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ"Í»³öÏÔÊ¾ÐÂ°²×°µÄ³ÌÐò"                                           ^|
+echo.   ^|   å…³é—­"çªå‡ºæ˜¾ç¤ºæ–°å®‰è£…çš„ç¨‹åº"                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹×Ô¶¯°²×°ÍÆ¼öµÄÓ¦ÓÃ³ÌÐò                                           ^|
+echo.   ^|   ç¦æ­¢è‡ªåŠ¨å®‰è£…æŽ¨èçš„åº”ç”¨ç¨‹åº                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÓÎÏ·Â¼ÖÆ¹¤¾ß                                                     ^|
+echo.   ^|   å…³é—­æ¸¸æˆå½•åˆ¶å·¥å…·                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ"µ±ÎÒÍæÓÎÏ·Ê±ÔÚºóÌ¨Â¼ÖÆ"£¬¿ªÆô´Ë¹¦ÄÜ»áÓ°ÏìÓÎÏ·ÖÊÁ¿               ^|
+echo.   ^|   å…³é—­"å½“æˆ‘çŽ©æ¸¸æˆæ—¶åœ¨åŽå°å½•åˆ¶"ï¼Œå¼€å¯æ­¤åŠŸèƒ½ä¼šå½±å“æ¸¸æˆè´¨é‡               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   µÇÂ½½çÃæÄ¬ÈÏ´ò¿ªÐ¡¼üÅÌ                                               ^|
+echo.   ^|   ç™»é™†ç•Œé¢é»˜è®¤æ‰“å¼€å°é”®ç›˜                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕOneDrive                                                         ^|
+echo.   ^|   å…³é—­OneDrive                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ×Ô¶¯¸üÐÂµØÍ¼                                                     ^|
+echo.   ^|   å…³é—­è‡ªåŠ¨æ›´æ–°åœ°å›¾                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÏÔÊ¾Ê×´ÎµÇÂ¼¶¯»­                                                     ^|
+echo.   ^|   æ˜¾ç¤ºé¦–æ¬¡ç™»å½•åŠ¨ç”»                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***×ÊÔ´¹ÜÀíÆ÷ÓÅ»¯***                                                 ^|
+echo.   ^|   ***èµ„æºç®¡ç†å™¨ä¼˜åŒ–***                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´ò¿ª×ÊÔ´¹ÜÀíÆ÷Ê±ÏÔÊ¾´ËµçÄÔ                                           ^|
+echo.   ^|   æ‰“å¼€èµ„æºç®¡ç†å™¨æ—¶æ˜¾ç¤ºæ­¤ç”µè„‘                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²Ø´ËµçÄÔÖÐÊÓÆµ¡¢Í¼Æ¬¡¢ÎÄµµ¡¢ÏÂÔØ¡¢ÒôÀÖ¡¢×ÀÃæ¡¢3D¶ÔÏóÆß¸öÎÄ¼þ¼Ð     ^|
+echo.   ^|   éšè—æ­¤ç”µè„‘ä¸­è§†é¢‘ã€å›¾ç‰‡ã€æ–‡æ¡£ã€ä¸‹è½½ã€éŸ³ä¹ã€æ¡Œé¢ã€3Då¯¹è±¡ä¸ƒä¸ªæ–‡ä»¶å¤¹     ^|
 )
 if  /i "!Version:~0,1!"=="8" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÔÚÓ¦ÓÃÉÌµêÖÐ²éÕÒ¹ØÁªÓ¦ÓÃ                                         ^|
+echo.   ^|   å…³é—­åœ¨åº”ç”¨å•†åº—ä¸­æŸ¥æ‰¾å…³è”åº”ç”¨                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ¡°Í»³öÏÔÊ¾ÐÂ°²×°µÄ³ÌÐò¡±                                           ^|
+echo.   ^|   å…³é—­â€œçªå‡ºæ˜¾ç¤ºæ–°å®‰è£…çš„ç¨‹åºâ€                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   µÇÂ½½çÃæÄ¬ÈÏ´ò¿ªÐ¡¼üÅÌ                                               ^|
+echo.   ^|   ç™»é™†ç•Œé¢é»˜è®¤æ‰“å¼€å°é”®ç›˜                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÏÔÊ¾Ê×´ÎµÇÂ¼¶¯»­                                                     ^|
+echo.   ^|   æ˜¾ç¤ºé¦–æ¬¡ç™»å½•åŠ¨ç”»                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***×ÊÔ´¹ÜÀíÆ÷ÓÅ»¯***                                                 ^|
+echo.   ^|   ***èµ„æºç®¡ç†å™¨ä¼˜åŒ–***                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´ò¿ª×ÊÔ´¹ÜÀíÆ÷Ê±ÏÔÊ¾´ËµçÄÔ                                           ^|
+echo.   ^|   æ‰“å¼€èµ„æºç®¡ç†å™¨æ—¶æ˜¾ç¤ºæ­¤ç”µè„‘                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²Ø´ËµçÄÔÖÐÊÓÆµ¡¢Í¼Æ¬¡¢ÎÄµµ¡¢ÏÂÔØ¡¢ÒôÀÖ¡¢×ÀÃæÁù¸öÎÄ¼þ¼Ð             ^|
+echo.   ^|   éšè—æ­¤ç”µè„‘ä¸­è§†é¢‘ã€å›¾ç‰‡ã€æ–‡æ¡£ã€ä¸‹è½½ã€éŸ³ä¹ã€æ¡Œé¢å…­ä¸ªæ–‡ä»¶å¤¹             ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   ÏÔÊ¾ËùÓÐÎÄ¼þÀ©Õ¹Ãû                                                   ^|
+echo.   ^|   æ˜¾ç¤ºæ‰€æœ‰æ–‡ä»¶æ‰©å±•å                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²Ø¿ì½Ý·½Ê½Ð¡¼ýÍ·                                                   ^|
+echo.   ^|   éšè—å¿«æ·æ–¹å¼å°ç®­å¤´                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²Ø¿ÉÖ´ÐÐÎÄ¼þÐ¡¶ÜÅÆ                                                 ^|
+echo.   ^|   éšè—å¯æ‰§è¡Œæ–‡ä»¶å°ç›¾ç‰Œ                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Òþ²ØNTFSÀ¶É«Ë«¼ýÍ·Ñ¹Ëõ±êÊ¶                                           ^|
+echo.   ^|   éšè—NTFSè“è‰²åŒç®­å¤´åŽ‹ç¼©æ ‡è¯†                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´´½¨¿ì½Ý·½Ê½Ê±²»Ìí¿ì½Ý·½Ê½ÎÄ×Ö                                       ^|
-if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   åˆ›å»ºå¿«æ·æ–¹å¼æ—¶ä¸æ·»å¿«æ·æ–¹å¼æ–‡å­—                                       ^|
+if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹×Ô¶¯²¥·Å                                                         ^|
+echo.   ^|   ç¦æ­¢è‡ªåŠ¨æ’­æ”¾                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÔÚµ¥¶ÀµÄ½ø³ÌÖÐ´ò¿ªÎÄ¼þ¼Ð´°¿Ú                                         ^|
-if /i "!Version!"=="7" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   åœ¨å•ç‹¬çš„è¿›ç¨‹ä¸­æ‰“å¼€æ–‡ä»¶å¤¹çª—å£                                         ^|
+if /i "!Version!"=="7" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ×ÊÔ´¹ÜÀíÆ÷´°¿Ú×îÐ¡»¯Ê±ÏÔÊ¾ÍêÕûÂ·¾¶                                   ^|
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   èµ„æºç®¡ç†å™¨çª—å£æœ€å°åŒ–æ—¶æ˜¾ç¤ºå®Œæ•´è·¯å¾„                                   ^|
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÊÓÆµÎÄ¼þÔ¤ÀÀ£¬Ìá¸ß×ÊÔ´¹ÜÀíÆ÷ÏìÓ¦ËÙ¶È                             ^|
+echo.   ^|   å…³é—­è§†é¢‘æ–‡ä»¶é¢„è§ˆï¼Œæé«˜èµ„æºç®¡ç†å™¨å“åº”é€Ÿåº¦                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÒôÀÖÎÄ¼þÍ¼Æ¬Ô¤ÀÀ£¬Ìá¸ß×ÊÔ´¹ÜÀíÆ÷ÏìÓ¦ËÙ¶È                         ^|
+echo.   ^|   å…³é—­éŸ³ä¹æ–‡ä»¶å›¾ç‰‡é¢„è§ˆï¼Œæé«˜èµ„æºç®¡ç†å™¨å“åº”é€Ÿåº¦                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ×ÊÔ´¹ÜÀíÆ÷¿ìËÙ·ÃÎÊ²»ÏÔÊ¾³£ÓÃÎÄ¼þ¼Ð                                   ^|
+echo.   ^|   èµ„æºç®¡ç†å™¨å¿«é€Ÿè®¿é—®ä¸æ˜¾ç¤ºå¸¸ç”¨æ–‡ä»¶å¤¹                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ×ÊÔ´¹ÜÀíÆ÷¿ìËÙ·ÃÎÊ²»ÏÔÊ¾×î½üÊ¹ÓÃµÄÎÄ¼þ                               ^|
+echo.   ^|   èµ„æºç®¡ç†å™¨å¿«é€Ÿè®¿é—®ä¸æ˜¾ç¤ºæœ€è¿‘ä½¿ç”¨çš„æ–‡ä»¶                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***°²È«ÉèÖÃÓÅ»¯***                                                   ^|
+echo.   ^|   ***å®‰å…¨è®¾ç½®ä¼˜åŒ–***                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½«ÓÃ»§ÕËºÅ¿ØÖÆ³ÌÐò£¨UAC£©µ÷ÕûÎª´Ó²»Í¨Öª                              ^|
+echo.   ^|   å°†ç”¨æˆ·è´¦å·æŽ§åˆ¶ç¨‹åºï¼ˆUACï¼‰è°ƒæ•´ä¸ºä»Žä¸é€šçŸ¥                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¿ªÆôÓÃÓÚÄÚÖÃ¹ÜÀíÔ±ÕÊ»§µÄ¹ÜÀíÔ±Åú×¼Ä£Ê½                               ^|
+echo.   ^|   å¼€å¯ç”¨äºŽå†…ç½®ç®¡ç†å‘˜å¸æˆ·çš„ç®¡ç†å‘˜æ‰¹å‡†æ¨¡å¼                               ^|
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕSmartscreenÓ¦ÓÃÉ¸Ñ¡Æ÷                                            ^|
+echo.   ^|   å…³é—­Smartscreenåº”ç”¨ç­›é€‰å™¨                                            ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ´ò¿ª³ÌÐòµÄ°²È«¾¯¸æ                                               ^|
+echo.   ^|   å…³é—­æ‰“å¼€ç¨‹åºçš„å®‰å…¨è­¦å‘Š                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃWindows Defender                                                 ^|
+echo.   ^|   ç¦ç”¨Windows Defender                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***ä¯ÀÀÆ÷ÓÅ»¯***                                                     ^|
+echo.   ^|   ***æµè§ˆå™¨ä¼˜åŒ–***                                                     ^|
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   Edgeä¯ÀÀÆ÷,×èÖ¹Microsoft Edge"Ê×´ÎÔËÐÐ"»¶Ó­Ò³Ãæ                      ^|
+echo.   ^|   Edgeæµè§ˆå™¨,é˜»æ­¢Microsoft Edge"é¦–æ¬¡è¿è¡Œ"æ¬¢è¿Žé¡µé¢                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Edgeä¯ÀÀÆ÷,¹Ø±ÕAdobe Flash¼´µã¼´ÓÃ                                   ^|
+echo.   ^|   Edgeæµè§ˆå™¨,å…³é—­Adobe Flashå³ç‚¹å³ç”¨                                   ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,¹Ø±Õ¶à¸öÑ¡Ïî¿¨Ê±²»·¢³ö¾¯¸æ                                  ^|
+echo.   ^|   IEæµè§ˆå™¨,å…³é—­å¤šä¸ªé€‰é¡¹å¡æ—¶ä¸å‘å‡ºè­¦å‘Š                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,µ±´´½¨ÐÂÑ¡Ïî¿¨Ê±£¬Ê¼ÖÕÇÐ»»µ½ÐÂÑ¡Ïî¿¨                        ^|
+echo.   ^|   IEæµè§ˆå™¨,å½“åˆ›å»ºæ–°é€‰é¡¹å¡æ—¶ï¼Œå§‹ç»ˆåˆ‡æ¢åˆ°æ–°é€‰é¡¹å¡                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,ÆäËû³ÌÐò´Óµ±Ç°´°¿ÚµÄÐÂÑ¡Ïî¿¨´ò¿ªÁ¬½Ó                        ^|
+echo.   ^|   IEæµè§ˆå™¨,å…¶ä»–ç¨‹åºä»Žå½“å‰çª—å£çš„æ–°é€‰é¡¹å¡æ‰“å¼€è¿žæŽ¥                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,ÒÔ¼æÈÝÐÔÊÓÍ¼ÖÐÏÔÊ¾ËùÓÐÍøÕ¾                                  ^|
+echo.   ^|   IEæµè§ˆå™¨,ä»¥å…¼å®¹æ€§è§†å›¾ä¸­æ˜¾ç¤ºæ‰€æœ‰ç½‘ç«™                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,ÆôÓÃ±íµ¥µÄ×Ô¶¯Íê³É¹¦ÄÜ                                      ^|
+echo.   ^|   IEæµè§ˆå™¨,å¯ç”¨è¡¨å•çš„è‡ªåŠ¨å®ŒæˆåŠŸèƒ½                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,¹Ø±Õ½¨ÒéµÄÍøÕ¾                                              ^|
-if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   IEæµè§ˆå™¨,å…³é—­å»ºè®®çš„ç½‘ç«™                                              ^|
+if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,Ìø¹ýIEÊ×´ÎÔËÐÐ×Ô¶¨ÒåÉèÖÃ                                    ^|
+echo.   ^|   IEæµè§ˆå™¨,è·³è¿‡IEé¦–æ¬¡è¿è¡Œè‡ªå®šä¹‰è®¾ç½®                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,²»±£´æ¸½¼þµÄÇøÓòÐÅÏ¢                                        ^|
-if /i "!Version!"=="7" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   IEæµè§ˆå™¨,ä¸ä¿å­˜é™„ä»¶çš„åŒºåŸŸä¿¡æ¯                                        ^|
+if /i "!Version!"=="7" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,ÆôÓÃInternet ExplorerÔöÇ¿±£»¤Ä£Ê½                           ^|
+echo.   ^|   IEæµè§ˆå™¨,å¯ç”¨Internet Explorerå¢žå¼ºä¿æŠ¤æ¨¡å¼                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,Õë¶ÔÔöÇ¿±£»¤Ä£Ê½ÆôÓÃ64Î»½ø³Ì                                ^|
+echo.   ^|   IEæµè§ˆå™¨,é’ˆå¯¹å¢žå¼ºä¿æŠ¤æ¨¡å¼å¯ç”¨64ä½è¿›ç¨‹                                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,Ëø¶¨Internet Explorer¹¤¾ßÀ¸                                 ^|
+echo.   ^|   IEæµè§ˆå™¨,é”å®šInternet Explorerå·¥å…·æ                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,½«Í¬Ê±¿ÉÓÃÏÂÔØÊýÄ¿µ÷Õûµ½ 10                                 ^|
+echo.   ^|   IEæµè§ˆå™¨,å°†åŒæ—¶å¯ç”¨ä¸‹è½½æ•°ç›®è°ƒæ•´åˆ° 10                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,Óöµ½µ¯³ö´°¿ÚÊ±Ê¼ÖÕÔÚÐÂÑ¡Ïî¿¨ÖÐ´ò¿ªµ¯³ö´°¿Ú                  ^|
+echo.   ^|   IEæµè§ˆå™¨,é‡åˆ°å¼¹å‡ºçª—å£æ—¶å§‹ç»ˆåœ¨æ–°é€‰é¡¹å¡ä¸­æ‰“å¼€å¼¹å‡ºçª—å£                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   IEä¯ÀÀÆ÷,¹Ø±ÕIE×Ô¶¯¸üÐÂ                                              ^|
+echo.   ^|   IEæµè§ˆå™¨,å…³é—­IEè‡ªåŠ¨æ›´æ–°                                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***·þÎñÓÅ»¯***                                                       ^|
+echo.   ^|   ***æœåŠ¡ä¼˜åŒ–***                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ³ÌÐò¼æÈÝÐÔÖúÊÖ                                                   ^|
+echo.   ^|   å…³é—­ç¨‹åºå…¼å®¹æ€§åŠ©æ‰‹                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃ´íÎó±¨¸æ                                                         ^|
+echo.   ^|   ç¦ç”¨é”™è¯¯æŠ¥å‘Š                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃ¼ÒÍ¥×é                                                           ^|
+echo.   ^|   ç¦ç”¨å®¶åº­ç»„                                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃ¿Í»§ÌåÑé¸ÄÉÆ¼Æ»®                                                 ^|
+echo.   ^|   ç¦ç”¨å®¢æˆ·ä½“éªŒæ”¹å–„è®¡åˆ’                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***ÏµÍ³ÐÔÄÜÓÅ»¯***                                                   ^|
+echo.   ^|   ***ç³»ç»Ÿæ€§èƒ½ä¼˜åŒ–***                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯Ó²ÅÌÊý¾Ý´æ´¢ -                                                   ^|
+echo.   ^|   ä¼˜åŒ–ç¡¬ç›˜æ•°æ®å­˜å‚¨ -                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼Ó¿ìAero SnapÏÔÊ¾ËÙ¶È£¬¸ü¿ìµÄ¿´µ½´°¿ÚËõÂÔÍ¼                          ^|
+echo.   ^|   åŠ å¿«Aero Snapæ˜¾ç¤ºé€Ÿåº¦ï¼Œæ›´å¿«çš„çœ‹åˆ°çª—å£ç¼©ç•¥å›¾                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼Ó¿ìAero PeekÍ¸ÊÓ×ÀÃæ¹¦ÄÜµÄÏÔÊ¾ËÙ¶È                                  ^|
+echo.   ^|   åŠ å¿«Aero Peeké€è§†æ¡Œé¢åŠŸèƒ½çš„æ˜¾ç¤ºé€Ÿåº¦                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ìá¸ßÇ°Ì¨³ÌÐòµÄÏìÓ¦ËÙ¶È                                               ^|
+echo.   ^|   æé«˜å‰å°ç¨‹åºçš„å“åº”é€Ÿåº¦                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼Ó¿ìÏµÍ³¸÷ÄÚ´æÃüÁîµÄÏÔÊ¾·´Ó¦ËÙ¶È                                     ^|
-if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   åŠ å¿«ç³»ç»Ÿå„å†…å­˜å‘½ä»¤çš„æ˜¾ç¤ºååº”é€Ÿåº¦                                     ^|
+if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯³ÌÐòµÄ·´Ó¦Ê±¼ä£¬¼Ó¿ìÏµÍ³´¦ÀíËÙ¶È¡£                               ^|
+echo.   ^|   ä¼˜åŒ–ç¨‹åºçš„ååº”æ—¶é—´ï¼ŒåŠ å¿«ç³»ç»Ÿå¤„ç†é€Ÿåº¦ã€‚                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ëõ¶ÌÒò´íÎó³ÌÐòµ¼ÖÂÊó±ê¼üÅÌÎÞ·´Ó¦µÄµÈ´ýÊ±¼ä                           ^|
-if /i "!Version!"=="7" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   ç¼©çŸ­å› é”™è¯¯ç¨‹åºå¯¼è‡´é¼ æ ‡é”®ç›˜æ— ååº”çš„ç­‰å¾…æ—¶é—´                           ^|
+if /i "!Version!"=="7" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ×Ô¶¯¹Ø±ÕÎÞ·´Ó¦µÄ³ÌÐò£¬±ÜÃâÏµÍ³µÄ"ËÀ»ú"Òþ»¼                           ^|
+echo.   ^|   è‡ªåŠ¨å…³é—­æ— ååº”çš„ç¨‹åºï¼Œé¿å…ç³»ç»Ÿçš„"æ­»æœº"éšæ‚£                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÄÚ´æÅäÖÃ£¬¼ÓËÙÓÎÏ·µÈÈí¼þµÄÔËÐÐËÙ¶È                               ^|
+echo.   ^|   ä¼˜åŒ–å†…å­˜é…ç½®ï¼ŒåŠ é€Ÿæ¸¸æˆç­‰è½¯ä»¶çš„è¿è¡Œé€Ÿåº¦                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯´¦ÀíÆ÷µÄ×ÊÔ´·ÖÅä£¬¿´µçÓ°ÊÓÆµ¸üÁ÷³©                               ^|
+echo.   ^|   ä¼˜åŒ–å¤„ç†å™¨çš„èµ„æºåˆ†é…ï¼Œçœ‹ç”µå½±è§†é¢‘æ›´æµç•…                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹Ô¶³ÌÐÞ¸Ä×¢²á±í                                                   ^|
+echo.   ^|   ç¦æ­¢è¿œç¨‹ä¿®æ”¹æ³¨å†Œè¡¨                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***½çÃæÐ§¹ûÓÅ»¯***                                                   ^|
+echo.   ^|   ***ç•Œé¢æ•ˆæžœä¼˜åŒ–***                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯³ÌÐò½ø³Ì£¬¶ÀÁ¢½ø³ÌÓÅÏÈ¼¶£¬±ÜÃâÏµÍ³"ËÀ»ú"                         ^|
+echo.   ^|   ä¼˜åŒ–ç¨‹åºè¿›ç¨‹ï¼Œç‹¬ç«‹è¿›ç¨‹ä¼˜å…ˆçº§ï¼Œé¿å…ç³»ç»Ÿ"æ­»æœº"                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÓÃ»§½çÃæ×é¼þ£¬µ±·¢ÉúÒì³£ºó×Ô¶¯Ë¢ÐÂ£¬·ÀÖ¹ÏµÍ³"ËÀ»ú" -             ^|
+echo.   ^|   ä¼˜åŒ–ç”¨æˆ·ç•Œé¢ç»„ä»¶ï¼Œå½“å‘ç”Ÿå¼‚å¸¸åŽè‡ªåŠ¨åˆ·æ–°ï¼Œé˜²æ­¢ç³»ç»Ÿ"æ­»æœº" -             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼Ó¿ìÈÎÎñÀ¸´°¿ÚÔ¤ÀÀÏÔÊ¾ËÙ¶È                                           ^|
+echo.   ^|   åŠ å¿«ä»»åŠ¡æ çª—å£é¢„è§ˆæ˜¾ç¤ºé€Ÿåº¦                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***ÎÄ¼þÏµÍ³ÓÅ»¯***                                                   ^|
+echo.   ^|   ***æ–‡ä»¶ç³»ç»Ÿä¼˜åŒ–***                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯WindowsÎÄ¼þÁÐ±íË¢ÐÂ²ßÂÔ                                          ^|
+echo.   ^|   ä¼˜åŒ–Windowsæ–‡ä»¶åˆ—è¡¨åˆ·æ–°ç­–ç•¥                                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯´ÅÅÌ·ÃÎÊÐÔÄÜ£¬ÌáÉý´ÅÅÌÊý¾ÝµÄ¶ÁÐ´ÄÜÁ¦                             ^|
+echo.   ^|   ä¼˜åŒ–ç£ç›˜è®¿é—®æ€§èƒ½ï¼Œæå‡ç£ç›˜æ•°æ®çš„è¯»å†™èƒ½åŠ›                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÎÄ¼þÏµÍ³£¨NTFS£©µÄ¹ÜÀí£¬Ëõ¶Ì´ò¿ªÎÄ¼þµÄ·´Ó¦Ê±¼ä -                 ^|
+echo.   ^|   ä¼˜åŒ–æ–‡ä»¶ç³»ç»Ÿï¼ˆNTFSï¼‰çš„ç®¡ç†ï¼Œç¼©çŸ­æ‰“å¼€æ–‡ä»¶çš„ååº”æ—¶é—´ -                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÏµÍ³×Ô¶¯µ÷ÊÔ¹¦ÄÜ£¬Ìá¸ßÏµÍ³ÔËÐÐËÙ¶È -                             ^|
+echo.   ^|   å…³é—­ç³»ç»Ÿè‡ªåŠ¨è°ƒè¯•åŠŸèƒ½ï¼Œæé«˜ç³»ç»Ÿè¿è¡Œé€Ÿåº¦ -                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼Ó´óÏµÍ³µÄÍ¼±ê»º³å£¬Ìá¸ßÏµÍ³¿ª»úËÙ¶È -                               ^|
+echo.   ^|   åŠ å¤§ç³»ç»Ÿçš„å›¾æ ‡ç¼“å†²ï¼Œæé«˜ç³»ç»Ÿå¼€æœºé€Ÿåº¦ -                               ^|
 echo.   ^|                                                                        ^| 
-echo.   ^|   ½ûÖ¹ÏµÍ³×Ô¶¯Éú³É´íÎó±¨¸æ£¬¼Ó¿ìÏµÍ³·´Ó¦ËÙ¶È -                         ^|
+echo.   ^|   ç¦æ­¢ç³»ç»Ÿè‡ªåŠ¨ç”Ÿæˆé”™è¯¯æŠ¥å‘Šï¼ŒåŠ å¿«ç³»ç»Ÿååº”é€Ÿåº¦ -                         ^|
 echo.   ^|                                                                        ^| 
-echo.   ^|   ½ûÖ¹UÅÌµÈÒÆ¶¯Éè±¸µÄ×Ô¶¯²¥·Å£¬·ÀÖ¹±»²¡¶¾¸ÐÈ¾ -                        ^|
+echo.   ^|   ç¦æ­¢Uç›˜ç­‰ç§»åŠ¨è®¾å¤‡çš„è‡ªåŠ¨æ’­æ”¾ï¼Œé˜²æ­¢è¢«ç—…æ¯’æ„ŸæŸ“ -                        ^|
 echo.   ^|                                                                        ^| 
-echo.   ^|   ×Ô¶¯ÓÅ»¯Æô¶¯·ÖÇø£¬¼Ó¿ìÆô¶¯ËÙ¶È -                                     ^|
-if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   è‡ªåŠ¨ä¼˜åŒ–å¯åŠ¨åˆ†åŒºï¼ŒåŠ å¿«å¯åŠ¨é€Ÿåº¦ -                                     ^|
+if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ***ÍøÂçÓÅ»¯***                                                       ^|
+echo.   ^|   ***ç½‘ç»œä¼˜åŒ–***                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÄ¬ÈÏ¹²Ïí                                                         ^|
-if /i "!Version!"=="7" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   å…³é—­é»˜è®¤å…±äº«                                                         ^|
+if /i "!Version!"=="7" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ·À»ðÇ½                                                           ^|
+echo.   ^|   å…³é—­é˜²ç«å¢™                                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÔ¶³ÌÐ­Öú                                                         ^|
+echo.   ^|   å…³é—­è¿œç¨‹ååŠ©                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÆôÓÃ×î´ó´«Êäµ¥Ôª´óÐ¡×Ô¶¯Ì½²â¡¢ºÚ¶´Â·ÓÉÆ÷Ì½²â£¬Ìá¸ßÍøËÙ               ^|
+echo.   ^|   å¯ç”¨æœ€å¤§ä¼ è¾“å•å…ƒå¤§å°è‡ªåŠ¨æŽ¢æµ‹ã€é»‘æ´žè·¯ç”±å™¨æŽ¢æµ‹ï¼Œæé«˜ç½‘é€Ÿ               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯Ä¬ÈÏ·Ö×é±¨ÎÄÊÙÃü£¬±ÜÃâÀË·ÑÁ÷Á¿£¬Ìá¸ßÍøËÙ                         ^|
+echo.   ^|   ä¼˜åŒ–é»˜è®¤åˆ†ç»„æŠ¥æ–‡å¯¿å‘½ï¼Œé¿å…æµªè´¹æµé‡ï¼Œæé«˜ç½‘é€Ÿ                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯Íø¿¨ÐÔÄÜ£¬ÌáÉýÍøÂçÐ§ÂÊ                                           ^|
+echo.   ^|   ä¼˜åŒ–ç½‘å¡æ€§èƒ½ï¼Œæå‡ç½‘ç»œæ•ˆçŽ‡                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÍøÂçWINSÃû³Æ²éÑ¯Ê±¼ä£¬ÔöÇ¿ÍøÂçÊý¾Ý´«ÊäÄÜÁ¦£¬Ìá¸ßÍøËÙ             ^|
+echo.   ^|   ä¼˜åŒ–ç½‘ç»œWINSåç§°æŸ¥è¯¢æ—¶é—´ï¼Œå¢žå¼ºç½‘ç»œæ•°æ®ä¼ è¾“èƒ½åŠ›ï¼Œæé«˜ç½‘é€Ÿ             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÍøÂç²ÎÊýÉèÖÃ£¬Ìá¸ßÍøÂçÁ¬½ÓÎÈ¶¨ÐÔ                                 ^|
+echo.   ^|   ä¼˜åŒ–ç½‘ç»œå‚æ•°è®¾ç½®ï¼Œæé«˜ç½‘ç»œè¿žæŽ¥ç¨³å®šæ€§                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯ÍøÂç¿ìËÙ×ª·¢»úÖÆ£¬Ìá¸ßÉÏÍøËÙ¶È                                   ^|
+echo.   ^|   ä¼˜åŒ–ç½‘ç»œå¿«é€Ÿè½¬å‘æœºåˆ¶ï¼Œæé«˜ä¸Šç½‘é€Ÿåº¦                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯¾ÖÓòÍøÁ¬½Ó                                                       ^|
+echo.   ^|   ä¼˜åŒ–å±€åŸŸç½‘è¿žæŽ¥                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÅ»¯DNS£¬¼Ó¿ìDNSµÄ½âÎöËÙ¶È                                           ^|
+echo.   ^|   ä¼˜åŒ–DNSï¼ŒåŠ å¿«DNSçš„è§£æžé€Ÿåº¦                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Æô¶¯´«Êäµ¥Ôª»º³åÇø×Ô¶¯µ÷Õû£¬¼õÉÙÍøÂç·´Ó¦Ê±¼ä¡£µçÄÔ¹Ü¼Ò               ^|
+echo.   ^|   å¯åŠ¨ä¼ è¾“å•å…ƒç¼“å†²åŒºè‡ªåŠ¨è°ƒæ•´ï¼Œå‡å°‘ç½‘ç»œååº”æ—¶é—´ã€‚ç”µè„‘ç®¡å®¶               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ***ÆäËûÓÅ»¯***                                                       ^|
+echo.   ^|   ***å…¶ä»–ä¼˜åŒ–***                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÔÊÐíÍøÕ¾Í¨¹ý·ÃÎÊÎÒµÄÓïÑÔÁÐ±íÀ´Ìá¹©±¾µØÏà¹ØÄÚÈÝ                   ^|
+echo.   ^|   å…³é—­å…è®¸ç½‘ç«™é€šè¿‡è®¿é—®æˆ‘çš„è¯­è¨€åˆ—è¡¨æ¥æä¾›æœ¬åœ°ç›¸å…³å†…å®¹                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ·´À¡ºÍÕï¶Ï                                                       ^|
+echo.   ^|   å…³é—­åé¦ˆå’Œè¯Šæ–­                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±ÕÊÕ¼¯ÓïÑÔºÍÊéÐ´Ï°¹ß                                               ^|
+echo.   ^|   å…³é—­æ”¶é›†è¯­è¨€å’Œä¹¦å†™ä¹ æƒ¯                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õwindows¸ú×ÙÓ¦ÓÃÆô¶¯                                              ^|
+echo.   ^|   å…³é—­windowsè·Ÿè¸ªåº”ç”¨å¯åŠ¨                                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ·´À¡ÆµÂÊ¸ÄÎª"´Ó²»"                                                   ^|
-if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
-if /i "!Version!"=="10" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   åé¦ˆé¢‘çŽ‡æ”¹ä¸º"ä»Žä¸"                                                   ^|
+if  /i "!Version:~0,1!"=="8" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
+if /i "!Version!"=="10" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ´«µÝÓÅ»¯                                                         ^|
+echo.   ^|   å…³é—­ä¼ é€’ä¼˜åŒ–                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÒ¼üÌí¼Ó¹ÜÀíÔ±È¡µÃËùÓÐÈ¨                                             ^|
-if /i "!Version!"=="7" echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul && cls
+echo.   ^|   å³é”®æ·»åŠ ç®¡ç†å‘˜å–å¾—æ‰€æœ‰æƒ                                             ^|
+if /i "!Version!"=="7" echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul && cls
 echo.   ^|                                                                        ^|
-echo.   ^|   È¥µô WinRAR ÔÚÓÒ¼ü²Ëµ¥ÖÐÌí¼ÓµÄ"Ñ¹Ëõ...²¢ E-Mail"                     ^|
+echo.   ^|   åŽ»æŽ‰ WinRAR åœ¨å³é”®èœå•ä¸­æ·»åŠ çš„"åŽ‹ç¼©...å¹¶ E-Mail"                     ^|
 if /i "!Version!"=="10" (
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹ÍøÒ×ÔÆÒôÀÖºóÌ¨ÔËÐÐ                                               ^|
+echo.   ^|   ç¦æ­¢ç½‘æ˜“äº‘éŸ³ä¹åŽå°è¿è¡Œ                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹ÍøÒ×ÔÆÒôÀÖµÄÓ¦ÓÃÍ¨Öª                                             ^|
+echo.   ^|   ç¦æ­¢ç½‘æ˜“äº‘éŸ³ä¹çš„åº”ç”¨é€šçŸ¥                                             ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼ÇÊÂ±¾×Ô¶¯»»ÐÐ                                                       ^|
+echo.   ^|   è®°äº‹æœ¬è‡ªåŠ¨æ¢è¡Œ                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼ÇÊÂ±¾Ê¼ÖÕÏÔÊ¾×´Ì¬À¸                                                 ^|
+echo.   ^|   è®°äº‹æœ¬å§‹ç»ˆæ˜¾ç¤ºçŠ¶æ€æ                                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÃ¼ÇÊÂ±¾´ò¿ªNFOÎÄ¼þ                                                  ^|
+echo.   ^|   ç”¨è®°äº‹æœ¬æ‰“å¼€NFOæ–‡ä»¶                                                  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows Media Player²»ÏÔÊ¾Ê×´ÎÊ¹ÓÃ¶Ô»°¿ò                             ^|
+echo.   ^|   Windows Media Playerä¸æ˜¾ç¤ºé¦–æ¬¡ä½¿ç”¨å¯¹è¯æ¡†                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÆôÓÃWindows ÕÕÆ¬²é¿´Æ÷                                               ^|
+echo.   ^|   å¯ç”¨Windows ç…§ç‰‡æŸ¥çœ‹å™¨                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   VHDÆô¶¯Ê±²»Òª½«VHD¶¯Ì¬ÎÄ¼þÀ©Õ¹µ½×î´ó£¨ÒÔ½ÚÊ¡¿Õ¼ä£©                   ^|
+echo.   ^|   VHDå¯åŠ¨æ—¶ä¸è¦å°†VHDåŠ¨æ€æ–‡ä»¶æ‰©å±•åˆ°æœ€å¤§ï¼ˆä»¥èŠ‚çœç©ºé—´ï¼‰                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÖ¹À¶ÆÁÊ±×Ô¶¯ÖØÆô                                                   ^|
+echo.   ^|   ç¦æ­¢è“å±æ—¶è‡ªåŠ¨é‡å¯                                                   ^|
 if !Version! neq 7 (
 echo.   ^|                                                                        ^|
-echo.   ^|   ¹Ø±Õ¿ìËÙÆô¶¯                                                         ^|
+echo.   ^|   å…³é—­å¿«é€Ÿå¯åŠ¨                                                         ^|
 )
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃÏµÍ³ÈÕÖ¾                                                         ^|
+echo.   ^|   ç¦ç”¨ç³»ç»Ÿæ—¥å¿—                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃ×é¼þ¶ÑÕ»£¨Component Based Servicing£©ÎÄ¼þ±¸·Ý                    ^|
+echo.   ^|   ç¦ç”¨ç»„ä»¶å †æ ˆï¼ˆComponent Based Servicingï¼‰æ–‡ä»¶å¤‡ä»½                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½ûÓÃWfpDiag.ETLÈÕÖ¾                                                  ^|
+echo.   ^|   ç¦ç”¨WfpDiag.ETLæ—¥å¿—                                                  ^|
 echo.   ^|                                                                        ^|
-echo. && echo. && echo.       ÒÔÉÏÊÇÕë¶Ô"Windows!Version!_x!Bit!"µÄÓÅ»¯ÏîÄ¿£¬Çë°´ÈÎÒâ¼ü¼ÌÐø... && pause>nul
+echo. && echo. && echo.       ä»¥ä¸Šæ˜¯é’ˆå¯¹"Windows!Version!_x!Bit!"çš„ä¼˜åŒ–é¡¹ç›®ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­... && pause>nul
 set "AppPath=File\Reg\Windows!Version!.reg"
 if /i "!Version!"=="10" (
 	if !ReleaseId! gtr 1809 set "AppPath=File\Reg\Windows!Version!+.reg"
@@ -1291,26 +1291,26 @@ if exist "!AppPath!" (
 reg query "HKLM\ZTM\Microsoft\Windows\CurrentVersion\RunOnce" /v "majorization" >nul 2>nul && if exist "Mount\Windows\System32\Windows!Version!.reg" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input8
-cls&mode con cols=80 lines=30&title ¼¯³ÉCMD-PE&set "Item=¼¯³ÉCMD-PE"
+cls&mode con cols=80 lines=30&title é›†æˆCMD-PE&set "Item=é›†æˆCMD-PE"
 set "goto=menu3"
 echo.
-echo.    ______________________________ ¼¯³ÉCMD-PE ______________________________
+echo.    ______________________________ é›†æˆCMD-PE ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ìæ»»Windows REÎªCMD-PE£¬Èç¹ûÏµÍ³°²×°Ê§°Ü£¬»òÏµÍ³³öÏÖÎÊÌâÎÞ·¨Õý³£Æô   ^|
+echo.   ^|   æ›¿æ¢Windows REä¸ºCMD-PEï¼Œå¦‚æžœç³»ç»Ÿå®‰è£…å¤±è´¥ï¼Œæˆ–ç³»ç»Ÿå‡ºçŽ°é—®é¢˜æ— æ³•æ­£å¸¸å¯   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¶¯ÏµÍ³£¬¿ÉÒÔ½øCMD-PE£¬¿ÉÒÔÉÏÍø£¬¿ÉÒÔÔ¶³Ì£¬¿ÉÒÔÏÂÔØ£¬²é¿´ÏêÇéÇë°´ G...^|
+echo.   ^|   åŠ¨ç³»ç»Ÿï¼Œå¯ä»¥è¿›CMD-PEï¼Œå¯ä»¥ä¸Šç½‘ï¼Œå¯ä»¥è¿œç¨‹ï¼Œå¯ä»¥ä¸‹è½½ï¼ŒæŸ¥çœ‹è¯¦æƒ…è¯·æŒ‰ G...^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ¼¯³ÉCMD-PE                                                       ^|
+echo.   ^|   [1] é›†æˆCMD-PE                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1GX /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1GX /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :menu3
 if errorlevel 2 (start http://cmdpe.com/post/8.html & goto :input8)
-cls&&echo.&&echo.ÕýÔÚ¼¯³ÉCMD-PEÖÐ£¬ÇëÉÔµÈ...
+cls&&echo.&&echo.æ­£åœ¨é›†æˆCMD-PEä¸­ï¼Œè¯·ç¨ç­‰...
 if exist "Mount\Windows\System32\Recovery" rd /s /q "Mount\Windows\System32\Recovery" >nul 2>nul
 "!ToolsPath!\7z.exe" -y x "File\cmdpe\cmdpe.7z" "cmdpe.exe" -o"Mount\Windows\System32\oobe" >nul 2>nul
 "!ToolsPath!\7z.exe" -y x "File\cmdpe\cmdpe.7z" "cmdpe.sdi" -o"Mount\Windows\System32\Recovery" >nul 2>nul
@@ -1323,24 +1323,24 @@ reg unload HKLM\CMDPE_SYSTEM >nul 2>nul
 if exist "Mount\Windows\System32\Recovery\cmdpe.wim" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input9
-cls&mode con cols=80 lines=30&title ¿ªÆô Compact_OS
-set "Item=¿ªÆô Compact_OS"
+cls&mode con cols=80 lines=30&title å¼€å¯ Compact_OS
+set "Item=å¼€å¯ Compact_OS"
 set "goto=menu3"
 echo.
-echo.    ____________________________ ¿ªÆôCompact_OS ____________________________
+echo.    ____________________________ å¼€å¯Compact_OS ____________________________
 echo.   ^|                            ----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¿ªÆôCompact_OS(½ô´ÕÐÍ²Ù×÷ÏµÍ³)£¬Ö»Ö§³ÖWindows 10£¬¿ªÆôºóºÃ´¦ÊÇÏµÍ³   ^|
+echo.   ^|   å¼€å¯Compact_OS(ç´§å‡‘åž‹æ“ä½œç³»ç»Ÿ)ï¼Œåªæ”¯æŒWindows 10ï¼Œå¼€å¯åŽå¥½å¤„æ˜¯ç³»ç»Ÿ   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   °²×°ÍêÕ¼ÓÃ¸üÐ¡µÄ´ÅÅÌ¿Õ¼ä£¬»µ´¦ÊÇ»áÔö¼ÓÏµÍ³°²×°Ê±¼ä¡£                 ^|
+echo.   ^|   å®‰è£…å®Œå ç”¨æ›´å°çš„ç£ç›˜ç©ºé—´ï¼Œåå¤„æ˜¯ä¼šå¢žåŠ ç³»ç»Ÿå®‰è£…æ—¶é—´ã€‚                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ¿ªÆôCompact OS                                                   ^|
+echo.   ^|   [1] å¼€å¯Compact OS                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 2 goto :menu3
 if errorlevel 1 goto :CompactOS 
 
@@ -1350,34 +1350,34 @@ if /i "!Version!"=="10" (
 	echo Compact.exe /CompactOS:always > "!ScriptsLog!\CompactOS.log"
 	if exist "!ScriptsLog!\CompactOS.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 ) else (
-	echo. && echo.¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!£¬¸Ã¹¦ÄÜÖ»Ö§³ÖWindows 10£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :menu3
+	echo. && echo.æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!ï¼Œè¯¥åŠŸèƒ½åªæ”¯æŒWindows 10ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :menu3
 )
 
 :input10
-cls&mode con cols=80 lines=30&title OEMÐÅÏ¢ÉèÖÃ
+cls&mode con cols=80 lines=30&title OEMä¿¡æ¯è®¾ç½®
 set "Item="
 set "goto=input10"
 echo.
-echo.    _____________________________ OEMÐÅÏ¢ÉèÖÃ ______________________________
+echo.    _____________________________ OEMä¿¡æ¯è®¾ç½® ______________________________
 echo.   ^|                             -------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Èç¹û²»ÖªµÀOEMÐÅÏ¢ÊÇÊ²Ã´£¬²é¿´ÏêÇéÇë°´ G...                           ^|
+echo.   ^|   å¦‚æžœä¸çŸ¥é“OEMä¿¡æ¯æ˜¯ä»€ä¹ˆï¼ŒæŸ¥çœ‹è¯¦æƒ…è¯·æŒ‰ G...                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÖÆÔìÉÌ                                                           ^|
+echo.   ^|   [1] åˆ¶é€ å•†                                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÐÍºÅ                                                             ^|
+echo.   ^|   [2] åž‹å·                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ÍøÕ¾                                                             ^|
+echo.   ^|   [3] ç½‘ç«™                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] Í¼±ê                                                             ^|
+echo.   ^|   [4] å›¾æ ‡                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] ±ÚÖ½                                                             ^|
+echo.   ^|   [5] å£çº¸                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12345GX /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12345GX /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 7 goto :menu3
 if errorlevel 6 (start http://www.cmdpe.com/zb_users/theme/HTML5CSS3/style/images/OEM.jpg & goto :input10)
 if errorlevel 5 goto :Wallpaper
@@ -1387,96 +1387,96 @@ if errorlevel 2 goto :Model
 if errorlevel 1 goto :Manufacturer
 
 :Manufacturer
-cls&title OEMÖÆÔìÉÌÉèÖÃ&set "Manufacturer="
+cls&title OEMåˆ¶é€ å•†è®¾ç½®&set "Manufacturer="
 echo.
-echo.    _____________________________ OEMÖÆÔìÉÌÉèÖÃ ____________________________
+echo.    _____________________________ OEMåˆ¶é€ å•†è®¾ç½® ____________________________
 echo.   ^|                             ---------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈëOEM±êÌâÈ»ºó»Ø³µ£¬ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£         ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥OEMæ ‡é¢˜ç„¶åŽå›žè½¦ï¼Œå¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚         ^|
 echo.   ^|                                                                        ^|
 echo.
-set /p Manufacturer=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Manufacturer cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :Manufacturer
-if /i "!Manufacturer: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :Manufacturer
+set /p Manufacturer=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Manufacturer cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :Manufacturer
+if /i "!Manufacturer: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :Manufacturer
 if /i "!Manufacturer!" equ "x" goto :input10
-set "Item=ÉèÖÃOEMÖÆÔìÉÌÎª!Manufacturer!"
+set "Item=è®¾ç½®OEMåˆ¶é€ å•†ä¸º!Manufacturer!"
 reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\OEMInformation" /v "Manufacturer" /t REG_SZ /d "!Manufacturer!" /f >nul 2>nul
 call :Log & call :Achiexe
 
 :Model
-cls&title OEMÐÍºÅÉèÖÃ&set "Model="
+cls&title OEMåž‹å·è®¾ç½®&set "Model="
 echo.
-echo.    ______________________________ OEMÐÍºÅÉèÖÃ _____________________________
+echo.    ______________________________ OEMåž‹å·è®¾ç½® _____________________________
 echo.   ^|                              -------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈëOEMÐÍºÅÈ»ºó»Ø³µ£¬ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£         ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥OEMåž‹å·ç„¶åŽå›žè½¦ï¼Œå¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚         ^|
 echo.   ^|                                                                        ^|
 echo.
-set /p Model=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Model cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :Manufacturer
-if /i "!Model: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :Manufacturer
+set /p Model=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Model cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :Manufacturer
+if /i "!Model: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :Manufacturer
 if /i "!Model!" equ "x" goto :input10
-set "Item=ÉèÖÃOEMÖÆÔìÉÌÎª!Model!"
+set "Item=è®¾ç½®OEMåˆ¶é€ å•†ä¸º!Model!"
 reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\OEMInformation" /v "Model" /t REG_SZ /d "!Model!" /f >nul 2>nul
 call :Log & call :Achiexe
 
 :SupportURL
-cls&title OEMÍøÕ¾ÉèÖÃ&set "SupportURL="
+cls&title OEMç½‘ç«™è®¾ç½®&set "SupportURL="
 echo.
-echo.    ______________________________ OEMÍøÕ¾ÉèÖÃ _____________________________
+echo.    ______________________________ OEMç½‘ç«™è®¾ç½® _____________________________
 echo.   ^|                              -------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈëOEMÍøÖ·È»ºó»Ø³µ£¬ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£         ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥OEMç½‘å€ç„¶åŽå›žè½¦ï¼Œå¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚         ^|
 echo.   ^|                                                                        ^|
 echo.
-set /p SupportURL=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined SupportURL cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :SupportURL
-if /i "!SupportURL: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :SupportURL
+set /p SupportURL=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined SupportURL cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :SupportURL
+if /i "!SupportURL: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :SupportURL
 if /i "!SupportURL!" equ "x" goto :input10
-set "Item=ÉèÖÃOEMÍøÕ¾Îª!SupportURL!"
+set "Item=è®¾ç½®OEMç½‘ç«™ä¸º!SupportURL!"
 reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\OEMInformation" /v "SupportURL" /t REG_SZ /d "!SupportURL!" /f >nul 2>nul
 call :Log & call :Achiexe
 
 :Oemlogo
-cls&title OEMÍ¼±êÉèÖÃ&set "Item=ÉèÖÃOEMÍ¼±ê"
+cls&title OEMå›¾æ ‡è®¾ç½®&set "Item=è®¾ç½®OEMå›¾æ ‡"
 echo.
-echo.    ______________________________ OEMÍ¼±êÉèÖÃ _____________________________
+echo.    ______________________________ OEMå›¾æ ‡è®¾ç½® _____________________________
 echo.   ^|                              -------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù.bmp¸ñÊ½Í¼±êÔ´ÎÄ¼þµÄÍêÕûÂ·¾¶È»ºó»Ø³µ¡£       ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´.bmpæ ¼å¼å›¾æ ‡æºæ–‡ä»¶çš„å®Œæ•´è·¯å¾„ç„¶åŽå›žè½¦ã€‚       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.
-set /p LogoPath=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined LogoPath cls&&echo.&&echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë......&&pause>nul&&goto :Oemlogo
+set /p LogoPath=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined LogoPath cls&&echo.&&echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥......&&pause>nul&&goto :Oemlogo
 set "LogoPath=!LogoPath:"=!"
 if /i "!LogoPath!" equ "x" goto :input10
-if "%LogoPath:~-4%" neq ".bmp" (cls&&echo.&&echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :Oemlogo)
+if "%LogoPath:~-4%" neq ".bmp" (cls&&echo.&&echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :Oemlogo)
 if exist "!LogoPath!" (
 	copy /v /y "!LogoPath!" "Mount\Windows\System32\OEM.bmp" >nul 2>nul
 	reg add "HKLM\ZTM\Microsoft\Windows\CurrentVersion\OEMInformation" /v "logo" /t REG_SZ /d "OEM.bmp" /f >nul 2>nul
 ) else ( 
-	cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input10 
+	cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input10 
 )
 call :Log & call :Achiexe
 
 :Wallpaper
-cls&title ×ÀÃæ±ÚÖ½ÉèÖÃ&set "Item=×ÀÃæ±ÚÖ½ÉèÖÃ"
+cls&title æ¡Œé¢å£çº¸è®¾ç½®&set "Item=æ¡Œé¢å£çº¸è®¾ç½®"
 echo.
-echo.    _____________________________ ×ÀÃæ±ÚÖ½ÉèÖÃ _____________________________
+echo.    _____________________________ æ¡Œé¢å£çº¸è®¾ç½® _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù.jpg¸ñÊ½Í¼Æ¬Ô´ÎÄ¼þµÄÍêÕûÂ·¾¶È»ºó»Ø³µ¡£       ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´.jpgæ ¼å¼å›¾ç‰‡æºæ–‡ä»¶çš„å®Œæ•´è·¯å¾„ç„¶åŽå›žè½¦ã€‚       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.
-set /p Wallpaper=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Wallpaper cls&&echo.&&echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë......&&pause>nul&&goto :Oemlogo
+set /p Wallpaper=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Wallpaper cls&&echo.&&echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥......&&pause>nul&&goto :Oemlogo
 set "Wallpaper=!Wallpaper:"=!"
 if /i "!Wallpaper!" equ "x" goto :input10
-if /i "%Wallpaper:~-4%" neq ".jpg" (cls&&echo.&&echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :Oemlogo)
+if /i "%Wallpaper:~-4%" neq ".jpg" (cls&&echo.&&echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :Oemlogo)
 if exist "!Wallpaper!" (
 	copy /v /y "!Wallpaper!" "Mount\Windows\Web\Wallpaper\OEM.jpg" >nul 2>nul
 	copy /v /y "File\Bin\x64\PECMD.EXE" "Mount\Windows\Sysprep\PECMD.EXE" >nul 2>nul
@@ -1490,60 +1490,60 @@ if exist "!Wallpaper!" (
 	REM copy /v /y "!Wallpaper!" "Mount\Windows\Web\Wallpaper\OEM.jpg" >nul 2>nul
 	REM echo reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v "WallPaper" /t REG_SZ /d "C:\Windows\web\wallpaper\OEM.jpg" /f > "!ScriptsLog!\Wallpaper.log"
 ) else ( 
-	cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input10 
+	cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input10 
 )
 if exist "!ScriptsLog!\Wallpaper.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 REM call :Log & call :Achiexe
 
 :input11
-cls&mode con cols=80 lines=30&title IEÖ÷Ò³ÉèÖÃ
+cls&mode con cols=80 lines=30&title IEä¸»é¡µè®¾ç½®
 set "Item="
 set "goto=menu3"
 echo.
-echo.    ______________________________ IEÖ÷Ò³ÉèÖÃ ______________________________
+echo.    ______________________________ IEä¸»é¡µè®¾ç½® ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈëIEä¯ÀÀÆ÷Ö÷Ò³ÍøÖ·£¬È»ºó»Ø³µ¡£                       ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥IEæµè§ˆå™¨ä¸»é¡µç½‘å€ï¼Œç„¶åŽå›žè½¦ã€‚                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.
 set "IeHome="
-set /p IeHome=^>^>^>^>^>^>^>ÇëÊäÈë£º
-if not defined IeHome cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input11
-if /i "!IeHome: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :input11
+set /p IeHome=^>^>^>^>^>^>^>è¯·è¾“å…¥ï¼š
+if not defined IeHome cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input11
+if /i "!IeHome: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :input11
 if /i "!IeHome!" equ "x" goto :menu3
-set "Item=ÉèÖÃIEÖ÷Ò³Îª!IeHome!"
+set "Item=è®¾ç½®IEä¸»é¡µä¸º!IeHome!"
 echo reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /t REG_SZ /d "!IeHome!" /f > "!ScriptsLog!\IeHome.log"
 if exist "!ScriptsLog!\IeHome.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input12
-cls&mode con cols=80 lines=30&title Windows¸üÐÂÉèÖÃ
+cls&mode con cols=80 lines=30&title Windowsæ›´æ–°è®¾ç½®
 set "Item="
 set "goto=input12"
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè³¹µ×½ûÓÃWindows Update¸üÐÂ¹¦ÄÜ£¬Ö±½ÓÉèÖÃÑ¡Ïî[6]¼´¿É...           ^|
+echo.   ^|   å¦‚éœ€å½»åº•ç¦ç”¨Windows Updateæ›´æ–°åŠŸèƒ½ï¼Œç›´æŽ¥è®¾ç½®é€‰é¡¹[6]å³å¯...           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÊÇ·ñ×Ô¶¯°²×°ÎÞÐèÖØÆôµÄ¸üÐÂ                                       ^|
+echo.   ^|   [1] æ˜¯å¦è‡ªåŠ¨å®‰è£…æ— éœ€é‡å¯çš„æ›´æ–°                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ¸üÐÂ¹ÒÆðÊ±Èç¹ûÓÐÓÃ»§µÇÂ¼ÊÇ·ñ×Ô¶¯ÖØÆô¼ÆËã»ú                       ^|
+echo.   ^|   [2] æ›´æ–°æŒ‚èµ·æ—¶å¦‚æžœæœ‰ç”¨æˆ·ç™»å½•æ˜¯å¦è‡ªåŠ¨é‡å¯è®¡ç®—æœº                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Windows¸üÐÂÊÇ·ñ°üÀ¨Çý¶¯³ÌÐò£¨½öÕë¶ÔWindows10£©                   ^|
+echo.   ^|   [3] Windowsæ›´æ–°æ˜¯å¦åŒ…æ‹¬é©±åŠ¨ç¨‹åºï¼ˆä»…é’ˆå¯¹Windows10ï¼‰                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] Windows¸üÐÂÊÇ·ñ°üÀ¨¶ñÒâÈí¼þÉ¾³ý¹¤¾ß                              ^|
+echo.   ^|   [4] Windowsæ›´æ–°æ˜¯å¦åŒ…æ‹¬æ¶æ„è½¯ä»¶åˆ é™¤å·¥å…·                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] ½«Windows¸üÐÂµ÷ÕûÎª...                                        ^|
+echo.   ^|   [5] å°†Windowsæ›´æ–°è°ƒæ•´ä¸º...                                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [6] ½ûÓÃ»òÆôÓÃWindows¸üÐÂ·þÎñ                                        ^|
+echo.   ^|   [6] ç¦ç”¨æˆ–å¯ç”¨Windowsæ›´æ–°æœåŠ¡                                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:123456X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:123456X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 7 goto :menu3
 if errorlevel 6 goto :UpdateSet6
 if errorlevel 5 goto :UpdateSet5
@@ -1555,204 +1555,204 @@ if errorlevel 1 goto :UpdateSet1
 :UpdateSet1
 cls
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÊÇ·ñ×Ô¶¯°²×°ÎÞÐèÖØÆôµÄ¸üÐÂ£¿                                         ^|
+echo.   ^|   æ˜¯å¦è‡ªåŠ¨å®‰è£…æ— éœ€é‡å¯çš„æ›´æ–°ï¼Ÿ                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÊÇ                                                               ^|
+echo.   ^|   [1] æ˜¯                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ²»                                                               ^|
+echo.   ^|   [2] ä¸                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input12
-if errorlevel 2 (set "Item=²»×Ô¶¯°²×°ÎÞÐèÖØÆôµÄ¸üÐÂ-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AutoInstallMinorUpdates" /t REG_DWORD /d "0" /f >nul 2>nul)
-if errorlevel 1 (set "Item=×Ô¶¯°²×°ÎÞÐèÖØÆôµÄ¸üÐÂ-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AutoInstallMinorUpdates" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 2 (set "Item=ä¸è‡ªåŠ¨å®‰è£…æ— éœ€é‡å¯çš„æ›´æ–°-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AutoInstallMinorUpdates" /t REG_DWORD /d "0" /f >nul 2>nul)
+if errorlevel 1 (set "Item=è‡ªåŠ¨å®‰è£…æ— éœ€é‡å¯çš„æ›´æ–°-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AutoInstallMinorUpdates" /t REG_DWORD /d "1" /f >nul 2>nul)
 call :Log & call :Achiexe
 
 :UpdateSet2
 cls
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¸üÐÂ¹ÒÆðÊ±Èç¹ûÓÐÓÃ»§µÇÂ¼ÊÇ·ñ×Ô¶¯ÖØÆô¼ÆËã»ú£¿                         ^|
+echo.   ^|   æ›´æ–°æŒ‚èµ·æ—¶å¦‚æžœæœ‰ç”¨æˆ·ç™»å½•æ˜¯å¦è‡ªåŠ¨é‡å¯è®¡ç®—æœºï¼Ÿ                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ²»                                                               ^|
+echo.   ^|   [1] ä¸                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÊÇ                                                               ^|
+echo.   ^|   [2] æ˜¯                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input12
-if errorlevel 2 (set "Item=¸üÐÂ¹ÒÆðÊ±Èç¹ûÓÐÓÃ»§µÇÂ¼×Ô¶¯ÖØÆô¼ÆËã»ú-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoRebootWithLoggedOnUsers" /t REG_DWORD /d "0" /f >nul 2>nul)
-if errorlevel 1 (set "Item=¸üÐÂ¹ÒÆðÊ±Èç¹ûÓÐÓÃ»§µÇÂ¼²»×Ô¶¯ÖØÆô¼ÆËã»ú-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoRebootWithLoggedOnUsers" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 2 (set "Item=æ›´æ–°æŒ‚èµ·æ—¶å¦‚æžœæœ‰ç”¨æˆ·ç™»å½•è‡ªåŠ¨é‡å¯è®¡ç®—æœº-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoRebootWithLoggedOnUsers" /t REG_DWORD /d "0" /f >nul 2>nul)
+if errorlevel 1 (set "Item=æ›´æ–°æŒ‚èµ·æ—¶å¦‚æžœæœ‰ç”¨æˆ·ç™»å½•ä¸è‡ªåŠ¨é‡å¯è®¡ç®—æœº-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoRebootWithLoggedOnUsers" /t REG_DWORD /d "1" /f >nul 2>nul)
 call :Log & call :Achiexe
 :UpdateSet3
 cls
-if /i not "!Version!"=="10" (cls && echo. && echo.´ËÏîÖÁÕë¶ÔWindows10£¬ÒÑ¹ÒÔØµÄÏµÍ³ÊÇWindows!Version!£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input12)
+if /i not "!Version!"=="10" (cls && echo. && echo.æ­¤é¡¹è‡³é’ˆå¯¹Windows10ï¼Œå·²æŒ‚è½½çš„ç³»ç»Ÿæ˜¯Windows!Version!ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input12)
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows¸üÐÂÊÇ·ñ°üÀ¨Çý¶¯³ÌÐò£¿(½öÕý¶ÔWindows10)                       ^|
+echo.   ^|   Windowsæ›´æ–°æ˜¯å¦åŒ…æ‹¬é©±åŠ¨ç¨‹åºï¼Ÿ(ä»…æ­£å¯¹Windows10)                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ²»                                                               ^|
+echo.   ^|   [1] ä¸                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÊÇ                                                               ^|
+echo.   ^|   [2] æ˜¯                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ:
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©:
 if errorlevel 3 goto :input12
-if errorlevel 2 (set "Item=Windows¸üÐÂ°üÀ¨Çý¶¯³ÌÐò-ÉèÖÃ" & Reg delete "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /f >nul 2>nul & Reg ADD "HKLM\ZTM\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 1 /f >nul 2>nul)
-if errorlevel 1 (set "Item=Windows¸üÐÂ²»°üÀ¨Çý¶¯³ÌÐò-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f >nul 2>nul & Reg ADD "HKLM\ZTM\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 0 /f >nul 2>nul)
+if errorlevel 2 (set "Item=Windowsæ›´æ–°åŒ…æ‹¬é©±åŠ¨ç¨‹åº-è®¾ç½®" & Reg delete "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /f >nul 2>nul & Reg ADD "HKLM\ZTM\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 1 /f >nul 2>nul)
+if errorlevel 1 (set "Item=Windowsæ›´æ–°ä¸åŒ…æ‹¬é©±åŠ¨ç¨‹åº-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f >nul 2>nul & Reg ADD "HKLM\ZTM\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 0 /f >nul 2>nul)
 call :Log & call :Achiexe
 
 :UpdateSet4
 cls
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows¸üÐÂÊÇ·ñ°üÀ¨¶ñÒâÈí¼þÉ¾³ý¹¤¾ß£¿                                ^|
+echo.   ^|   Windowsæ›´æ–°æ˜¯å¦åŒ…æ‹¬æ¶æ„è½¯ä»¶åˆ é™¤å·¥å…·ï¼Ÿ                                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ²»                                                               ^|
+echo.   ^|   [1] ä¸                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÊÇ                                                               ^|
+echo.   ^|   [2] æ˜¯                                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input12
-if errorlevel 2 (set "Item=Windows¸üÐÂ°üÀ¨¶ñÒâÈí¼þÉ¾³ý¹¤¾ß-ÉèÖÃ" & Reg delete "HKLM\ZTM\Policies\Microsoft\MRT" /v "DontOfferThroughWUAU" /f >nul 2>nul)
-if errorlevel 1 (set "Item=Windows¸üÐÂ²»°üÀ¨¶ñÒâÈí¼þÉ¾³ý¹¤¾ß-ÉèÖÃ" & Reg add "HKLM\ZTM\Policies\Microsoft\MRT" /v "DontOfferThroughWUAU" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 2 (set "Item=Windowsæ›´æ–°åŒ…æ‹¬æ¶æ„è½¯ä»¶åˆ é™¤å·¥å…·-è®¾ç½®" & Reg delete "HKLM\ZTM\Policies\Microsoft\MRT" /v "DontOfferThroughWUAU" /f >nul 2>nul)
+if errorlevel 1 (set "Item=Windowsæ›´æ–°ä¸åŒ…æ‹¬æ¶æ„è½¯ä»¶åˆ é™¤å·¥å…·-è®¾ç½®" & Reg add "HKLM\ZTM\Policies\Microsoft\MRT" /v "DontOfferThroughWUAU" /t REG_DWORD /d "1" /f >nul 2>nul)
 call :Log & call :Achiexe
 
 :UpdateSet5
 cls
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ½«Windows¸üÐÂµ÷ÕûÎª...                                            ^|
+echo.   ^|   å°†Windowsæ›´æ–°è°ƒæ•´ä¸º...                                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ´Ó²»¼ì²é¸üÐÂ                                                     ^|
+echo.   ^|   [1] ä»Žä¸æ£€æŸ¥æ›´æ–°                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ½ö¼ì²é¸üÐÂ                                                       ^|
+echo.   ^|   [2] ä»…æ£€æŸ¥æ›´æ–°                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ¼ì²é²¢ÏÂÔØ¸üÐÂ                                                   ^|
+echo.   ^|   [3] æ£€æŸ¥å¹¶ä¸‹è½½æ›´æ–°                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ×Ô¶¯°²×°¸üÐÂ£¨Ä¬ÈÏ£©                                             ^|
+echo.   ^|   [4] è‡ªåŠ¨å®‰è£…æ›´æ–°ï¼ˆé»˜è®¤ï¼‰                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1234X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1234X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 5 goto :input12
-if errorlevel 4 (set "Item=½«Windows¸üÐÂµ÷ÕûÎª-×Ô¶¯°²×°¸üÐÂ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "4" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "0" /f >nul 2>nul)
-if errorlevel 3 (set "Item=½«Windows¸üÐÂµ÷ÕûÎª-¼ì²é²¢ÏÂÔØ¸üÐÂ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "3" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
-if errorlevel 2 (set "Item=½«Windows¸üÐÂµ÷ÕûÎª-½ö¼ì²é¸üÐÂ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "2" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
-if errorlevel 1 (set "Item=½«Windows¸üÐÂµ÷ÕûÎª-´Ó²»¼ì²é¸üÐÂ" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "1" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 4 (set "Item=å°†Windowsæ›´æ–°è°ƒæ•´ä¸º-è‡ªåŠ¨å®‰è£…æ›´æ–°" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "4" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "0" /f >nul 2>nul)
+if errorlevel 3 (set "Item=å°†Windowsæ›´æ–°è°ƒæ•´ä¸º-æ£€æŸ¥å¹¶ä¸‹è½½æ›´æ–°" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "3" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 2 (set "Item=å°†Windowsæ›´æ–°è°ƒæ•´ä¸º-ä»…æ£€æŸ¥æ›´æ–°" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "2" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
+if errorlevel 1 (set "Item=å°†Windowsæ›´æ–°è°ƒæ•´ä¸º-ä»Žä¸æ£€æŸ¥æ›´æ–°" & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "1" /f & Reg add "HKLM\ZTM\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "1" /f >nul 2>nul)
 call :Log & call :Achiexe
 
 :UpdateSet6
 cls
 echo.
-echo.    ___________________________ Windows¸üÐÂÉèÖÃ ____________________________
+echo.    ___________________________ Windowsæ›´æ–°è®¾ç½® ____________________________
 echo.   ^|                           -----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:½«³¹µ×½ûÓÃWindows Update¸üÐÂ·þÎñ¡£                           ^|
+echo.   ^|   é€‰é¡¹[1]:å°†å½»åº•ç¦ç”¨Windows Updateæ›´æ–°æœåŠ¡ã€‚                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:½«ÖØÐÂÆôÓÃWindows Update¸üÐÂ·þÎñ¡£                           ^|
+echo.   ^|   é€‰é¡¹[2]:å°†é‡æ–°å¯ç”¨Windows Updateæ›´æ–°æœåŠ¡ã€‚                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ½ûÓÃ                                                             ^|
+echo.   ^|   [1] ç¦ç”¨                                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÆôÓÃ£¨Ä¬ÈÏ£©                                                     ^|
+echo.   ^|   [2] å¯ç”¨ï¼ˆé»˜è®¤ï¼‰                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :input12
 if errorlevel 2 goto :StartUpdate
 if errorlevel 1 goto :StopUpdate
 
 :StopUpdate
 cls
-set "Item=½ûÓÃWindows¸üÐÂ·þÎñ"
+set "Item=ç¦ç”¨Windowsæ›´æ–°æœåŠ¡"
 echo sc config wuauserv start= disabled > "!ScriptsLog!\Update.log"
 echo sc stop wuauserv >> "!ScriptsLog!\Update.log"
 if exist "!ScriptsLog!\Update.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 :StartUpdate
 cls
-set "Item=ÆôÓÃWindows¸üÐÂ·þÎñ"
+set "Item=å¯ç”¨Windowsæ›´æ–°æœåŠ¡"
 if exist "!ScriptsLog!\Update.log" del /f /q "!ScriptsLog!\Update.log"
 if not exist "!ScriptsLog!\Update.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input13
-cls&mode con cols=80 lines=30&title ¹Ø±ÕWindows·þÎñ
+cls&mode con cols=80 lines=30&title å…³é—­WindowsæœåŠ¡
 set "Item="
 set "goto=input13"
 echo.
-echo.    _______________________________ ¹Ø±Õ·þÎñ _______________________________
+echo.    _______________________________ å…³é—­æœåŠ¡ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´ËÏîÄã¿ÉÒÔ¹Ø±ÕWindowsÈÎºÎ·þÎñ£¬ÈçÐèÁË½âÈçºÎ²é¿´·þÎñÃû³ÆÇë°´ G...     ^|
+echo.   ^|   æ­¤é¡¹ä½ å¯ä»¥å…³é—­Windowsä»»ä½•æœåŠ¡ï¼Œå¦‚éœ€äº†è§£å¦‚ä½•æŸ¥çœ‹æœåŠ¡åç§°è¯·æŒ‰ G...     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÃæ¹â±ê´¦ÊäÈëÄãÒª¹Ø±ÕµÄ·þÎñÃû³Æ£¬È»ºó»Ø³µ¡£Ò»´ÎÖ»¿ÉÊäÈëÒ»¸ö     ^|
+echo.   ^|   è¯·åœ¨ä¸‹é¢å…‰æ ‡å¤„è¾“å…¥ä½ è¦å…³é—­çš„æœåŠ¡åç§°ï¼Œç„¶åŽå›žè½¦ã€‚ä¸€æ¬¡åªå¯è¾“å…¥ä¸€ä¸ª     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ·þÎñÃû³Æ£¬ÈçÐè¹Ø±Õ¶à¸ö·þÎñ£¬Çë¶à´ÎÊäÈë£¬ÇëÎðÊäÈë±êµã·ûºÅÓëÌØÊâ·ûºÅ¡£ ^|
+echo.   ^|   æœåŠ¡åç§°ï¼Œå¦‚éœ€å…³é—­å¤šä¸ªæœåŠ¡ï¼Œè¯·å¤šæ¬¡è¾“å…¥ï¼Œè¯·å‹¿è¾“å…¥æ ‡ç‚¹ç¬¦å·ä¸Žç‰¹æ®Šç¬¦å·ã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ·µ»ØÇëÊäÈë X È»ºó»Ø³µ¡£                                              ^|
+echo.   ^|   è¿”å›žè¯·è¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                              ^|
 echo.   ^|                                                                        ^|
 echo.
 set "Serving="
-set /p Serving=^>^>^>^>^>^>^>ÇëÊäÈë£º
-if not defined Serving cls && echo. && echo.ÄúµÄÊäÈë"!Serving!"Îª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input13
+set /p Serving=^>^>^>^>^>^>^>è¯·è¾“å…¥ï¼š
+if not defined Serving cls && echo. && echo.æ‚¨çš„è¾“å…¥"!Serving!"ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input13
 set "Serving=!Serving:"=!"
-if not defined Serving cls&&echo.&&echo.ÄúµÄÊäÈë"!Serving!"¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul&&goto :input13
+if not defined Serving cls&&echo.&&echo.æ‚¨çš„è¾“å…¥"!Serving!"æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul&&goto :input13
 if /i "!Serving!" equ "g" ( start http://cmdpe.com/post/9.html & goto :input13 )
 if /i "!Serving!" equ "x" goto :menu3
-if /i "!Serving: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :input13
-set "Item=¹Ø±Õ"!Serving!"·þÎñ"
+if /i "!Serving: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :input13
+set "Item=å…³é—­"!Serving!"æœåŠ¡"
 echo net stop !Serving! >> "!ScriptsLog!\Serving.log"
 if exist "!ScriptsLog!\Serving.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input14
-cls&mode con cols=80 lines=30&title ÕûºÏ×Ô¶¯ÇåÀí
-set "Item=ÕûºÏ×Ô¶¯ÇåÀí"
+cls&mode con cols=80 lines=30&title æ•´åˆè‡ªåŠ¨æ¸…ç†
+set "Item=æ•´åˆè‡ªåŠ¨æ¸…ç†"
 set "goto=menu3"
 echo.
-echo.    _____________________________ ÕûºÏ×Ô¶¯ÇåÀí _____________________________
+echo.    _____________________________ æ•´åˆè‡ªåŠ¨æ¸…ç† _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   µ±Ê¹ÓÃSetup.exe°²×°ÏµÍ³Ê±£¬CÅÌ¾ÉµÄÎÄ¼þ»á±»±£Áô£¬¾ÉµÄÏµÍ³»á±»´ò°ü³É   ^|
+echo.   ^|   å½“ä½¿ç”¨Setup.exeå®‰è£…ç³»ç»Ÿæ—¶ï¼ŒCç›˜æ—§çš„æ–‡ä»¶ä¼šè¢«ä¿ç•™ï¼Œæ—§çš„ç³»ç»Ÿä¼šè¢«æ‰“åŒ…æˆ   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Windows.old¡£Ìí¼Ó×Ô¶¯ÇåÀíºó£¬µ±ÏµÍ³°²×°Íê³ÉÊ±£¬CÅÌËùÓÐ¾ÉµÄÎÄ¼þºÍÎÄ   ^|
+echo.   ^|   Windows.oldã€‚æ·»åŠ è‡ªåŠ¨æ¸…ç†åŽï¼Œå½“ç³»ç»Ÿå®‰è£…å®Œæˆæ—¶ï¼ŒCç›˜æ‰€æœ‰æ—§çš„æ–‡ä»¶å’Œæ–‡   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ¼þ¼Ð¶¼»á±»×Ô¶¯ÇåÀí£¬°üÀ¨Windows.old¡£                                ^|
+echo.   ^|   ä»¶å¤¹éƒ½ä¼šè¢«è‡ªåŠ¨æ¸…ç†ï¼ŒåŒ…æ‹¬Windows.oldã€‚                                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÕûºÏ×Ô¶¯ÇåÀí                                                     ^|
+echo.   ^|   [1] æ•´åˆè‡ªåŠ¨æ¸…ç†                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 2 goto :menu3
 if errorlevel 1 goto :Autoclean
 
@@ -1772,43 +1772,43 @@ echo del /F /Q /A-S "%%SystemDrive%%\*.*" >> "!ScriptsLog!\Autoclean.log"
 if exist "!ScriptsLog!\Autoclean.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input15
-cls&mode con cols=80 lines=30&title Õë¶ÔÆ»¹ûµçÄÔÓÅ»¯
+cls&mode con cols=80 lines=30&title é’ˆå¯¹è‹¹æžœç”µè„‘ä¼˜åŒ–
 set "Item="
 set "goto=input15"
 echo.
-echo.    ___________________________ Õë¶ÔÆ»¹ûµçÄÔÓÅ»¯ ___________________________
+echo.    ___________________________ é’ˆå¯¹è‹¹æžœç”µè„‘ä¼˜åŒ– ___________________________
 echo.   ^|                           ------------------                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÕâÀïµÄÏîÄ¿£¬Ö»ÓÐÔÚÏµÍ³°²×°ÓÚÆ»¹ûµçÄÔÊ±²Å»áÉúÐ§£¬°²×°ÓÚPCÎÞÐ§¡£       ^|
+echo.   ^|   è¿™é‡Œçš„é¡¹ç›®ï¼Œåªæœ‰åœ¨ç³»ç»Ÿå®‰è£…äºŽè‹¹æžœç”µè„‘æ—¶æ‰ä¼šç”Ÿæ•ˆï¼Œå®‰è£…äºŽPCæ— æ•ˆã€‚       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:µ±ÏµÍ³°²×°ÓÚÆ»¹ûµçÄÔÊ±£¬Ê×´Î½ø×ÀÃæºó»á×Ô¶¯ËÑË÷²¢µ÷ÓÃÆ»¹û×¨   ^|
+echo.   ^|   é€‰é¡¹[1]:å½“ç³»ç»Ÿå®‰è£…äºŽè‹¹æžœç”µè„‘æ—¶ï¼Œé¦–æ¬¡è¿›æ¡Œé¢åŽä¼šè‡ªåŠ¨æœç´¢å¹¶è°ƒç”¨è‹¹æžœä¸“   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÓÃµÄBootCampÇý¶¯¡£Çý¶¯×Ü²Ã£¬Çý¶¯¾«Áé£¬ÍòÄÜÇý¶¯µÈÔò»á×Ô¶¯±»Çå³ý¡£     ^|
+echo.   ^|   ç”¨çš„BootCampé©±åŠ¨ã€‚é©±åŠ¨æ€»è£ï¼Œé©±åŠ¨ç²¾çµï¼Œä¸‡èƒ½é©±åŠ¨ç­‰åˆ™ä¼šè‡ªåŠ¨è¢«æ¸…é™¤ã€‚     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:Ê×´Î½ø×ÀÃæºóÔÚ×ÀÃæÐÂ½¨Ãû³ÆÎªztm.txtµÄÎÄ±¾£¬ÔÚÎÄ±¾ÄÚÐ´ÉÏÐèÒª  ^|
+echo.   ^|   é€‰é¡¹[2]:é¦–æ¬¡è¿›æ¡Œé¢åŽåœ¨æ¡Œé¢æ–°å»ºåç§°ä¸ºztm.txtçš„æ–‡æœ¬ï¼Œåœ¨æ–‡æœ¬å†…å†™ä¸Šéœ€è¦  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´´½¨·ÖÇøµÄÊýÁ¿Óë´óÐ¡£¬È»ºó±£´æÎÄ±¾¼´¿É´´½¨¶ÔÓ¦·ÖÇø£¬¶ÔÆ»¹ûÏµÍ³ÎÞÓ°   ^|
+echo.   ^|   åˆ›å»ºåˆ†åŒºçš„æ•°é‡ä¸Žå¤§å°ï¼Œç„¶åŽä¿å­˜æ–‡æœ¬å³å¯åˆ›å»ºå¯¹åº”åˆ†åŒºï¼Œå¯¹è‹¹æžœç³»ç»Ÿæ— å½±   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ïì£¬ÈçÐè²é¿´ÏêÇéÇë°´ G ...                                           ^|
+echo.   ^|   å“ï¼Œå¦‚éœ€æŸ¥çœ‹è¯¦æƒ…è¯·æŒ‰ G ...                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ×Ô¶¯ËÑË÷²¢°²×°BootCampÇý¶¯                                       ^|
+echo.   ^|   [1] è‡ªåŠ¨æœç´¢å¹¶å®‰è£…BootCampé©±åŠ¨                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] Æ»¹ûµçÄÔÉµ¹ÏÊ½´´½¨¶à·ÖÇø                                         ^|
+echo.   ^|   [2] è‹¹æžœç”µè„‘å‚»ç“œå¼åˆ›å»ºå¤šåˆ†åŒº                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12GX /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12GX /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 4 goto :menu3
 if errorlevel 3 ( start www.cmdpe.com & goto :input15 )
 if errorlevel 2 goto :AppleVhd
 if errorlevel 1 goto :BootCmp
 
 :BootCmp
-REM Reg add "HKLM\ZTM\Classes\Installer\Products\6B6EFFCF8EABE094880D90A7D91A4CD3" /v "ProductName" /t REG_SZ /d "Boot Camp ·þÎñ" /f >nul 2>nul
-cls&title ×Ô¶¯ËÑË÷²¢°²×°BootCampÇý¶¯
-set "Item=×Ô¶¯ËÑË÷²¢°²×°BootCampÇý¶¯"
+REM Reg add "HKLM\ZTM\Classes\Installer\Products\6B6EFFCF8EABE094880D90A7D91A4CD3" /v "ProductName" /t REG_SZ /d "Boot Camp æœåŠ¡" /f >nul 2>nul
+cls&title è‡ªåŠ¨æœç´¢å¹¶å®‰è£…BootCampé©±åŠ¨
+set "Item=è‡ªåŠ¨æœç´¢å¹¶å®‰è£…BootCampé©±åŠ¨"
 copy /v /y "File\BootCamp\BootCamp.exe" "!Scripts!\BootCamp.exe" >nul 2>nul
 echo if exist %%windir%%\Driver rd /s /q %%windir%%\Driver > "!ScriptsLog!\StartBootCamp.log"
 echo if exist "%%SystemDrive%%\BootCamp\BootCamp\Drivers\Apple\BootCamp.msi" set "BootCamp=%%SystemDrive%%\BootCamp\BootCamp" ^&^& goto :BootCamp >> "!ScriptsLog!\StartBootCamp.log"
@@ -1843,8 +1843,8 @@ REM echo :NoBootCamp  >> "%ScriptsLog%\StartBootCamp.log"
 REM if exist "!ScriptsLog!\StartBootCamp.log" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :AppleVhd
-cls&title Æ»¹ûµçÄÔÉµ¹ÏÊ½´´½¨¶à·ÖÇø 
-set "Item=ÕûºÏÆ»¹ûµçÄÔÉµ¹ÏÊ½´´½¨¶à·ÖÇø"
+cls&title è‹¹æžœç”µè„‘å‚»ç“œå¼åˆ›å»ºå¤šåˆ†åŒº 
+set "Item=æ•´åˆè‹¹æžœç”µè„‘å‚»ç“œå¼åˆ›å»ºå¤šåˆ†åŒº"
 set "AppleVHD=Mount\Windows\Apple.cmd"
 echo @echo off^&setlocal EnableDelayedExpansion > "!AppleVHD!"
 echo :begin >> "!AppleVHD!"
@@ -1870,11 +1870,11 @@ echo set /a vhdsize=^(%%size%%-1^)*4+1024*%%size%% >> "!AppleVHD!"
 echo cmd /c "echo create vdisk file=%%windir%%\VHD\%%Disk%%.vhdx maximum=%%vhdsize%% type=expandable & echo attach vdisk & echo create partition primary & echo format quick label=%%Disk%% & echo assign letter=%%Disk%% & echo exit"^|diskpart.exe >> "!AppleVHD!"
 echo echo select vdisk file=%%windir%%\VHD\%%Disk%%.vhdx^>^>%%windir%%\VHD\muont_vhd.txt >> "!AppleVHD!"
 echo echo attach vdisk^>^>%%windir%%\VHD\muont_vhd.txt >> "!AppleVHD!"
-echo echo ´Ë´ÅÅÌÎªÐéÄâ´ÅÅÌ£¬ÈçÐè±¸·Ý±¾´ÅÅÌ£¬Çë±¸·Ý%%windir%%\VHD\%%Disk%%.vhdx¡£¶ÁÈ¡±¾´ÅÅÌÄÚÈÝ£¬ÇëÓÃWindows´ÅÅÌ¹ÜÀí¹ÒÔØ£¨»òÕß¸½¼Ó£©%%windir%%\VHD\%%Disk%%.vhdx¼´¿É¡£^> %%Disk%%:\Ê¹ÓÃ±Ø¶Á.txt >> "!AppleVHD!"
-echo echo.^>^>%%Disk%%:\Ê¹ÓÃ±Ø¶Á.txt >> "!AppleVHD!"
-echo echo Èô¿ª»ú²»ÄÜ×Ô¶¯¹ÒÔØ£¬ÇëÔËÐÐ×ÀÃæÉÏµÄ"ÐÞ¸´×Ô¶¯¹ÒÔØÐéÄâ´ÅÅÌ.cmd"¼´¿É¡£^>^>%%Disk%%:\Ê¹ÓÃ±Ø¶Á.txt >> "!AppleVHD!"
-echo echo @echo off^^^&schtasks /create /tn "×Ô¶¯¹ÒÔØÐéÄâ´ÅÅÌ" /tr "diskpart.exe /s '%%windir%%\VHD\muont_vhd.txt'" /sc ONLOGON /ru SYSTEM /f^^^>nul^^^&cls^^^&echo.^^^&echo.ÐÞ¸´×Ô¶¯¹ÒÔØÐéÄâ´ÅÅÌÍê³É£¬Çë°´ÈÎÒâ¼üÍË³ö...^^^&pause^^^>nul^^^&exit^>%%USERPROFILE%%\Desktop\ÐÞ¸´×Ô¶¯¹ÒÔØÐéÄâ´ÅÅÌ.cmd >> "!AppleVHD!"
-echo schtasks /create /tn "×Ô¶¯¹ÒÔØÐéÄâ´ÅÅÌ" /tr "diskpart.exe /s '%%windir%%\VHD\muont_vhd.txt'" /sc ONLOGON /ru SYSTEM /f >> "!AppleVHD!"
+echo echo æ­¤ç£ç›˜ä¸ºè™šæ‹Ÿç£ç›˜ï¼Œå¦‚éœ€å¤‡ä»½æœ¬ç£ç›˜ï¼Œè¯·å¤‡ä»½%%windir%%\VHD\%%Disk%%.vhdxã€‚è¯»å–æœ¬ç£ç›˜å†…å®¹ï¼Œè¯·ç”¨Windowsç£ç›˜ç®¡ç†æŒ‚è½½ï¼ˆæˆ–è€…é™„åŠ ï¼‰%%windir%%\VHD\%%Disk%%.vhdxå³å¯ã€‚^> %%Disk%%:\ä½¿ç”¨å¿…è¯».txt >> "!AppleVHD!"
+echo echo.^>^>%%Disk%%:\ä½¿ç”¨å¿…è¯».txt >> "!AppleVHD!"
+echo echo è‹¥å¼€æœºä¸èƒ½è‡ªåŠ¨æŒ‚è½½ï¼Œè¯·è¿è¡Œæ¡Œé¢ä¸Šçš„"ä¿®å¤è‡ªåŠ¨æŒ‚è½½è™šæ‹Ÿç£ç›˜.cmd"å³å¯ã€‚^>^>%%Disk%%:\ä½¿ç”¨å¿…è¯».txt >> "!AppleVHD!"
+echo echo @echo off^^^&schtasks /create /tn "è‡ªåŠ¨æŒ‚è½½è™šæ‹Ÿç£ç›˜" /tr "diskpart.exe /s '%%windir%%\VHD\muont_vhd.txt'" /sc ONLOGON /ru SYSTEM /f^^^>nul^^^&cls^^^&echo.^^^&echo.ä¿®å¤è‡ªåŠ¨æŒ‚è½½è™šæ‹Ÿç£ç›˜å®Œæˆï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡º...^^^&pause^^^>nul^^^&exit^>%%USERPROFILE%%\Desktop\ä¿®å¤è‡ªåŠ¨æŒ‚è½½è™šæ‹Ÿç£ç›˜.cmd >> "!AppleVHD!"
+echo schtasks /create /tn "è‡ªåŠ¨æŒ‚è½½è™šæ‹Ÿç£ç›˜" /tr "diskpart.exe /s '%%windir%%\VHD\muont_vhd.txt'" /sc ONLOGON /ru SYSTEM /f >> "!AppleVHD!"
 echo goto :size >> "!AppleVHD!"
 echo :end >> "!AppleVHD!"
 echo del /f /q "%%USERPROFILE%%\Desktop\ZTM.txt" >> "!AppleVHD!"
@@ -1883,32 +1883,32 @@ echo del /f /q %%0 >> "!AppleVHD!"
 if exist "Mount\Windows\Apple.cmd" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :input16
-cls&mode con cols=80 lines=30&title ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×°
+cls&mode con cols=80 lines=30&title æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£…
 set "Unattend=Mount\Windows\Panther\Unattend.xml"
 set "Item="
 set "goto=menu3"
 echo.
-echo.    _________________________ ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×° _________________________
+echo.    _________________________ æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£… _________________________
 echo.   ^|                         ----------------------                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ×Ô¶¯´´½¨UserÓÃ»§Ãû²¢¼ÓÈë¹ÜÀíÔ±ÓÃ»§×é£¨ÃÜÂëÎª¿Õ£©                 ^|
+echo.   ^|   [1] è‡ªåŠ¨åˆ›å»ºUserç”¨æˆ·åå¹¶åŠ å…¥ç®¡ç†å‘˜ç”¨æˆ·ç»„ï¼ˆå¯†ç ä¸ºç©ºï¼‰                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÒÔÄÚÖÃ¹ÜÀíÔ±AdministratorÓÃ»§µÇÂ¼ £¨ÃÜÂëÎª¿Õ£©                   ^|
+echo.   ^|   [2] ä»¥å†…ç½®ç®¡ç†å‘˜Administratorç”¨æˆ·ç™»å½• ï¼ˆå¯†ç ä¸ºç©ºï¼‰                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ×Ô¶¨ÒåÓÃ»§Ãû²¢¼ÓÈë¹ÜÀíÔ±ÓÃ»§×é £¨ÃÜÂëÎª¿Õ£©                      ^|
+echo.   ^|   [3] è‡ªå®šä¹‰ç”¨æˆ·åå¹¶åŠ å…¥ç®¡ç†å‘˜ç”¨æˆ·ç»„ ï¼ˆå¯†ç ä¸ºç©ºï¼‰                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:123X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:123X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 4 goto :menu3
 if errorlevel 3 goto :InputUser
 if errorlevel 2 goto :Administrator
 if errorlevel 1 goto :User
 
 :User
-set "Item=ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×°-×Ô¶¯´´½¨UserÓÃ»§Ãû²¢¼ÓÈë¹ÜÀíÔ±ÓÃ»§×é£¨ÃÜÂëÎª¿Õ£©"
+set "Item=æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£…-è‡ªåŠ¨åˆ›å»ºUserç”¨æˆ·åå¹¶åŠ å…¥ç®¡ç†å‘˜ç”¨æˆ·ç»„ï¼ˆå¯†ç ä¸ºç©ºï¼‰"
 md "Mount\Windows\Panther" >nul 2>nul
 echo ^<?xml version="1.0" encoding="utf-8"?^> > "!Unattend!"
 echo ^<unattend xmlns="urn:schemas-microsoft-com:unattend"^> >> "!Unattend!"
@@ -1964,7 +1964,7 @@ if exist "!Unattend!" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :Administrator
 cls
-set "Item=ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×°-ÒÔÄÚÖÃ¹ÜÀíÔ±AdministratorÓÃ»§µÇÂ¼ £¨ÃÜÂëÎª¿Õ£©"
+set "Item=æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£…-ä»¥å†…ç½®ç®¡ç†å‘˜Administratorç”¨æˆ·ç™»å½• ï¼ˆå¯†ç ä¸ºç©ºï¼‰"
 md "Mount\Windows\Panther" >nul 2>nul
 echo ^<?xml version="1.0" encoding="utf-8"?^> > "!Unattend!"
 echo ^<unattend xmlns="urn:schemas-microsoft-com:unattend"^> >> "!Unattend!"
@@ -2010,24 +2010,24 @@ if exist "!Unattend!" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :InputUser
 cls&echo.
-echo.    ____________________________ ×Ô¶¨ÒåÓÃ»§Ãû ______________________________
+echo.    ____________________________ è‡ªå®šä¹‰ç”¨æˆ·å ______________________________
 echo.   ^|                            --------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë×Ô¶¨ÒåÓÃ»§ÃûÈ»ºó»Ø³µ£¬ÇëÎðÊäÈë±êµã·ûºÅÓëÌØÊâ·ûºÅ¡£ ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥è‡ªå®šä¹‰ç”¨æˆ·åç„¶åŽå›žè½¦ï¼Œè¯·å‹¿è¾“å…¥æ ‡ç‚¹ç¬¦å·ä¸Žç‰¹æ®Šç¬¦å·ã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.
 set "User="
-set /p User=^>^>^>^>^>^>^>ÇëÊäÈë£º
-if not defined User cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputUser
+set /p User=^>^>^>^>^>^>^>è¯·è¾“å…¥ï¼š
+if not defined User cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputUser
 set "User=!User:"=!"
-if not defined User cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputUser
-if /i "!User: =!" equ "" cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputUser
-if /i "!User:.=!" equ "" cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputUser
+if not defined User cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputUser
+if /i "!User: =!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputUser
+if /i "!User:.=!" equ "" cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputUser
 if /i "!User!" equ "x" goto :input16
-set "Item=ÕûºÏÎÞÈËÖµÊØ×Ô¶¯°²×°-×Ô¶¯´´½¨"!User!"ÓÃ»§Ãû²¢¼ÓÈë¹ÜÀíÔ±ÓÃ»§×é£¨ÃÜÂëÎª¿Õ£©"
-if /i "!User: =!" neq "!User!" cls && echo. && echo.ÄúµÄÊäÈë"!User!"ÓÐ¿Õ¸ñ£¬ÓÃ»§Ãû²»½¨ÒéÓÐ¿Õ¸ñ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputUser
+set "Item=æ•´åˆæ— äººå€¼å®ˆè‡ªåŠ¨å®‰è£…-è‡ªåŠ¨åˆ›å»º"!User!"ç”¨æˆ·åå¹¶åŠ å…¥ç®¡ç†å‘˜ç”¨æˆ·ç»„ï¼ˆå¯†ç ä¸ºç©ºï¼‰"
+if /i "!User: =!" neq "!User!" cls && echo. && echo.æ‚¨çš„è¾“å…¥"!User!"æœ‰ç©ºæ ¼ï¼Œç”¨æˆ·åä¸å»ºè®®æœ‰ç©ºæ ¼ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputUser
 md "Mount\Windows\Panther" >nul 2>nul
 echo ^<?xml version="1.0" encoding="utf-8"?^> > "!Unattend!"
 echo ^<unattend xmlns="urn:schemas-microsoft-com:unattend"^> >> "!Unattend!"
@@ -2082,29 +2082,29 @@ echo Net ACCOUNTS /MAXPWAGE:UNLIMITED > "!ScriptsLog!\password.log"
 if exist "!Unattend!" ( call :Log & call :Achiexe ) else ( call :Failure )
 
 :xitongyouhua
-cls&mode con cols=80 lines=30&title Windows ÏµÍ³ÓÅ»¯
+cls&mode con cols=80 lines=30&title Windows ç³»ç»Ÿä¼˜åŒ–
 set "Item="
 set "goto=xitongyouhua"
 echo.
-echo.    ___________________________ Windows ÏµÍ³ÓÅ»¯ ___________________________
+echo.    ___________________________ Windows ç³»ç»Ÿä¼˜åŒ– ___________________________
 echo.   ^|                           ------------------                           ^|
-echo.   ^|   [1] Windows10 Ìí¼Ó²¢¿ªÆô×¿Ô½ÐÔÄÜ                                     ^|
+echo.   ^|   [1] Windows10 æ·»åŠ å¹¶å¼€å¯å“è¶Šæ€§èƒ½                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] Çå³ýËùÓÐµÄ¿ª»úÆô¶¯Ïî                                             ^|
+echo.   ^|   [2] æ¸…é™¤æ‰€æœ‰çš„å¼€æœºå¯åŠ¨é¡¹                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Windows 10 ¹Ø±ÕÌáÊ¾ºÍ¼¼ÇÉ                                        ^|
+echo.   ^|   [3] Windows 10 å…³é—­æç¤ºå’ŒæŠ€å·§                                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ¿ªÆô/¹Ø±ÕËÑË÷Ë÷Òý ^(¹Ø±ÕËÑË÷Ë÷Òý»áÊ¹ÄúµÄ¼ÆËã»úËÑË÷ÎÄ¼þ±äÂý^)       ^|
+echo.   ^|   [4] å¼€å¯/å…³é—­æœç´¢ç´¢å¼• ^(å…³é—­æœç´¢ç´¢å¼•ä¼šä½¿æ‚¨çš„è®¡ç®—æœºæœç´¢æ–‡ä»¶å˜æ…¢^)       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [5] ½ûÓÃÍ¸Ã÷Ð§¹û                                                     ^|
+echo.   ^|   [5] ç¦ç”¨é€æ˜Žæ•ˆæžœ                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [6] ÇåÀí´ÅÅÌËéÆ¬ ^(¹ÌÌ¬Ó²ÅÌ²»ÐèÇåÀí,½¨ÒéÄúÊ¹ÓÃ×¨ÒµÈí¼þÇåÀí^^!^)        ^|
+echo.   ^|   [6] æ¸…ç†ç£ç›˜ç¢Žç‰‡ ^(å›ºæ€ç¡¬ç›˜ä¸éœ€æ¸…ç†,å»ºè®®æ‚¨ä½¿ç”¨ä¸“ä¸šè½¯ä»¶æ¸…ç†^^!^)        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:123456X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:123456X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 7 goto :menu1
 if errorlevel 6 goto :CleanUpDiskDebris
 if errorlevel 5 goto :DisableTransparency
@@ -2116,8 +2116,8 @@ if errorlevel 1 goto :ExcellentPerformance
 :ExcellentPerformance
 set "params=%*"
 cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) && fsutil dirty query %systemdrive% 1>nul 2>nul || (  echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" && exit /B )
-title=Ìí¼Ó²¢ÆôÓÃ×¿Ô½ÐÔÄÜµçÔ´¼Æ»®
-powercfg /list | find "(×¿Ô½ÐÔÄÜ)" > NUL
+title=æ·»åŠ å¹¶å¯ç”¨å“è¶Šæ€§èƒ½ç”µæºè®¡åˆ’
+powercfg /list | find "(å“è¶Šæ€§èƒ½)" > NUL
 if %ERRORLEVEL% == 0 (
 goto SetActive
 ) else (
@@ -2125,18 +2125,18 @@ goto DuplicateScheme
 )
 
 :DuplicateScheme
-powercfg /DUPLICATESCHEME e9a42b02-d5df-448d-aa00-03f14749eb61 && echo µ¼ÈëÍê³É¡£ && goto SetActive
+powercfg /DUPLICATESCHEME e9a42b02-d5df-448d-aa00-03f14749eb61 && echo å¯¼å…¥å®Œæˆã€‚ && goto SetActive
 
 :SetActive
 for /f "tokens=3,4" %%i in ('powercfg /list') do (
-if "%%j" == "(×¿Ô½ÐÔÄÜ)" powercfg /SETACTIVE %%i && echo ¼¤»î³É¹¦¡£&&goto :Achiexe
+if "%%j" == "(å“è¶Šæ€§èƒ½)" powercfg /SETACTIVE %%i && echo æ¿€æ´»æˆåŠŸã€‚&&goto :Achiexe
 )
 :://-----------------------------------------------------------------------------------//::
 :DELBootItems
 del /f /q /s C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*
-echo.Æô¶¯ÎÄ¼þ¼ÐÄÚµÄËùÓÐÒª¿ª»úÆô¶¯µÄÎÄ¼þÒÑÉ¾³ý
+echo.å¯åŠ¨æ–‡ä»¶å¤¹å†…çš„æ‰€æœ‰è¦å¼€æœºå¯åŠ¨çš„æ–‡ä»¶å·²åˆ é™¤
 reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /va /f
-echo ×¢²á±íÆô¶¯ÏîÒÑÉ¾³ýÍê±Ï
+echo æ³¨å†Œè¡¨å¯åŠ¨é¡¹å·²åˆ é™¤å®Œæ¯•
 goto :Achiexe
 
 :DisableTipsAndTechniques
@@ -2158,13 +2158,13 @@ reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v Ena
 goto :Achiexe
 
 :CleanUpDiskDebris
-for %%i in (A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z) do (if exist "%%i:" (title ´ÅÅÌËéÆ¬ÇåÀí¹¤¾ß-ÕýÔÚÇåÀí: %%i:\&defrag %%i: /U /D))
+for %%i in (A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z) do (if exist "%%i:" (title ç£ç›˜ç¢Žç‰‡æ¸…ç†å·¥å…·-æ­£åœ¨æ¸…ç†: %%i:\&defrag %%i: /U /D))
 
-msg /w /v /time:5 %Username% "ÄúµÄ¼ÆËã»úÐèÒªÖØÐÂÆô¶¯!Äú¿ÉÒÔÉÔºóÖØÆô,»òÕßÏÖÔÚÁ¢¿ÌÖØÆô¡£"
+msg /w /v /time:5 %Username% "æ‚¨çš„è®¡ç®—æœºéœ€è¦é‡æ–°å¯åŠ¨!æ‚¨å¯ä»¥ç¨åŽé‡å¯,æˆ–è€…çŽ°åœ¨ç«‹åˆ»é‡å¯ã€‚"
 goto :Achiexe
 
 :Convert
-cls&mode con cols=80 lines=30&title ¸ñÊ½×ª»»
+cls&mode con cols=80 lines=30&title æ ¼å¼è½¬æ¢
 set "Ext="
 set "ExtTypes="
 set "SourceExt="
@@ -2173,26 +2173,26 @@ set "compress="
 set "Total="
 set "SourceName="
 echo.
-echo.    _______________________________ ¸ñÊ½×ª»» _______________________________
+echo.    _______________________________ æ ¼å¼è½¬æ¢ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ó³Ïñ¸ñÊ½×ª»»£¬Ö§³Ö¶àºÏÒ»Ó³Ïñ¡£                                       ^|
+echo.   ^|   æ˜ åƒæ ¼å¼è½¬æ¢ï¼Œæ”¯æŒå¤šåˆä¸€æ˜ åƒã€‚                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] WIM ×ª ESD                                                       ^|
+echo.   ^|   [1] WIM è½¬ ESD                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ESD ×ª WIM                                                       ^|
+echo.   ^|   [2] ESD è½¬ WIM                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :begin
 if errorlevel 2 goto :ESDWIM
 if errorlevel 1 goto :WIMESD
 
 :WIMESD
-title WIM×ªESD
+title WIMè½¬ESD
 set "SourceExt=.wim"
 set "TargetExt=.esd"
 set "compress= --solid"
@@ -2200,7 +2200,7 @@ set "compress= --solid"
 goto :ConvertNext
 
 :ESDWIM
-title ESD×ªWIM
+title ESDè½¬WIM
 set "SourceExt=.esd"
 set "TargetExt=.wim"
 :: set "compress=--compress=LZX"
@@ -2208,12 +2208,12 @@ set "compress=--compress=lzx:100"
 
 :ConvertNext
 cls&echo.
-echo.    ____________________________ ÊäÈë!SourceExt!Ô´ÎÄ¼þ ____________________________
+echo.    ____________________________ è¾“å…¥!SourceExt!æºæ–‡ä»¶ ____________________________
 echo.   ^|                            ----------------                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù!SourceExt!¸ñÊ½ÎÄ¼þµÄÍêÕûÂ·¾¶È»ºó»Ø³µ¡£             ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´!SourceExt!æ ¼å¼æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ç„¶åŽå›žè½¦ã€‚             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 set "goto="
 set "gotoback="
 set "goto=ConvertNext"
@@ -2224,74 +2224,74 @@ cls&echo.
 :: cd /d "!ToolsPath!\DISM"
 for /f "eol=T skip=3 delims=" %%i in ('!Dism! /Get-WimInfo /WimFile:"!Sources!"') do (echo %%i)
 echo.
-echo ÒÔÉÏÊÇÔ´ÎÄ¼þµÄÐÅÏ¢£¬Çë°´ÈÎÒâ¼ü¼ÌÐø...
+echo ä»¥ä¸Šæ˜¯æºæ–‡ä»¶çš„ä¿¡æ¯ï¼Œè¯·æŒ‰ä»»æ„é”®ç»§ç»­...
 pause>nul
-title ÕýÔÚ×ª»»!SourceName!!SourceExt!ÖÁ!SourceName!!TargetExt!
+title æ­£åœ¨è½¬æ¢!SourceName!!SourceExt!è‡³!SourceName!!TargetExt!
 cls && echo.
-echo.ÕýÔÚ×ª»»"!SourceName!!SourceExt!"ÖÁ"!SourceName!!TargetExt!"£¬ÇëÄÍÐÄµÈ´ý...
+echo.æ­£åœ¨è½¬æ¢"!SourceName!!SourceExt!"è‡³"!SourceName!!TargetExt!"ï¼Œè¯·è€å¿ƒç­‰å¾…...
 echo.
 "!ToolsPath!\wimlib-imagex.exe" export "!Sources!" All "!Sources:~0,-4!!TargetExt!" !compress!
-cls && echo. && echo.×ª»»Íê³É£¬ÎÄ¼þÎ»ÓÚ"!Sources:~0,-4!!TargetExt!"¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :begin
+cls && echo. && echo.è½¬æ¢å®Œæˆï¼Œæ–‡ä»¶ä½äºŽ"!Sources:~0,-4!!TargetExt!"ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :begin
 
 :mupan
-cls&mode con cols=80 lines=30&title Ä¸ÅÌÏÂÔØ
+cls&mode con cols=80 lines=30&title æ¯ç›˜ä¸‹è½½
 echo.
-echo.    _______________________________ Ä¸ÅÌÏÂÔØ _______________________________
+echo.    _______________________________ æ¯ç›˜ä¸‹è½½ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè²é¿´Ä¸ÅÌÏêÇéÇë°´G...                                          ^|
+echo.   ^|   å¦‚éœ€æŸ¥çœ‹æ¯ç›˜è¯¦æƒ…è¯·æŒ‰G...                                          ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [1] Windows7                                                         ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [2] Windows10                                                        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :begin
 if errorlevel 2 ( start http://cmdpe.com/category-2.html & goto :mupan )
 if errorlevel 1 ( start http://cmdpe.com/category-2.html & goto :mupan )
 
 :jiaocheng
-cls&mode con cols=80 lines=30&title Ïà¹Ø½Ì³Ì
+cls&mode con cols=80 lines=30&title ç›¸å…³æ•™ç¨‹
 echo.
-echo.    _______________________________ Ïà¹Ø½Ì³Ì _______________________________
+echo.    _______________________________ ç›¸å…³æ•™ç¨‹ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÈçºÎ¿ìËÙ°²×°ESD¸ñÊ½ÏµÍ³                                          ^|
+echo.   ^|   [1] å¦‚ä½•å¿«é€Ÿå®‰è£…ESDæ ¼å¼ç³»ç»Ÿ                                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÈçºÎ½«Ó³ÏñÎÄ¼þ¿ØÖÆÔÚ2GBÒÔÄÚ                                      ^|
+echo.   ^|   [2] å¦‚ä½•å°†æ˜ åƒæ–‡ä»¶æŽ§åˆ¶åœ¨2GBä»¥å†…                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :begin
 if errorlevel 2 ( start http://cmdpe.com/category-2.html & goto :jiaocheng )
 if errorlevel 1 ( start http://cmdpe.com/category-2.html & goto :jiaocheng )
 
 :ImageEdit
-cls&mode con cols=80 lines=30&title Ó³Ïñ±à¼­
+cls&mode con cols=80 lines=30&title æ˜ åƒç¼–è¾‘
 echo.
-echo.    _______________________________ Ó³Ïñ±à¼­ _______________________________
+echo.    _______________________________ æ˜ åƒç¼–è¾‘ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ºÏ³ÉÓ³Ïñ                                                         ^|
+echo.   ^|   [1] åˆæˆæ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ²ð·ÖÓ³Ïñ                                                         ^|
+echo.   ^|   [2] æ‹†åˆ†æ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] ²é¿´Ó³ÏñÐÅÏ¢                                                     ^|
+echo.   ^|   [3] æŸ¥çœ‹æ˜ åƒä¿¡æ¯                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ÐÞ¸ÄÓ³ÏñÐÅÏ¢                                                     ^|
+echo.   ^|   [4] ä¿®æ”¹æ˜ åƒä¿¡æ¯                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:1234X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:1234X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 5 goto :begin
 if errorlevel 4 goto :EditImageInfo
 if errorlevel 3 goto :ImageInfo
@@ -2299,14 +2299,14 @@ if errorlevel 2 goto :SplitImage
 if errorlevel 1 goto :MixImage
 
 :ImageInfo
-cls&title ²é¿´Ó³ÏñÐÅÏ¢
+cls&title æŸ¥çœ‹æ˜ åƒä¿¡æ¯
 echo.
-echo.    _____________________________ ²é¿´Ó³ÏñÐÅÏ¢ _____________________________
+echo.    _____________________________ æŸ¥çœ‹æ˜ åƒä¿¡æ¯ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù»òÍÏÈëwim»òesd¸ñÊ½ÎÄ¼þµÄÍêÕûÂ·¾¶£¬È»ºó»Ø³µ¡£ ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´æˆ–æ‹–å…¥wimæˆ–esdæ ¼å¼æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼Œç„¶åŽå›žè½¦ã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 set "goto="
 set "gotoback="
@@ -2314,20 +2314,20 @@ set "goto=ImageInfo"
 set "gotoback=ImageEdit"
 call :InputSourceFile
 "!ToolsPath!\wimlib-imagex.exe" info "!Sources!"|more
-echo.ÒÔÉÏÊÇ"!Sources!"µÄÏêÏ¸ÐÅÏ¢¡£
-echo.&&echo.ÈçÐè·µ»ØÇë°´ÈÎÒâ¼ü...&&pause>nul&&goto :ImageEdit
+echo.ä»¥ä¸Šæ˜¯"!Sources!"çš„è¯¦ç»†ä¿¡æ¯ã€‚
+echo.&&echo.å¦‚éœ€è¿”å›žè¯·æŒ‰ä»»æ„é”®...&&pause>nul&&goto :ImageEdit
 
 :EditImageInfo
-cls&mode con cols=80 lines=30&title ÐÞ¸ÄÓ³ÏñÐÅÏ¢
+cls&mode con cols=80 lines=30&title ä¿®æ”¹æ˜ åƒä¿¡æ¯
 echo.
-echo.    _____________________________ ÐÞ¸ÄÓ³ÏñÐÅÏ¢ _____________________________
+echo.    _____________________________ ä¿®æ”¹æ˜ åƒä¿¡æ¯ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ×¢Òâ£ºÕâÊÇÐÞ¸ÄÓ³ÏñÃû³ÆºÍÃèÊö£¬¶ø²»ÊÇÐÞ¸ÄÓ³ÏñÏÔÊ¾Ãû³ÆºÍÏÔÊ¾ÃèÊö¡£     ^|
+echo.   ^|   æ³¨æ„ï¼šè¿™æ˜¯ä¿®æ”¹æ˜ åƒåç§°å’Œæè¿°ï¼Œè€Œä¸æ˜¯ä¿®æ”¹æ˜ åƒæ˜¾ç¤ºåç§°å’Œæ˜¾ç¤ºæè¿°ã€‚     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù»òÍÏÈëwim»òesd¸ñÊ½ÎÄ¼þµÄÍêÕûÂ·¾¶£¬È»ºó»Ø³µ¡£ ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´æˆ–æ‹–å…¥wimæˆ–esdæ ¼å¼æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼Œç„¶åŽå›žè½¦ã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 set "goto="
 set "gotoback="
@@ -2339,7 +2339,7 @@ call :InputSourceFile
 set /a "lines=30+4*(!Total!-5)"
 if !lines! lss 30 set /a "lines=30"
 mode con cols=80 lines=!lines!
-cls && echo. && echo.Ó³ÏñÔ´ÎÄ¼þ£º"!Sources!"
+cls && echo. && echo.æ˜ åƒæºæ–‡ä»¶ï¼š"!Sources!"
 set "ImageIndex="
 set "ImageName="
 set ImageDescription=
@@ -2348,67 +2348,67 @@ for /f "tokens=2 delims=:  " %%a in ('!ToolsPath!\wimlib-imagex.exe info "!Sourc
 	for /f "tokens=2 delims=:  " %%b in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" %%a ^| findstr /i /c:"Name:                   "') do (set "ImageName=%%b")
 	for /f "tokens=2 delims=:  " %%c in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" %%a ^| findstr /i /c:"Description:            "') do (set "ImageDescription=%%c")
 	echo.
-	echo.·Ö¾íË÷Òý£º!ImageIndex:~18!
-	echo.Ó³ÏñÃû³Æ£º!ImageName:~19!
-	echo.Ó³ÏñÃèÊö£º!ImageDescription:~12!
+	echo.åˆ†å·ç´¢å¼•ï¼š!ImageIndex:~18!
+	echo.æ˜ åƒåç§°ï¼š!ImageName:~19!
+	echo.æ˜ åƒæè¿°ï¼š!ImageDescription:~12!
 )
-echo. && echo.¸ÃÓ³Ïñº¬"!Total!"¸ö·Ö¾í£¬ÇëÔÚÏÂÐÐÊäÈëÐèÒªÐÞ¸Ä·Ö¾íµÄË÷Òý±àºÅ£¬È»ºó»Ø³µ¡£
-echo. && echo.ÈçÐè·µ»ØÇëÊäÈë X È»ºó»Ø³µ¡£ && echo.
+echo. && echo.è¯¥æ˜ åƒå«"!Total!"ä¸ªåˆ†å·ï¼Œè¯·åœ¨ä¸‹è¡Œè¾“å…¥éœ€è¦ä¿®æ”¹åˆ†å·çš„ç´¢å¼•ç¼–å·ï¼Œç„¶åŽå›žè½¦ã€‚
+echo. && echo.å¦‚éœ€è¿”å›žè¯·è¾“å…¥ X ç„¶åŽå›žè½¦ã€‚ && echo.
 set "Index="
-set /p Index=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Index cls && echo. && echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&& echo. && echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...... && pause>nul && goto :EditImageIndex
+set /p Index=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Index cls && echo. && echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&& echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...... && pause>nul && goto :EditImageIndex
 set "Index=!Index:"=!"
-if not defined Index cls && echo. && echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&& echo. && echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...... && pause>nul && goto :EditImageIndex
+if not defined Index cls && echo. && echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&& echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...... && pause>nul && goto :EditImageIndex
 if /i "!Index!" equ "x" goto :EditImageInfo
-"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "index : !Index!">nul 2>nul || cls && echo. && echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&& echo. && echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...... && pause>nul && goto :EditImageIndex
+"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "index : !Index!">nul 2>nul || cls && echo. && echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&& echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...... && pause>nul && goto :EditImageIndex
 :InputImageInfo
 cls&echo.
-echo.    _____________________________ ÐÞ¸ÄÓ³ÏñÐÅÏ¢ _____________________________
+echo.    _____________________________ ä¿®æ”¹æ˜ åƒä¿¡æ¯ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈëÓ³ÏñÃû³Æ+Ó³ÏñÃèÊö£¨ÖÐ¼äÓÃ+ºÅ¸ô¿ª£©£¬È»ºó»Ø³µ¡£     ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æ˜ åƒåç§°+æ˜ åƒæè¿°ï¼ˆä¸­é—´ç”¨+å·éš”å¼€ï¼‰ï¼Œç„¶åŽå›žè½¦ã€‚     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÀýÈç£ºWin7_x64_Æì½¢°æ+Win7_x64_Æì½¢°æ                                ^|
+echo.   ^|   ä¾‹å¦‚ï¼šWin7_x64_æ——èˆ°ç‰ˆ+Win7_x64_æ——èˆ°ç‰ˆ                                ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
 set "InputImageInfo="
-set /p InputImageInfo=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined InputImageInfo cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputImageInfo
+set /p InputImageInfo=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined InputImageInfo cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputImageInfo
 set "InputImageInfo=!InputImageInfo:"=!"
-if not defined InputImageInfo cls && echo. && echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë... && pause>nul && goto :InputImageInfo
+if not defined InputImageInfo cls && echo. && echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥... && pause>nul && goto :InputImageInfo
 if /i "!InputImageInfo!" equ "x" goto :EditImageIndex
 set "ImageName="
 set "DisplayName="
 for /f "tokens=1,2,3,4 delims=+" %%i in ("!InputImageInfo!") do (set "ImageName=%%i" & set "DisplayName=%%j")
 cls && echo.
 "!ToolsPath!\wimlib-imagex.exe" info "!Sources!" !Index! "!ImageName!" "!DisplayName!" --check
-cls && echo. && echo.·Ö¾í"!Index!"ÐÞ¸ÄÓ³ÏñÐÅÏ¢³É¹¦£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :EditImageIndex
+cls && echo. && echo.åˆ†å·"!Index!"ä¿®æ”¹æ˜ åƒä¿¡æ¯æˆåŠŸï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :EditImageIndex
 :MixImage
-cls&title ºÏ³ÉÓ³Ïñ
+cls&title åˆæˆæ˜ åƒ
 if exist !temp!\ImageNameError.log del /f /q !temp!\ImageNameError.log
 echo.
-echo.    _______________________________ ºÏ³ÉÓ³Ïñ _______________________________
+echo.    _______________________________ åˆæˆæ˜ åƒ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ´Ë¹¦ÄÜ¿ÉÓÃÓÚÖÆ×÷¶àºÏÒ»Ó³Ïñ£¬²ÉÓÃÔöÁ¿ºÏ³É£¬ÏàÍ¬ÎÄ¼þÖ»±£ÁôÒ»·Ý¡£       ^|
+echo.   ^|   æ­¤åŠŸèƒ½å¯ç”¨äºŽåˆ¶ä½œå¤šåˆä¸€æ˜ åƒï¼Œé‡‡ç”¨å¢žé‡åˆæˆï¼Œç›¸åŒæ–‡ä»¶åªä¿ç•™ä¸€ä»½ã€‚       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÀýÈç£ºA.wimÓÐÎå¸ö·Ö¾í£¬B.wimÓÐÈý¸ö·Ö¾í£¬½«A.wimÍÏÈë´Ë´°¿Ú»Ø³µÖ´ÐÐ¡£  ^|
+echo.   ^|   ä¾‹å¦‚ï¼šA.wimæœ‰äº”ä¸ªåˆ†å·ï¼ŒB.wimæœ‰ä¸‰ä¸ªåˆ†å·ï¼Œå°†A.wimæ‹–å…¥æ­¤çª—å£å›žè½¦æ‰§è¡Œã€‚  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ö®ºó·µ»Ø´Ë´°¿Ú£¬ÔÙ½«B.wimÍÏÈë´Ë´°¿Ú»Ø³µÖ´ÐÐ£¬ÕâÑùÄ¿±êÎÄ¼þ¼ÐNewImage  ^|
+echo.   ^|   ä¹‹åŽè¿”å›žæ­¤çª—å£ï¼Œå†å°†B.wimæ‹–å…¥æ­¤çª—å£å›žè½¦æ‰§è¡Œï¼Œè¿™æ ·ç›®æ ‡æ–‡ä»¶å¤¹NewImage  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÄÚµÄÄ¿±êÎÄ¼þinstall.wim¾Í»áÓÐ°Ë¸ö·Ö¾í¡£                              ^|
+echo.   ^|   å†…çš„ç›®æ ‡æ–‡ä»¶install.wimå°±ä¼šæœ‰å…«ä¸ªåˆ†å·ã€‚                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ×¢Òâ£º²Ù×÷Ö®Ç°£¬±¾¹¤¾ßµÄ[NewImage]ÎÄ¼þ¼ÐÄÚ£¬ÈçÒÑÓÐinstall.wimÇë½«Æä  ^|
+echo.   ^|   æ³¨æ„ï¼šæ“ä½œä¹‹å‰ï¼Œæœ¬å·¥å…·çš„[NewImage]æ–‡ä»¶å¤¹å†…ï¼Œå¦‚å·²æœ‰install.wimè¯·å°†å…¶  ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÒÆ×ß£¬²»È»»á½«ÆäÒ»ÆðºÏ²¢¡£                                           ^|
+echo.   ^|   ç§»èµ°ï¼Œä¸ç„¶ä¼šå°†å…¶ä¸€èµ·åˆå¹¶ã€‚                                           ^|
 echo.   ^|   __________________________________________________________________   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù»òÍÏÈëwim»òesd¸ñÊ½ÎÄ¼þµÄÍêÕûÂ·¾¶£¬È»ºó»Ø³µ¡£ ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´æˆ–æ‹–å…¥wimæˆ–esdæ ¼å¼æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼Œç„¶åŽå›žè½¦ã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.  ^|   
 set "goto="
 set "gotoback="
@@ -2421,49 +2421,49 @@ if exist "NewImage\install.wim" (
 	for /f "tokens=2 delims=:  " %%a in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" ^| findstr /i /c:"Name:                   "') do (
 		set "ImageName=%%a"
 		for /f "tokens=2 delims=:  " %%b in ('!ToolsPath!\wimlib-imagex.exe info "NewImage\install.wim" ^| findstr /i /c:"Name:                   "') do (
-			if "%%b" equ "%%a" ( echo. & echo.´íÎó£¡Ó³ÏñÃû³ÆÖØ¸´£¬Ä¿±êÓ³ÏñÒÑ°üº¬:!ImageName:~18! & echo error > "!temp!\ImageNameError.log" )
+			if "%%b" equ "%%a" ( echo. & echo.é”™è¯¯ï¼æ˜ åƒåç§°é‡å¤ï¼Œç›®æ ‡æ˜ åƒå·²åŒ…å«:!ImageName:~18! & echo error > "!temp!\ImageNameError.log" )
 		)
 	)
 )
-if exist "!temp!\ImageNameError.log" echo. && echo.Çë·µ»ØÐÞ¸ÄÉÏÊöÓ³ÏñÃû³Æ£¬Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :MixImage
+if exist "!temp!\ImageNameError.log" echo. && echo.è¯·è¿”å›žä¿®æ”¹ä¸Šè¿°æ˜ åƒåç§°ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :MixImage
 cls && echo.
 if not exist "NewImage" md "NewImage" >nul 2>nul
 "!ToolsPath!\wimlib-imagex.exe" export "!Sources!" All "NewImage\install.wim" --compress=lzx:100
 if exist "!temp!\ImageNameError.log" del /f /q "!temp!\ImageNameError.log" >nul 2>nul
-cls && echo. && echo.²Ù×÷³É¹¦£¬ÎÄ¼þÎ»ÓÚ"[NewImage]\install.wim"¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul
+cls && echo. && echo.æ“ä½œæˆåŠŸï¼Œæ–‡ä»¶ä½äºŽ"[NewImage]\install.wim"ã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul
 goto :MixImage
 
 :SplitImage
-cls&title Ó³Ïñ±à¼­^>²ð·ÖÓ³Ïñ
+cls&title æ˜ åƒç¼–è¾‘^>æ‹†åˆ†æ˜ åƒ
 echo.
-echo.    _______________________________ ²ð·ÖÓ³Ïñ _______________________________
+echo.    _______________________________ æ‹†åˆ†æ˜ åƒ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[1]:¿ÉÓÃÓÚµ¼³ö·Ö¾íÖÁÐÂÓ³Ïñ£¬µ¼³öÊ±»áÅÅ³ýÎÞ¹ØÎÄ¼þÒÔÖØ¹¹ÐÂµÄÓ³Ïñ¡£ ^|
+echo.   ^|   é€‰é¡¹[1]:å¯ç”¨äºŽå¯¼å‡ºåˆ†å·è‡³æ–°æ˜ åƒï¼Œå¯¼å‡ºæ—¶ä¼šæŽ’é™¤æ— å…³æ–‡ä»¶ä»¥é‡æž„æ–°çš„æ˜ åƒã€‚ ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÐÂÓ³ÏñÎ»ÓÚ±¾¹¤¾ßµÄ[NewImage]ÎÄ¼þ¼ÐÄÚ£¬ÎÄ¼þÃû³Æ£ºinstall.wim¡£        ^|
+echo.   ^|   æ–°æ˜ åƒä½äºŽæœ¬å·¥å…·çš„[NewImage]æ–‡ä»¶å¤¹å†…ï¼Œæ–‡ä»¶åç§°ï¼šinstall.wimã€‚        ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ñ¡Ïî[2]:¿ÉÓÃÓÚÉ¾³ýÓ³ÏñÄÚ²»ÐèÒªµÄ·Ö¾í¡£                               ^|
+echo.   ^|   é€‰é¡¹[2]:å¯ç”¨äºŽåˆ é™¤æ˜ åƒå†…ä¸éœ€è¦çš„åˆ†å·ã€‚                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] µ¼³öÓ³Ïñ                                                         ^|
+echo.   ^|   [1] å¯¼å‡ºæ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] É¾³ýÓ³Ïñ                                                         ^|
+echo.   ^|   [2] åˆ é™¤æ˜ åƒ                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 if errorlevel 3 goto :ImageEdit
-if errorlevel 2 (set "Split=É¾³ý"&&title Ó³Ïñ±à¼­^>²ð·ÖÓ³Ïñ^>É¾³ýÓ³Ïñ)
-if errorlevel 1 (set "Split=µ¼³ö"&&title Ó³Ïñ±à¼­^>²ð·ÖÓ³Ïñ^>µ¼³öÓ³Ïñ)
+if errorlevel 2 (set "Split=åˆ é™¤"&&title æ˜ åƒç¼–è¾‘^>æ‹†åˆ†æ˜ åƒ^>åˆ é™¤æ˜ åƒ)
+if errorlevel 1 (set "Split=å¯¼å‡º"&&title æ˜ åƒç¼–è¾‘^>æ‹†åˆ†æ˜ åƒ^>å¯¼å‡ºæ˜ åƒ)
 cls && echo.
-echo.    _______________________________ !Split!Ó³Ïñ _______________________________
+echo.    _______________________________ !Split!æ˜ åƒ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù»òÍÏÈëwim¸ñÊ½ÎÄ¼þµÄÍêÕûÂ·¾¶£¬È»ºó»Ø³µ¡£      ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´æˆ–æ‹–å…¥wimæ ¼å¼æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼Œç„¶åŽå›žè½¦ã€‚      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£                                            ^|
+echo.   ^|   å¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚                                            ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
@@ -2479,91 +2479,91 @@ set /a "lines=30+4*(!Total!-5)"
 if !lines! lss 30 set /a "lines=30"
 mode con cols=80 lines=!lines!
 cls&echo.
-echo.Ó³ÏñÔ´ÎÄ¼þ£º"!Sources!"
+echo.æ˜ åƒæºæ–‡ä»¶ï¼š"!Sources!"
 for /f "tokens=2 delims=:  " %%a in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" ^| findstr /i /c:"Index:                  "') do (
 	set "ImageIndex=%%a"
 	for /f "tokens=2 delims=:  " %%b in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" %%a ^| findstr /i /c:"Name:                   "') do (set "ImageName=%%b")
 	for /f "tokens=2 delims=:  " %%c in ('!ToolsPath!\wimlib-imagex.exe info "!Sources!" %%a ^| findstr /i /c:"Description:            "') do (set "ImageDescription=%%c")
 	echo.
-	echo.·Ö¾íË÷Òý£º!ImageIndex:~18!
-	echo.Ó³ÏñÃû³Æ£º!ImageName:~19!
-	echo.Ó³ÏñÃèÊö£º!ImageDescription:~12!
+	echo.åˆ†å·ç´¢å¼•ï¼š!ImageIndex:~18!
+	echo.æ˜ åƒåç§°ï¼š!ImageName:~19!
+	echo.æ˜ åƒæè¿°ï¼š!ImageDescription:~12!
 )
-echo.&&echo.¸ÃÓ³Ïñº¬"!Total!"¸ö·Ö¾í£¬ÇëÔÚÏÂÐÐÊäÈëÐèÒª_!Split!·Ö¾í_µÄË÷Òý±àºÅ£¬È»ºó»Ø³µ¡£
-echo.&&echo.ÈçÐè·µ»ØÇëÊäÈë X È»ºó»Ø³µ¡£
+echo.&&echo.è¯¥æ˜ åƒå«"!Total!"ä¸ªåˆ†å·ï¼Œè¯·åœ¨ä¸‹è¡Œè¾“å…¥éœ€è¦_!Split!åˆ†å·_çš„ç´¢å¼•ç¼–å·ï¼Œç„¶åŽå›žè½¦ã€‚
+echo.&&echo.å¦‚éœ€è¿”å›žè¯·è¾“å…¥ X ç„¶åŽå›žè½¦ã€‚
 echo.
 set "Index="
-set /p Index=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Index cls&&echo.&&echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...&&pause>nul&&goto :SplitImageIndex
+set /p Index=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Index cls&&echo.&&echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...&&pause>nul&&goto :SplitImageIndex
 set "Index=!Index:"=!"
-if not defined Index cls&&echo.&&echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...&&pause>nul&&goto :SplitImageIndex
+if not defined Index cls&&echo.&&echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...&&pause>nul&&goto :SplitImageIndex
 if /i "!Index!" equ "x" goto :SplitImage
-"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "index : !Index!" >nul 2>nul||cls&&echo.&&echo.·Ö¾íË÷Òý±àºÅ"!Index!"´íÎó£¬¸ÃÓ³ÏñÃ»ÓÐ´Ë·Ö¾í£¬ÇëÖØÐÂÊäÈëÕýÈ·µÄ·Ö¾íË÷Òý±àºÅ¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ...&&pause>nul&&goto :SplitImageIndex
+"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "index : !Index!" >nul 2>nul||cls&&echo.&&echo.åˆ†å·ç´¢å¼•ç¼–å·"!Index!"é”™è¯¯ï¼Œè¯¥æ˜ åƒæ²¡æœ‰æ­¤åˆ†å·ï¼Œè¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„åˆ†å·ç´¢å¼•ç¼–å·ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•...&&pause>nul&&goto :SplitImageIndex
 cls&echo.
-if "!Split!" equ "µ¼³ö" (
-	if exist "NewImage\install.wim" echo.ÌáÊ¾£º"[NewImage]"ÎÄ¼þ¼ÐÄÚÒÑ´æÔÚ"install.wim"£¬Õâ½«Ó°ÏìÐÂµÄÓ³ÏñÎÄ¼þÉú³É¡£&&echo.&&echo.ÇëÏÈ½«"[NewImage]"ÎÄ¼þ¼ÐÄÚµÄ"install.wim"ÒÆ×ß»òÉ¾³ý¡£&&echo.&&echo.Çë°´ÈÎÒâ¼ü¼ÌÐø...&&pause>nul&&goto :SplitImage
+if "!Split!" equ "å¯¼å‡º" (
+	if exist "NewImage\install.wim" echo.æç¤ºï¼š"[NewImage]"æ–‡ä»¶å¤¹å†…å·²å­˜åœ¨"install.wim"ï¼Œè¿™å°†å½±å“æ–°çš„æ˜ åƒæ–‡ä»¶ç”Ÿæˆã€‚&&echo.&&echo.è¯·å…ˆå°†"[NewImage]"æ–‡ä»¶å¤¹å†…çš„"install.wim"ç§»èµ°æˆ–åˆ é™¤ã€‚&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®ç»§ç»­...&&pause>nul&&goto :SplitImage
 	if not exist "NewImage" md "NewImage" >nul 2>nul
 	"!ToolsPath!\wimlib-imagex.exe" export "!Sources!" !Index! "NewImage\install.wim" --compress=lzx:100
 )
-if "!Split!" equ "É¾³ý" "!ToolsPath!\wimlib-imagex.exe" delete "!Sources!" !Index! --check
+if "!Split!" equ "åˆ é™¤" "!ToolsPath!\wimlib-imagex.exe" delete "!Sources!" !Index! --check
 cls && echo.
-if "!Split!" equ "µ¼³ö" echo.!Split!·Ö¾í"!Index!"³É¹¦£¡ÐÂÓ³ÏñÎ»ÓÚ"[NewImage]\install.wim"&&echo.&&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...
-if "!Split!" equ "É¾³ý" echo.!Split!·Ö¾í"!Index!"³É¹¦£¡Çë°´ÈÎÒâ¼ü·µ»Ø...
+if "!Split!" equ "å¯¼å‡º" echo.!Split!åˆ†å·"!Index!"æˆåŠŸï¼æ–°æ˜ åƒä½äºŽ"[NewImage]\install.wim"&&echo.&&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...
+if "!Split!" equ "åˆ é™¤" echo.!Split!åˆ†å·"!Index!"æˆåŠŸï¼è¯·æŒ‰ä»»æ„é”®è¿”å›ž...
 pause>nul
 goto :SplitImageIndex
 
 :InputSourceFile
 echo.
 set "Sources="
-set /p Sources=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Sources cls&&echo.&&echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :!goto!
+set /p Sources=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Sources cls&&echo.&&echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :!goto!
 set "Sources=!Sources:"=!"
-if not defined Sources cls&&echo.&&echo.ÄúµÄÊäÈë¸ñÊ½²»ÕýÈ·£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...&&pause>nul&&goto :!goto!
+if not defined Sources cls&&echo.&&echo.æ‚¨çš„è¾“å…¥æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...&&pause>nul&&goto :!goto!
 if /i "!Sources!" equ "x" goto :!gotoback!
-"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||(cls&&echo.&&echo.¸ÃÎÄ¼þ"!Sources!"²»ÊÇ¿ÉÓÃµÄÏµÍ³Ó³Ïñ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÑ¡Ôñ...&&pause>nul&&goto :!goto!)
+"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||(cls&&echo.&&echo.è¯¥æ–‡ä»¶"!Sources!"ä¸æ˜¯å¯ç”¨çš„ç³»ç»Ÿæ˜ åƒï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°é€‰æ‹©...&&pause>nul&&goto :!goto!)
 attrib -R "!Sources!">nul
 goto :eof
 
 :InputSources
 set "Sources="
-for /f "tokens=*" %%a in ('!ToolsPath!\wxFileDialog.exe "ÏµÍ³¾µÏñ(!ExtTypes!)|*.!Ext!" C: "ÇëÑ¡Ôñ!ExtTypes!¸ñÊ½ÏµÍ³Ó³Ïñ" -oe') do Set "Sources=%%a"
+for /f "tokens=*" %%a in ('!ToolsPath!\wxFileDialog.exe "ç³»ç»Ÿé•œåƒ(!ExtTypes!)|*.!Ext!" C: "è¯·é€‰æ‹©!ExtTypes!æ ¼å¼ç³»ç»Ÿæ˜ åƒ" -oe') do Set "Sources=%%a"
 if not defined Sources goto !goto1!
-"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||cls&&echo.&&echo.¸ÃÎÄ¼þ"!Sources!"²»ÊÇ¿ÉÓÃµÄÏµÍ³Ó³Ïñ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÑ¡Ôñ...&&pause>nul&&goto !goto1!
+"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||cls&&echo.&&echo.è¯¥æ–‡ä»¶"!Sources!"ä¸æ˜¯å¯ç”¨çš„ç³»ç»Ÿæ˜ åƒï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°é€‰æ‹©...&&pause>nul&&goto !goto1!
 attrib -R "!Sources!" >nul 2>nul
 goto :eof
 
 :StatusOk
 call :MountImageLog
-echo ¹ÒÔØ×´Ì¬ : ³É¹¦ >> "²Ù×÷ÈÕÖ¾.Log"
-echo.>> "²Ù×÷ÈÕÖ¾.Log"
-cls && echo. && echo.Ó³Ïñ¹ÒÔØ³É¹¦£¬Çë°´ÈÎÒâ¼üÇ°ÍùÕûºÏ²Ëµ¥... && pause>nul && goto :menu2
+echo æŒ‚è½½çŠ¶æ€ : æˆåŠŸ >> "æ“ä½œæ—¥å¿—.Log"
+echo.>> "æ“ä½œæ—¥å¿—.Log"
+cls && echo. && echo.æ˜ åƒæŒ‚è½½æˆåŠŸï¼Œè¯·æŒ‰ä»»æ„é”®å‰å¾€æ•´åˆèœå•... && pause>nul && goto :menu2
 :StatusNo
 call :MountImageLog
-echo ¹ÒÔØ×´Ì¬ : Ê§°Ü >> "²Ù×÷ÈÕÖ¾.Log"
-echo.>> "²Ù×÷ÈÕÖ¾.Log"
-cls && echo. && echo.Ó³Ïñ¹ÒÔØÊ§°Ü£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÊÔ... && pause>nul && goto :begin
+echo æŒ‚è½½çŠ¶æ€ : å¤±è´¥ >> "æ“ä½œæ—¥å¿—.Log"
+echo.>> "æ“ä½œæ—¥å¿—.Log"
+cls && echo. && echo.æ˜ åƒæŒ‚è½½å¤±è´¥ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡è¯•... && pause>nul && goto :begin
 :AppPath
-cls&echo.&echo.ÕûºÏÊ§°Ü£¬¿ÉÄÜÊÇÓÉÓÚÎÄ¼þ»òÎÄ¼þ¼Ð±»É¾³ý»ò±»ÖØÃüÃûÔì³É¡£Çë²ÎÕÕÏÂÐÐµÄÕýÈ·Â·¾¶¼ì²é&echo.&echo.ÎÄ¼þºÍÂ·¾¶¡£&echo.&echo.&echo.ÕýÈ·Â·¾¶£º!AppPath!&echo.&echo.&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&pause>nul&goto :!goto!
+cls&echo.&echo.æ•´åˆå¤±è´¥ï¼Œå¯èƒ½æ˜¯ç”±äºŽæ–‡ä»¶æˆ–æ–‡ä»¶å¤¹è¢«åˆ é™¤æˆ–è¢«é‡å‘½åé€ æˆã€‚è¯·å‚ç…§ä¸‹è¡Œçš„æ­£ç¡®è·¯å¾„æ£€æŸ¥&echo.&echo.æ–‡ä»¶å’Œè·¯å¾„ã€‚&echo.&echo.&echo.æ­£ç¡®è·¯å¾„ï¼š!AppPath!&echo.&echo.&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&pause>nul&goto :!goto!
 goto :eof
 :Achiexe
-cls&echo.&echo.!Item!³É¹¦¡£&echo.&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&pause>nul&goto :!goto!
+cls&echo.&echo.!Item!æˆåŠŸã€‚&echo.&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&pause>nul&goto :!goto!
 goto :eof
 :Failure
-cls&echo.&echo.!Item!Ê§°Ü¡£&echo.&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&pause>nul&goto :!goto!
+cls&echo.&echo.!Item!å¤±è´¥ã€‚&echo.&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&pause>nul&goto :!goto!
 goto :eof
 :Log
-echo ²Ù×÷ÈÕÆÚ£º!date:~0,-3!£¬²Ù×÷Ê±¼ä£º!Time:~0,-3!£¬ÏîÄ¿Ãû³Æ£º!Item!£¬ÏîÄ¿×´Ì¬£º³É¹¦ >> "²Ù×÷ÈÕÖ¾.Log"
+echo æ“ä½œæ—¥æœŸï¼š!date:~0,-3!ï¼Œæ“ä½œæ—¶é—´ï¼š!Time:~0,-3!ï¼Œé¡¹ç›®åç§°ï¼š!Item!ï¼Œé¡¹ç›®çŠ¶æ€ï¼šæˆåŠŸ >> "æ“ä½œæ—¥å¿—.Log"
 goto :eof
 :MountImageLog
-echo ²Ù×÷ÈÕÖ¾ ÈÕÆÚ : !date:~0,-3! Ê±¼ä : !Time:~0,-3! > "²Ù×÷ÈÕÖ¾.Log"
-echo.>> "²Ù×÷ÈÕÖ¾.Log"
-echo Ó³ÏñÔ´ÎÄ¼þ : !Sources! >> "²Ù×÷ÈÕÖ¾.Log"
-echo ¹ÒÔØÄ¿Â¼ : Mount >> "²Ù×÷ÈÕÖ¾.Log"
-echo ¹ÒÔØÈÕÆÚ : !date:~0,-3! >> "²Ù×÷ÈÕÖ¾.Log"
-echo ¹ÒÔØÊ±¼ä : !Time:~0,-3! >> "²Ù×÷ÈÕÖ¾.Log"
-echo Ó³ÏñË÷Òý : !Index! >> "²Ù×÷ÈÕÖ¾.Log"
-for /f "tokens=2 delims=:  " %%i in ('!Dism! /English /Get-WimInfo /WimFile:"!Sources!" /Index:!Index! ^| findstr /i Architecture') do (echo Ó³Ïñ¼Ü¹¹ :%%i >> "²Ù×÷ÈÕÖ¾.Log")
-for /f "tokens=2 delims=:  " %%i in ('!Dism! /English /Get-WimInfo /WimFile:"!Sources!" /Index:!Index! ^| findstr /i Name') do (echo Ó³ÏñÃû³Æ :%%i >> "²Ù×÷ÈÕÖ¾.Log")
+echo æ“ä½œæ—¥å¿— æ—¥æœŸ : !date:~0,-3! æ—¶é—´ : !Time:~0,-3! > "æ“ä½œæ—¥å¿—.Log"
+echo.>> "æ“ä½œæ—¥å¿—.Log"
+echo æ˜ åƒæºæ–‡ä»¶ : !Sources! >> "æ“ä½œæ—¥å¿—.Log"
+echo æŒ‚è½½ç›®å½• : Mount >> "æ“ä½œæ—¥å¿—.Log"
+echo æŒ‚è½½æ—¥æœŸ : !date:~0,-3! >> "æ“ä½œæ—¥å¿—.Log"
+echo æŒ‚è½½æ—¶é—´ : !Time:~0,-3! >> "æ“ä½œæ—¥å¿—.Log"
+echo æ˜ åƒç´¢å¼• : !Index! >> "æ“ä½œæ—¥å¿—.Log"
+for /f "tokens=2 delims=:  " %%i in ('!Dism! /English /Get-WimInfo /WimFile:"!Sources!" /Index:!Index! ^| findstr /i Architecture') do (echo æ˜ åƒæž¶æž„ :%%i >> "æ“ä½œæ—¥å¿—.Log")
+for /f "tokens=2 delims=:  " %%i in ('!Dism! /English /Get-WimInfo /WimFile:"!Sources!" /Index:!Index! ^| findstr /i Name') do (echo æ˜ åƒåç§° :%%i >> "æ“ä½œæ—¥å¿—.Log")
 goto :eof
 
 :Loop
@@ -2578,7 +2578,7 @@ goto :eof
 
 
 :CDEmu
-cls&&echo.&&echo.ÕýÔÚ¶ÁÈ¡ISOÐÅÏ¢...
+cls&&echo.&&echo.æ­£åœ¨è¯»å–ISOä¿¡æ¯...
 set "Imdisk="
 for %%i in (Y X W V U T S R Q P O N M L K J I H G F E D) do if not exist %%i:\ set "Imdisk=%%i"&&goto :CDEmu1
 :CDEmu1
@@ -2603,55 +2603,55 @@ reg unload HKLM\ZTM >nul 2>nul
 endlocal&EXIT
 
 :MountImage
-if exist "Mount" (dir /a /b "Mount"|find /i /v "" >nul 2>nul&&cls&&echo.&&echo ¼ì²éµ½MountÎÄ¼þ¼ÐÄÚ²»ÊÇ¿ÕµÄ£¬Çë°´ÈÎÒâ¼ü·µ»Ø£¬ÏÈÑ¡ÔñÐ¶ÔØÓ³Ïñ...&&pause>nul&&goto :begin)
+if exist "Mount" (dir /a /b "Mount"|find /i /v "" >nul 2>nul&&cls&&echo.&&echo æ£€æŸ¥åˆ°Mountæ–‡ä»¶å¤¹å†…ä¸æ˜¯ç©ºçš„ï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žï¼Œå…ˆé€‰æ‹©å¸è½½æ˜ åƒ...&&pause>nul&&goto :begin)
 :InputSources1
-cls&mode con cols=80 lines=30&title ¹ÒÔØÓ³Ïñ
+cls&mode con cols=80 lines=30&title æŒ‚è½½æ˜ åƒ
 if defined Imdisk "!ToolsPath!\CDEmu.exe" /unmount !Imdisk!:
 "!ToolsPath!\CDEmu.exe" /uninstall
 echo.
-echo.    ______________________________ ÊäÈëÓ³ÏñÔ´ ______________________________
+echo.    ______________________________ è¾“å…¥æ˜ åƒæº ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÇëÔÚÏÂÐÐ¹â±ê´¦ÊäÈë»òÕ³Ìù»òÍÏÈëÓ³ÏñÎÄ¼þµÄÍêÕûÂ·¾¶£¬È»ºó»Ø³µ¡£         ^|
+echo.   ^|   è¯·åœ¨ä¸‹è¡Œå…‰æ ‡å¤„è¾“å…¥æˆ–ç²˜è´´æˆ–æ‹–å…¥æ˜ åƒæ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼Œç„¶åŽå›žè½¦ã€‚         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   Ö§³ÖÓ³Ïñ¸ñÊ½£º.WIM .ESD .ISO£¬ÈçÐè·µ»ØÊäÈë X È»ºó»Ø³µ¡£              ^|
+echo.   ^|   æ”¯æŒæ˜ åƒæ ¼å¼ï¼š.WIM .ESD .ISOï¼Œå¦‚éœ€è¿”å›žè¾“å…¥ X ç„¶åŽå›žè½¦ã€‚              ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
 set "Sources="
-set /p Sources=^>^>^>^>^>^>^>ÇëÊäÈë:
-if not defined Sources cls && echo. && echo.ÄúµÄÊäÈëÎª¿Õ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÊäÈë...... && pause>nul && goto :InputSources1
+set /p Sources=^>^>^>^>^>^>^>è¯·è¾“å…¥:
+if not defined Sources cls && echo. && echo.æ‚¨çš„è¾“å…¥ä¸ºç©ºï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°è¾“å…¥...... && pause>nul && goto :InputSources1
 set "Sources=!Sources:"=!"
 if /i "!Sources!" equ "x" goto :begin
 if /i "!Sources:~-4!"==".iso" call :CDEmu
-"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||(cls&&echo.&&echo.¸ÃÎÄ¼þ"!Sources!"²»ÊÇ¿ÉÓÃµÄÏµÍ³Ó³Ïñ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂÑ¡Ôñ...&&pause>nul&&goto :InputSources1)
+"!Dism!" /English /Get-ImageInfo /ImageFile:"!Sources!"|find /i "Index" >nul 2>nul||(cls&&echo.&&echo.è¯¥æ–‡ä»¶"!Sources!"ä¸æ˜¯å¯ç”¨çš„ç³»ç»Ÿæ˜ åƒï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°é€‰æ‹©...&&pause>nul&&goto :InputSources1)
 attrib -R "!Sources!" >nul 2>nul
 
 :Index
 cls&set "tee="&set "Quit="&set "ChoiceIndex="&set "Index="&set "Line="
 echo.
-echo.    _______________________________ Ó³Ïñ·Ö¾í _______________________________
+echo.    _______________________________ æ˜ åƒåˆ†å· _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
 for /f "tokens=2 delims=:" %%a in ('!Dism! /English /Get-ImageInfo /ImageFile:"!Sources!"^|findstr /i "Name"') do set /a tee+=1&&set "Line=%%a                                                                           "&&call :Techo&&echo.   ^|   [!tee!]!Techo!  ^|&&echo.   ^|                                                                        ^|
-echo.   ^|   [X]  ·µ»Ø                                                            ^|
+echo.   ^|   [X]  è¿”å›ž                                                            ^|
 echo.   ^|                                                                        ^|
-if !Tee! gtr 8 cls&&echo.&&echo.Ó³Ïñ·Ö¾í´óÓÚ8¸ö£¬ÇëÊ¹ÓÃÓ³Ïñ±à¼­¹¦ÄÜÉ¾³ý²»ÐèÒªµÄ·Ö¾í£¬Ê¹Æä·Ö¾íÊýÐ¡ÓÚµÈÓÚ8¸öÔÙ¹ÒÔØ£¬Çë°²ÈÎÒâ¼ü·µ»Ø...&&pause>nul&&goto :begin
+if !Tee! gtr 8 cls&&echo.&&echo.æ˜ åƒåˆ†å·å¤§äºŽ8ä¸ªï¼Œè¯·ä½¿ç”¨æ˜ åƒç¼–è¾‘åŠŸèƒ½åˆ é™¤ä¸éœ€è¦çš„åˆ†å·ï¼Œä½¿å…¶åˆ†å·æ•°å°äºŽç­‰äºŽ8ä¸ªå†æŒ‚è½½ï¼Œè¯·å®‰ä»»æ„é”®è¿”å›ž...&&pause>nul&&goto :begin
 set /a Quit=!tee!+1
 for /l %%i in (1,1,!tee!) do set "ChoiceIndex=!ChoiceIndex!%%i"
 echo.
-choice /c:!ChoiceIndex!X /n /m ^>^>^>^>^>^>^>ÇëÖ¸¶¨°æ±¾ºÅ:
+choice /c:!ChoiceIndex!X /n /m ^>^>^>^>^>^>^>è¯·æŒ‡å®šç‰ˆæœ¬å·:
 if "!errorlevel!"=="!Quit!" goto :InputSources1
 set "Index=!errorlevel!"
 cls
 if exist "Image" rd /s /q "Image" >nul 2>nul
 if not exist "Image" md "Image" >nul 2>nul
-if /i "!Sources:~-4!" equ ".esd" (echo.&&echo.ÕýÔÚµ¼³öÓ³Ïñ£¬ÇëÉÔµÈ...&&echo.&&"!ToolsPath!\wimlib-imagex.exe" export "!Sources!" !Index! "Image\Install.wim" --compress=XPRESS) else ("!Dism!" /Export-Image /SourceImageFile:"!Sources!" /SourceIndex:!Index! /DestinationImageFile:"Image\install.wim")
+if /i "!Sources:~-4!" equ ".esd" (echo.&&echo.æ­£åœ¨å¯¼å‡ºæ˜ åƒï¼Œè¯·ç¨ç­‰...&&echo.&&"!ToolsPath!\wimlib-imagex.exe" export "!Sources!" !Index! "Image\Install.wim" --compress=XPRESS) else ("!Dism!" /Export-Image /SourceImageFile:"!Sources!" /SourceIndex:!Index! /DestinationImageFile:"Image\install.wim")
 if defined Imdisk (
 	"!ToolsPath!\CDEmu.exe" /unmount !Imdisk!:
 	"!ToolsPath!\CDEmu.exe" /uninstall
 )
-cls&&echo.&&echo.ÕýÔÚ¹ÒÔØÓ³ÏñÖÐ£¬ÇëÉÔµÈ...
+cls&&echo.&&echo.æ­£åœ¨æŒ‚è½½æ˜ åƒä¸­ï¼Œè¯·ç¨ç­‰...
 md "Mount" >nul 2>nul
 "!Dism!" /English /Mount-Image /ImageFile:"Image\install.wim" /Index:1 /MountDir:"Mount"
 reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
@@ -2659,7 +2659,7 @@ if exist "!ScriptsLog!" rd /s /q "!ScriptsLog!" >nul 2>nul
 if exist "Mount\Windows\Panther" rd /s /q "Mount\Windows\Panther" >nul 2>nul
 if exist "Mount\Windows\Setup\Scripts" rd /s /q "Mount\Windows\Setup\Scripts" >nul 2>nul
 if exist "Mount\Windows\Sysprep" rd /s /q "Mount\Windows\Sysprep" >nul 2>nul
-if exist "²Ù×÷ÈÕÖ¾.Log" del /f /q "²Ù×÷ÈÕÖ¾.Log" >nul 2>nul
+if exist "æ“ä½œæ—¥å¿—.Log" del /f /q "æ“ä½œæ—¥å¿—.Log" >nul 2>nul
 md "!ScriptsLog!" >nul 2>nul
 md "Mount\Windows\Panther" >nul 2>nul
 md "Mount\Windows\Setup\Scripts" >nul 2>nul
@@ -2681,8 +2681,8 @@ reg load HKLM\ZTM "Mount\Windows\System32\config\software" >nul 2>nul
 )
 "!Dism!" /English /Get-MountedImageInfo:"Mount"|find /i "Status : Ok" >nul 2>nul&&reg query "HKLM\ZTM" >nul 2>nul&&goto :StatusOk||goto :StatusNo
 :UninstallImage
-cls&title Ð¶ÔØÓ³Ïñ&echo.
-echo.ÕýÔÚÐ¶ÔØÓ³ÏñÖÐ£¬ÇëÉÔµÈ...
+cls&title å¸è½½æ˜ åƒ&echo.
+echo.æ­£åœ¨å¸è½½æ˜ åƒä¸­ï¼Œè¯·ç¨ç­‰...
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
@@ -2692,44 +2692,44 @@ rd /s /q "Image" >nul 2>nul
 rd /s /q "Mount" >nul 2>nul
 rd /s /q "!ScriptsLog!" >nul 2>nul
 if exist "Mount" (
-	cls && echo. && echo.Î´ÄÜÍêÈ«Ð¶ÔØ£¬Õâ¿ÉÄÜµ¼ÖÂÏÂÒ»´ÎÎÞ·¨Õý³£¹ÒÔØÓ³Ïñ¡£ && echo. && echo.Î´Öª½ø³ÌÕ¼ÓÃÁË±¾¹¤¾ßÄÚµÄMountÎÄ¼þ¼Ð£¬ÇëÖØÆôµçÄÔºóÉ¾³ý±¾¹¤¾ßÄÚµÄMountÎÄ¼þ¼Ð¡£ && echo. && echo.·µ»ØÖ÷²Ëµ¥£¬Çë°´ÈÎÒâ¼ü... && pause>nul && goto :begin
+	cls && echo. && echo.æœªèƒ½å®Œå…¨å¸è½½ï¼Œè¿™å¯èƒ½å¯¼è‡´ä¸‹ä¸€æ¬¡æ— æ³•æ­£å¸¸æŒ‚è½½æ˜ åƒã€‚ && echo. && echo.æœªçŸ¥è¿›ç¨‹å ç”¨äº†æœ¬å·¥å…·å†…çš„Mountæ–‡ä»¶å¤¹ï¼Œè¯·é‡å¯ç”µè„‘åŽåˆ é™¤æœ¬å·¥å…·å†…çš„Mountæ–‡ä»¶å¤¹ã€‚ && echo. && echo.è¿”å›žä¸»èœå•ï¼Œè¯·æŒ‰ä»»æ„é”®... && pause>nul && goto :begin
 ) else (
-	cls && echo. && echo.Ð¶ÔØÍê³É£¬°´ÈÎÒâ¼ü·µ»Ø... && pause>nul && goto :begin
+	cls && echo. && echo.å¸è½½å®Œæˆï¼ŒæŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul && goto :begin
 )
 :SaveImage
-cls&title ²¶×½Ó³Ïñ
-"!Dism!" /English /Get-MountedImageInfo:"Mount" | find /i "Status : Ok" >nul 2>nul || echo.&&echo.Î´¼ì²âµ½ÒÑ¹ÒÔØÓ³Ïñ»òÓ³Ïñ¹ÒÔØ×´Ì¬ÒÑËð»µ£¬Çë°´ÈÎÒâ¼ü·µ»ØÖØÐÂ¹ÒÔØÓ³Ïñ...&&pause>nul&&goto :begin
+cls&title æ•æ‰æ˜ åƒ
+"!Dism!" /English /Get-MountedImageInfo:"Mount" | find /i "Status : Ok" >nul 2>nul || echo.&&echo.æœªæ£€æµ‹åˆ°å·²æŒ‚è½½æ˜ åƒæˆ–æ˜ åƒæŒ‚è½½çŠ¶æ€å·²æŸåï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›žé‡æ–°æŒ‚è½½æ˜ åƒ...&&pause>nul&&goto :begin
 cls&echo.
-echo.    _______________________________ ²¶×½Ó³Ïñ _______________________________
+echo.    _______________________________ æ•æ‰æ˜ åƒ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   ÐÂÓ³Ïñ½«±£´æÔÚ±¾¹¤¾ßµÄ[NewImage]ÎÄ¼þ¼ÐÄÚ,ÎÄ¼þÃûÎªinstall.wim¡£       ^|
+echo.   ^|   æ–°æ˜ åƒå°†ä¿å­˜åœ¨æœ¬å·¥å…·çš„[NewImage]æ–‡ä»¶å¤¹å†…,æ–‡ä»¶åä¸ºinstall.wimã€‚       ^|
 echo.   ^|                                                                        ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-echo.^>^>^>^>^>^>^>Çë°´ÈÎÒâ¼ü¼ÌÐø...
+echo.^>^>^>^>^>^>^>è¯·æŒ‰ä»»æ„é”®ç»§ç»­...
 pause>nul
 if exist "NewImage\install.wim" (
 	cls
 	echo.
-	echo.    _______________________________ ²¶×½Ó³Ïñ _______________________________
+	echo.    _______________________________ æ•æ‰æ˜ åƒ _______________________________
 	echo.   ^|                               ----------                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   ¼ì²âµ½[NewImage]ÎÄ¼þ¼ÐÄÚÒÑÓÐinstall.wim£¡                            ^|
+	echo.   ^|   æ£€æµ‹åˆ°[NewImage]æ–‡ä»¶å¤¹å†…å·²æœ‰install.wimï¼                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   Ñ¡Ïî[1]:½«Éú³Éµ¥Ò»Ó³Ïñ£¬[NewImage]ÎÄ¼þ¼ÐÄÚµÄinstall.wim½«±»ÖØÃüÃû¡£  ^|
+	echo.   ^|   é€‰é¡¹[1]:å°†ç”Ÿæˆå•ä¸€æ˜ åƒï¼Œ[NewImage]æ–‡ä»¶å¤¹å†…çš„install.wimå°†è¢«é‡å‘½åã€‚  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   Ñ¡Ïî[2]:½«ÔÚÒÑÓÐµÄinstall.wim×·¼ÓÓ³Ïñ£¬Õâ½«²úÉú¶àºÏÒ»Ó³Ïñ¡£          ^|
+	echo.   ^|   é€‰é¡¹[2]:å°†åœ¨å·²æœ‰çš„install.wimè¿½åŠ æ˜ åƒï¼Œè¿™å°†äº§ç”Ÿå¤šåˆä¸€æ˜ åƒã€‚          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] Éú³Éµ¥Ò»Ó³Ïñ  £¨Ìå»ýÐ¡£©                                         ^|
+	echo.   ^|   [1] ç”Ÿæˆå•ä¸€æ˜ åƒ  ï¼ˆä½“ç§¯å°ï¼‰                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] Éú³É¶àºÏÒ»Ó³Ïñ£¨Ìå»ý´ó£©                                         ^|
+	echo.   ^|   [2] ç”Ÿæˆå¤šåˆä¸€æ˜ åƒï¼ˆä½“ç§¯å¤§ï¼‰                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /c:12X /n /m ^>^>^>^>^>^>^>ÇëÊäÈëÑ¡Ôñ: 
+	choice /c:12X /n /m ^>^>^>^>^>^>^>è¯·è¾“å…¥é€‰æ‹©: 
 	if errorlevel 3 goto :begin
 	if errorlevel 2 goto :SaveImageNext
 	if errorlevel 1 goto :Reninstall
@@ -2737,7 +2737,7 @@ if exist "NewImage\install.wim" (
 :Reninstall
 if exist "NewImage\install.wim" ren "NewImage\install.wim" "install_!date:~0,4!-!date:~5,2!-!date:~8,2!-!time:~0,2!-!time:~3,2!.wim"
 :SaveImageNext
-cls&echo.&echo.ÕýÔÚ×¼±¸Êý¾ÝÖÐ£¬ÇëÉÔµÈ...
+cls&echo.&echo.æ­£åœ¨å‡†å¤‡æ•°æ®ä¸­ï¼Œè¯·ç¨ç­‰...
 for /f "tokens=4 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do (set "Version=%%i")
 if exist "Mount\Windows\SysWOW64" (set "Bit=64") else (set "Bit=86")
 if /i "!Version:~0,1!"=="8" set "Version=10"
@@ -2825,7 +2825,7 @@ if exist "!ScriptsLog!\Autoclean.log" type "!ScriptsLog!\Autoclean.log" >> "!Fir
 echo reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v "clean1" /t REG_SZ /d "cmd.exe /c rd /s /q %%windir%%\Sysprep & rd /s /q %%windir%%\Driver & del /f /q %%windir%%\Apple.cmd & del /f /q %%windir%%\DrvCeo.cmd" /f >> "!Firstrun!"
 echo del /f /q %%0^&exit >> "!Firstrun!"
 REM for /f "tokens=4 delims= " %%i in ('Dism.exe /English /Get-MountedImageInfo:"Mount" ^| find /i "Image Index : "') do (set "index=%%i")
-cls && echo. && echo.ÕýÔÚ±£´æ²¢Ð¶ÔØÓ³ÏñÖÐ£¬ÇëÉÔµÈ...
+cls && echo. && echo.æ­£åœ¨ä¿å­˜å¹¶å¸è½½æ˜ åƒä¸­ï¼Œè¯·ç¨ç­‰...
 if exist "!ScriptsLog!" rd /s /q "!ScriptsLog!" >nul 2>nul
 taskkill /f /IM Dism++x64.exe >nul 2>nul
 taskkill /f /IM regedit.exe >nul 2>nul
@@ -2835,11 +2835,11 @@ taskkill /f /IM explorer.exe >nul 2>nul && start "" explorer.exe
 REM "!Dism!" /Cleanup-Mountpoints
 rd /s /q "Mount" >nul 2>nul
 if not exist "NewImage" md "NewImage" >nul 2>nul
-cls&echo.&echo.ÕýÔÚÓÅ»¯²¢µ¼³öÐÂµÄÓ³Ïñ£¬ÇëÉÔµÈ...
+cls&echo.&echo.æ­£åœ¨ä¼˜åŒ–å¹¶å¯¼å‡ºæ–°çš„æ˜ åƒï¼Œè¯·ç¨ç­‰...
 "!Dism!" /Export-Image /SourceImageFile:"Image\install.wim" /SourceIndex:1 /DestinationImageFile:"NewImage\install.wim" /Compress:max
 rd /s /q "!ScriptsLog!" >nul 2>nul
 rd /s /q "Image" >nul 2>nul
-cls && echo. && echo.ÐÂÓ³Ïñµ¼³öÍê³É£¬ÎÄ¼þÎ»ÓÚ[NewImage]ÎÄ¼þ¼ÐÄÚ£¬Ãû³ÆÎªinstall.wim¡£ && echo. && echo.Çë°´ÈÎÒâ¼ü·µ»Ø... && pause>nul
+cls && echo. && echo.æ–°æ˜ åƒå¯¼å‡ºå®Œæˆï¼Œæ–‡ä»¶ä½äºŽ[NewImage]æ–‡ä»¶å¤¹å†…ï¼Œåç§°ä¸ºinstall.wimã€‚ && echo. && echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž... && pause>nul
 start "" explorer.exe "NewImage"
 goto :begin
 
@@ -2855,8 +2855,8 @@ for /f "tokens=4 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\Cur
 for /f "tokens=3 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "CurrentBuild" 2^>nul') do set "ImageBuild=%%i"
 for /f "tokens=3 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "EditionID" 2^>nul') do set "ImageFlag=%%i"
 for /f "tokens=3 delims= " %%i in ('reg query "HKLM\ZTM\Microsoft\Windows NT\CurrentVersion" /v "ReleaseId" 2^>nul') do set "ReleaseId=%%i"
-echo !ReleaseId!|Findstr /i "1809 1903 1909 2004" >nul 2>nul||(cls&echo.&echo.¾«¼ò¹¦ÄÜÄ¿Ç°½öÊÊÓÃÓÚWindows10 1809/1903/1909/2004£¬µ±Ç°¹ÒÔØµÄÊÇWindows!Version!...&echo.&echo.Çë°´ÈÎÒâ¼ü·µ»Ø...&pause>nul&goto :menu2)
-cls&mode con cols=80 lines=30&title ¾«¼ò²Ëµ¥
+echo !ReleaseId!|Findstr /i "1809 1903 1909 2004" >nul 2>nul||(cls&echo.&echo.ç²¾ç®€åŠŸèƒ½ç›®å‰ä»…é€‚ç”¨äºŽWindows10 1809/1903/1909/2004ï¼Œå½“å‰æŒ‚è½½çš„æ˜¯Windows!Version!...&echo.&echo.è¯·æŒ‰ä»»æ„é”®è¿”å›ž...&pause>nul&goto :menu2)
+cls&mode con cols=80 lines=30&title ç²¾ç®€èœå•
 set "goto="
 set "Item="
 set "Component="
@@ -2865,25 +2865,25 @@ taskkill /f /IM regedit.exe >nul 2>nul
 reg unload HKLM\ZTM >nul 2>nul
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseS" (
 	echo.        
-	echo.    _______________________________ ¾«¼ò²Ëµ¥ _______________________________
+	echo.    _______________________________ ç²¾ç®€èœå• _______________________________
 	echo.   ^|                               ----------                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] ¶à Ã½ Ìå                                                         ^|
+	echo.   ^|   [1] å¤š åª’ ä½“                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] ÒþË½×é¼þ                                                         ^|
+	echo.   ^|   [2] éšç§ç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [3] ÏµÍ³×é¼þ                                                         ^|
+	echo.   ^|   [3] ç³»ç»Ÿç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [4] Ô¶³Ì¿ØÖÆ                                                         ^|
+	echo.   ^|   [4] è¿œç¨‹æŽ§åˆ¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [5] ÏµÍ³Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [5] ç³»ç»Ÿåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [6] WindowsÓ¦ÓÃ                                                      ^|
+	echo.   ^|   [6] Windowsåº”ç”¨                                                      ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /c:123456X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:" 
+	choice /c:123456X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:" 
 	if !errorlevel!==7 goto :menu2
 	if !errorlevel!==6 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==5 goto :RemoveSystemAppsMenu
@@ -2895,25 +2895,25 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseSN" (
 	echo.        
-	echo.    _______________________________ ¾«¼ò²Ëµ¥ _______________________________
+	echo.    _______________________________ ç²¾ç®€èœå• _______________________________
 	echo.   ^|                               ----------                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] ¶à Ã½ Ìå                                                         ^|
+	echo.   ^|   [1] å¤š åª’ ä½“                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] ÒþË½×é¼þ                                                         ^|
+	echo.   ^|   [2] éšç§ç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [3] ÏµÍ³×é¼þ                                                         ^|
+	echo.   ^|   [3] ç³»ç»Ÿç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [4] Ô¶³Ì¿ØÖÆ                                                         ^|
+	echo.   ^|   [4] è¿œç¨‹æŽ§åˆ¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [5] ÏµÍ³Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [5] ç³»ç»Ÿåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [6] WindowsÓ¦ÓÃ                                                      ^|
+	echo.   ^|   [6] Windowsåº”ç”¨                                                      ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /c:123456X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:" 
+	choice /c:123456X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:" 
 	if !errorlevel!==7 goto :menu2
 	if !errorlevel!==6 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==5 goto :RemoveSystemAppsMenu
@@ -2925,25 +2925,25 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    _______________________________ ¾«¼ò²Ëµ¥ _______________________________
+	echo.    _______________________________ ç²¾ç®€èœå• _______________________________
 	echo.   ^|                               ----------                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] ¶à Ã½ Ìå                                                         ^|
+	echo.   ^|   [1] å¤š åª’ ä½“                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] ÒþË½×é¼þ                                                         ^|
+	echo.   ^|   [2] éšç§ç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [3] ÏµÍ³×é¼þ                                                         ^|
+	echo.   ^|   [3] ç³»ç»Ÿç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [4] Ô¶³Ì¿ØÖÆ                                                         ^|
+	echo.   ^|   [4] è¿œç¨‹æŽ§åˆ¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [5] ÏµÍ³Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [5] ç³»ç»Ÿåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [6] WindowsÓ¦ÓÃ                                                      ^|
+	echo.   ^|   [6] Windowsåº”ç”¨                                                      ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /c:123456X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:" 
+	choice /c:123456X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:" 
 	if !errorlevel!==7 goto :menu2
 	if !errorlevel!==6 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==5 goto :RemoveSystemAppsMenu
@@ -2955,21 +2955,21 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "183
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 	echo.        
-	echo.    _______________________________ ¾«¼ò²Ëµ¥ _______________________________
+	echo.    _______________________________ ç²¾ç®€èœå• _______________________________
 	echo.   ^|                               ----------                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] ÏµÍ³×é¼þ                                                         ^|
+	echo.   ^|   [1] ç³»ç»Ÿç»„ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] Ô¶³Ì¿ØÖÆ                                                         ^|
+	echo.   ^|   [2] è¿œç¨‹æŽ§åˆ¶                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [3] ÏµÍ³Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [3] ç³»ç»Ÿåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [4] Windows Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [4] Windows åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /c:1234X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:" 
+	choice /c:1234X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:" 
 	if !errorlevel!==5 goto :menu2
 	if !errorlevel!==4 goto :RemoveMultimediaMenu
 	if !errorlevel!==3 goto :RemoveSystemAppsMenu
@@ -2978,35 +2978,35 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 )
 
 :RemoveMultimediaMenu
-cls&mode con cols=80 lines=30&title ¾«¼ò¶àÃ½Ìå×é¼þ
+cls&mode con cols=80 lines=30&title ç²¾ç®€å¤šåª’ä½“ç»„ä»¶
 set "goto=:RemoveMultimediaMenu"
 echo.        
-echo.    ______________________________ ¶àÃ½Ìå×é¼þ ______________________________
+echo.    ______________________________ å¤šåª’ä½“ç»„ä»¶ ______________________________
 echo.   ^|                              ------------                              ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [A] Adobe Flash                                                      ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [B] Ê×´ÎµÇÂ¼¶¯»­                                                     ^|
+echo.   ^|   [B] é¦–æ¬¡ç™»å½•åŠ¨ç”»                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [C] ÓÎÏ·ä¯ÀÀÆ÷ ^| ÐèÒª Microsoft ÓÎÏ·                                 ^|
+echo.   ^|   [C] æ¸¸æˆæµè§ˆå™¨ ^| éœ€è¦ Microsoft æ¸¸æˆ                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [D] ½ØÍ¼¹¤¾ß                                                         ^|
+echo.   ^|   [D] æˆªå›¾å·¥å…·                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [E] ÓïÒôÊ¶±ð ^| ÐèÒª Cortana                                          ^|
+echo.   ^|   [E] è¯­éŸ³è¯†åˆ« ^| éœ€è¦ Cortana                                          ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [F] Windows Media Player                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [G] Windows ÕÕÆ¬²é¿´Æ÷                                               ^|
+echo.   ^|   [G] Windows ç…§ç‰‡æŸ¥çœ‹å™¨                                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [H] Windows ÏµÍ³ÆÀ¹À¹¤¾ß ^| ÐèÒª Microsoft ÓÎÏ·                       ^|
+echo.   ^|   [H] Windows ç³»ç»Ÿè¯„ä¼°å·¥å…· ^| éœ€è¦ Microsoft æ¸¸æˆ                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [I] ÒÆ³ýÒÔÉÏÈ«²¿×é¼þ                                                 ^|
+echo.   ^|   [I] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨ç»„ä»¶                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /C:ABCDEFGHIX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /C:ABCDEFGHIX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==10 goto :RemoveMenu
 if !errorlevel!==9 set "Component=MultimediaComponents"
 if !errorlevel!==8 set "Component=WinSAT"
@@ -3020,47 +3020,47 @@ if !errorlevel!==1 set "Component=AdobeFlashForWindows"
 goto :RemoveWindowsComponents
 
 :RemovePrivacyMenu
-cls&mode con cols=80 lines=36&title ¾«¼òÒþË½×é¼þ
+cls&mode con cols=80 lines=36&title ç²¾ç®€éšç§ç»„ä»¶
 set "goto=:RemovePrivacyMenu"
 echo.        
-echo.    _______________________________ ÒþË½×é¼þ _______________________________
+echo.    _______________________________ éšç§ç»„ä»¶ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [A] ·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ                                                   ^|
+echo.   ^|   [A] åˆ†é…çš„è®¿é—®æƒé™                                                   ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [B] ¿Í»§ÌåÑé¸ÄÉÆ¼Æ»® ^(CEIP^)                                          ^|
+echo.   ^|   [B] å®¢æˆ·ä½“éªŒæ”¹å–„è®¡åˆ’ ^(CEIP^)                                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [C] ÈËÁ³Ê¶±ð                                                         ^|
+echo.   ^|   [C] äººè„¸è¯†åˆ«                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [D] ÄÚºËµ÷ÊÔ ^| ÒÀÀµÓÚ£ºWindows ´íÎó±¨¸æ                              ^|
+echo.   ^|   [D] å†…æ ¸è°ƒè¯• ^| ä¾èµ–äºŽï¼šWindows é”™è¯¯æŠ¥å‘Š                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [E] ¶¨Î»·þÎñ                                                         ^|
+echo.   ^|   [E] å®šä½æœåŠ¡                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [F] Í¼Æ¬ÃÜÂë                                                         ^|
+echo.   ^|   [F] å›¾ç‰‡å¯†ç                                                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [G] Pin µÇÂ¼Ö§³Ö                                                     ^|
+echo.   ^|   [G] Pin ç™»å½•æ”¯æŒ                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [H] Í³Ò»Ò£²â¿Í»§¶Ë ^(Asimov^) ^| ÒÀÀµÓÚ£ºWindows ´íÎó±¨¸æ               ^|
+echo.   ^|   [H] ç»Ÿä¸€é¥æµ‹å®¢æˆ·ç«¯ ^(Asimov^) ^| ä¾èµ–äºŽï¼šWindows é”™è¯¯æŠ¥å‘Š               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [I] WiFi Network Manager ^(WiFi ¸ÐÖª^)                                 ^|
+echo.   ^|   [I] WiFi Network Manager ^(WiFi æ„ŸçŸ¥^)                                 ^|
 echo.   ^|                                                                        ^|
 if "!ImageBuild!" equ "17763" (
-echo.   ^|   [J] Windows ´íÎó±¨¸æ                                                 ^|
+echo.   ^|   [J] Windows é”™è¯¯æŠ¥å‘Š                                                 ^|
 echo.   ^|                                                                        ^|
 )
 if "!ImageBuild!" neq "17763" (
-echo.   ^|   [J] Windows ´íÎó±¨¸æ ^| ÐèÒªÈ«ÐÂÌåÑéÓ¦ÓÃ³ÌÐò                          ^|
+echo.   ^|   [J] Windows é”™è¯¯æŠ¥å‘Š ^| éœ€è¦å…¨æ–°ä½“éªŒåº”ç”¨ç¨‹åº                          ^|
 echo.   ^|                                                                        ^|	
 )
-echo.   ^|   [K] Windows »áÔ±ÖÐÐÄ                                                 ^|
+echo.   ^|   [K] Windows ä¼šå‘˜ä¸­å¿ƒ                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [L] ÒÆ³ýÒÔÉÏÈ«²¿×é¼þ                                                 ^|
+echo.   ^|   [L] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨ç»„ä»¶                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /C:ABCDEFGHIJKLX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /C:ABCDEFGHIJKLX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==13 goto :RemoveMenu
 if !errorlevel!==12 set "Component=PrivacyComponents"
 if !errorlevel!==11 set "Component=WindowsInsiderHub"
@@ -3077,25 +3077,25 @@ if !errorlevel!==1  set "Component=AssignedAccess"
 goto :RemoveWindowsComponents
 
 :RemoveRemotingMenu
-cls&mode con cols=80 lines=30&title ¾«¼òÔ¶³Ì×é¼þ
+cls&mode con cols=80 lines=30&title ç²¾ç®€è¿œç¨‹ç»„ä»¶
 set "goto=:RemoveRemotingMenu"
 echo.        
-echo.    _______________________________ Ô¶³Ì×é¼þ _______________________________
+echo.    _______________________________ è¿œç¨‹ç»„ä»¶ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ¼ÒÍ¥×é                                                           ^|
+echo.   ^|   [1] å®¶åº­ç»„                                                           ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [2] MultiPoint Connector                                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] Ô¶³ÌÐ­Öú                                                         ^|
+echo.   ^|   [3] è¿œç¨‹ååŠ©                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [4] ÒÆ³ýÒÔÉÏÈ«²¿×é¼þ                                                 ^|
+echo.   ^|   [4] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨ç»„ä»¶                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /C:1234X /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /C:1234X /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==5 goto :RemoveMenu
 if !errorlevel!==4 set "Component=RemotingComponents"
 if !errorlevel!==3 set "Component=RemoteAssistance"
@@ -3104,45 +3104,45 @@ if !errorlevel!==1 set "Component=HomeGroup"
 goto :RemoveWindowsComponents
 
 :RemoveSystemMenu
-cls&mode con cols=80 lines=40&title ¾«¼òÏµÍ³×é¼þ
+cls&mode con cols=80 lines=40&title ç²¾ç®€ç³»ç»Ÿç»„ä»¶
 set "goto=:RemoveSystemMenu"
 echo.        
-echo.    _______________________________ ÏµÍ³×é¼þ _______________________________
+echo.    _______________________________ ç³»ç»Ÿç»„ä»¶ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [A] Éè±¸Ëø¶¨ ^(Ç¶ÈëÊ½ÌåÑé^)                                            ^|
+echo.   ^|   [A] è®¾å¤‡é”å®š ^(åµŒå…¥å¼ä½“éªŒ^)                                            ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [B] ÇáËÉ·ÃÎÊÖ÷Ìâ                                                     ^|
+echo.   ^|   [B] è½»æ¾è®¿é—®ä¸»é¢˜                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [C] ÇáËÉ´«ËÍ                                                         ^|
+echo.   ^|   [C] è½»æ¾ä¼ é€                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [D] ÎÄ¼þÀúÊ·¼ÇÂ¼                                                     ^|
+echo.   ^|   [D] æ–‡ä»¶åŽ†å²è®°å½•                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [E] ÊÖ¶¯°²×°³ÌÐò ^(¾ÍµØÉý¼¶^)                                          ^|
+echo.   ^|   [E] æ‰‹åŠ¨å®‰è£…ç¨‹åº ^(å°±åœ°å‡çº§^)                                          ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [F] »­Í¼¹¤¾ß                                                         ^|
+echo.   ^|   [F] ç”»å›¾å·¥å…·                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [G] °²È«ÖÐÐÄ ^| ÒÀÀµÓÚ£ºWindows Defender                              ^|
+echo.   ^|   [G] å®‰å…¨ä¸­å¿ƒ ^| ä¾èµ–äºŽï¼šWindows Defender                              ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [H] ²½Öè¼ÇÂ¼Æ÷                                                       ^|
+echo.   ^|   [H] æ­¥éª¤è®°å½•å™¨                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [I] ÏµÍ³»Ö¸´                                                         ^|
+echo.   ^|   [I] ç³»ç»Ÿæ¢å¤                                                         ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [J] Windows ±¸·Ý                                                     ^|
+echo.   ^|   [J] Windows å¤‡ä»½                                                     ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [K] ÊÊÓÃÓÚ Linux µÄ Windows ×ÓÏµÍ³                                   ^|
+echo.   ^|   [K] é€‚ç”¨äºŽ Linux çš„ Windows å­ç³»ç»Ÿ                                   ^|
 echo.   ^|                                                                        ^|
 echo.   ^|   [L] Windows To Go                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [M] Ð´×Ö°å                                                           ^|
+echo.   ^|   [M] å†™å­—æ¿                                                           ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [N] ÒÆ³ýÒÔÉÏÈ«²¿×é¼þ                                                 ^|
+echo.   ^|   [N] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨ç»„ä»¶                                                 ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==15 goto :RemoveMenu
 if !errorlevel!==14 set "Component=SystemComponents"
 if !errorlevel!==13 set "Component=Wordpad"
@@ -3161,63 +3161,63 @@ if !errorlevel!==1  set "Component=DeviceLockdown"
 goto :RemoveWindowsComponents
 
 :RemoveSystemAppsMenu
-cls&mode con cols=80 lines=30&title ÏµÍ³Ó¦ÓÃ
+cls&mode con cols=80 lines=30&title ç³»ç»Ÿåº”ç”¨
 set "goto="
 echo.        
-echo.    _______________________________ ÏµÍ³Ó¦ÓÃ _______________________________
+echo.    _______________________________ ç³»ç»Ÿåº”ç”¨ _______________________________
 echo.   ^|                               ----------                               ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] ÏµÍ³Ó¦ÓÃÒ»                                                       ^|
+echo.   ^|   [1] ç³»ç»Ÿåº”ç”¨ä¸€                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] ÏµÍ³Ó¦ÓÃ¶þ                                                       ^|
+echo.   ^|   [2] ç³»ç»Ÿåº”ç”¨äºŒ                                                       ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /c:12X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /c:12X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==3 goto :RemoveMenu
 if !errorlevel!==2 goto :RemoveSystemAppsMenu2
 if !errorlevel!==1 goto :RemoveSystemAppsMenu1
 
 :RemoveSystemAppsMenu1
-cls&mode con cols=80 lines=40&title ¾«¼òÏµÍ³Ó¦ÓÃÒ»
+cls&mode con cols=80 lines=40&title ç²¾ç®€ç³»ç»Ÿåº”ç”¨ä¸€
 set "goto=:RemoveSystemAppsMenu1"
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseS" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃÒ» ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨ä¸€ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ ^| ÒÀÀµÓÚ£º·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ                        ^|
+	echo.   ^|   [A] æŒ‡å®šè®¿é—®é”å®šåº”ç”¨ ^| ä¾èµ–äºŽï¼šåˆ†é…çš„è®¿é—®æƒé™                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] Azure Active Directory AppX ´úÀí²å¼þ                             ^|
+	echo.   ^|   [B] Azure Active Directory AppX ä»£ç†æ’ä»¶                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ÉúÎï×¢²áÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”Ÿç‰©æ³¨å†Œåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [D] Camera Barcode Scanner                                           ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Content Delivery Manager ^| ÐèÒªÈ«ÐÂÌåÑéÓ¦ÓÃ³ÌÐò                  ^|
+	echo.   ^|   [E] Content Delivery Manager ^| éœ€è¦å…¨æ–°ä½“éªŒåº”ç”¨ç¨‹åº                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] Cortana¡¢¿ªÊ¼²Ëµ¥ºÍÉèÖÃËÑË÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºÓïÒôÊ¶±ð               ^|
+	echo.   ^|   [F] Cortanaã€å¼€å§‹èœå•å’Œè®¾ç½®æœç´¢åº”ç”¨ ^| ä¾èµ–äºŽï¼šè¯­éŸ³è¯†åˆ«               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Edge ¿ª·¢Õß¹¤¾ß¿Í»§¶Ë                                            ^|
+	echo.   ^|   [G] Edge å¼€å‘è€…å·¥å…·å®¢æˆ·ç«¯                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [H] ç›®è§†æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ                                               ^|
+	echo.   ^|   [I] æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] ËøÆÁÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [J] é”å±åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] µØÍ¼¿Ø¼þ                                                         ^|
+	echo.   ^|   [K] åœ°å›¾æŽ§ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [L] Narrator QuickStart                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps1"
 	if !errorlevel!==12 set "Component=NarratorQuickStart"
@@ -3237,39 +3237,39 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseSN" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃÒ» ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨ä¸€ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ ^| ÒÀÀµÓÚ£º·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ                        ^|
+	echo.   ^|   [A] æŒ‡å®šè®¿é—®é”å®šåº”ç”¨ ^| ä¾èµ–äºŽï¼šåˆ†é…çš„è®¿é—®æƒé™                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] Azure Active Directory AppX ´úÀí²å¼þ                             ^|
+	echo.   ^|   [B] Azure Active Directory AppX ä»£ç†æ’ä»¶                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ÉúÎï×¢²áÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”Ÿç‰©æ³¨å†Œåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [D] Camera Barcode Scanner                                           ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Content Delivery Manager ^| ÐèÒªÈ«ÐÂÌåÑéÓ¦ÓÃ³ÌÐò                  ^|
+	echo.   ^|   [E] Content Delivery Manager ^| éœ€è¦å…¨æ–°ä½“éªŒåº”ç”¨ç¨‹åº                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] Cortana¡¢¿ªÊ¼²Ëµ¥ºÍÉèÖÃËÑË÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºÓïÒôÊ¶±ð               ^|
+	echo.   ^|   [F] Cortanaã€å¼€å§‹èœå•å’Œè®¾ç½®æœç´¢åº”ç”¨ ^| ä¾èµ–äºŽï¼šè¯­éŸ³è¯†åˆ«               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Edge ¿ª·¢Õß¹¤¾ß¿Í»§¶Ë                                            ^|
+	echo.   ^|   [G] Edge å¼€å‘è€…å·¥å…·å®¢æˆ·ç«¯                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [H] ç›®è§†æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ                                               ^|
+	echo.   ^|   [I] æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] ËøÆÁÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [J] é”å±åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] µØÍ¼¿Ø¼þ                                                         ^|
+	echo.   ^|   [K] åœ°å›¾æŽ§ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [L] Narrator QuickStart                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps1"
 	if !errorlevel!==12 set "Component=NarratorQuickStart"
@@ -3289,41 +3289,41 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃÒ» ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨ä¸€ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ ^| ÒÀÀµÓÚ£º·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ                        ^|
+	echo.   ^|   [A] æŒ‡å®šè®¿é—®é”å®šåº”ç”¨ ^| ä¾èµ–äºŽï¼šåˆ†é…çš„è®¿é—®æƒé™                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] Azure Active Directory AppX ´úÀí²å¼þ                             ^|
+	echo.   ^|   [B] Azure Active Directory AppX ä»£ç†æ’ä»¶                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ÉúÎï×¢²áÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”Ÿç‰©æ³¨å†Œåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [D] Camera Barcode Scanner                                           ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Á¬½ÓÓ¦ÓÃ                                                         ^|	
+	echo.   ^|   [E] è¿žæŽ¥åº”ç”¨                                                         ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] Content Delivery Manager ^| ÐèÒªÈ«ÐÂÌåÑéÓ¦ÓÃ³ÌÐò                  ^|
+	echo.   ^|   [F] Content Delivery Manager ^| éœ€è¦å…¨æ–°ä½“éªŒåº”ç”¨ç¨‹åº                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Cortana¡¢¿ªÊ¼²Ëµ¥ºÍÉèÖÃËÑË÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºÓïÒôÊ¶±ð               ^|
+	echo.   ^|   [G] Cortanaã€å¼€å§‹èœå•å’Œè®¾ç½®æœç´¢åº”ç”¨ ^| ä¾èµ–äºŽï¼šè¯­éŸ³è¯†åˆ«               ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [H] Edge                                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [I] ç›®è§†æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ                                               ^|
+	echo.   ^|   [J] æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] ËøÆÁÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [K] é”å±åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] µØÍ¼¿Ø¼þ                                                         ^|
+	echo.   ^|   [L] åœ°å›¾æŽ§ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [M] Narrator QuickStart                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [N] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==15 goto :RemoveSystemAppsMenu
 	if !errorlevel!==14 set "Component=SystemApps1"
 	if !errorlevel!==13 set "Component=NarratorQuickStart"
@@ -3344,39 +3344,39 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "183
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃÒ» ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨ä¸€ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ ^| ÒÀÀµÓÚ£º·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ                        ^|
+	echo.   ^|   [A] æŒ‡å®šè®¿é—®é”å®šåº”ç”¨ ^| ä¾èµ–äºŽï¼šåˆ†é…çš„è®¿é—®æƒé™                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] Azure Active Directory AppX ´úÀí²å¼þ                             ^|
+	echo.   ^|   [B] Azure Active Directory AppX ä»£ç†æ’ä»¶                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ÉúÎï×¢²áÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”Ÿç‰©æ³¨å†Œåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [D] Camera Barcode Scanner                                           ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Content Delivery Manager ^| ÐèÒªÈ«ÐÂÌåÑéÓ¦ÓÃ³ÌÐò                  ^|
+	echo.   ^|   [E] Content Delivery Manager ^| éœ€è¦å…¨æ–°ä½“éªŒåº”ç”¨ç¨‹åº                  ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [F] Edge                                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [G] ç›®è§†æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ                                               ^|
+	echo.   ^|   [H] æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] ËøÆÁÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [I] é”å±åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] µØÍ¼¿Ø¼þ                                                         ^|
+	echo.   ^|   [J] åœ°å›¾æŽ§ä»¶                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [K] Narrator QuickStart                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] OneDrive ×ÀÃæ¿Í»§¶Ë                                              ^|
+	echo.   ^|   [L] OneDrive æ¡Œé¢å®¢æˆ·ç«¯                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps1"
 	if !errorlevel!==12 set "Component=OneDrive"
@@ -3395,43 +3395,43 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 )
 
 :RemoveSystemAppsMenu2
-cls&mode con cols=80 lines=40&title ¾«¼òÏµÍ³Ó¦ÓÃ¶þ
+cls&mode con cols=80 lines=40&title ç²¾ç®€ç³»ç»Ÿåº”ç”¨äºŒ
 set "goto=:RemoveSystemAppsMenu2"
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseS" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃ¶þ ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨äºŒ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ¼Ò³¤¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [A] å®¶é•¿æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÈËÂöÀ¸                                                           ^|
+	echo.   ^|   [B] äººè„‰æ                                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¿ìËÙÖúÊÖÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] å¿«é€ŸåŠ©æ‰‹åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÁãÊÛÑÝÊ¾ÄÚÈÝ                                                     ^|
+	echo.   ^|   [D] é›¶å”®æ¼”ç¤ºå†…å®¹                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÉèÖÃÍ¬²½                                                         ^|
+	echo.   ^|   [E] è®¾ç½®åŒæ­¥                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [F] Skype ORTC                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Smart Screen ^| ÒÀÀµÓÚ£ºWindows Defender                          ^|
+	echo.   ^|   [G] Smart Screen ^| ä¾èµ–äºŽï¼šWindows Defender                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Win32 Web View Ö÷»ú                                              ^|
+	echo.   ^|   [H] Win32 Web View ä¸»æœº                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Windows Defender Ó¦ÓÃ                                            ^|
+	echo.   ^|   [I] Windows Defender åº”ç”¨                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Windows »ìºÏÏÖÊµ                                                 ^|
+	echo.   ^|   [J] Windows æ··åˆçŽ°å®ž                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Windows PDF ÔÄ¶ÁÆ÷                                               ^|
+	echo.   ^|   [K] Windows PDF é˜…è¯»å™¨                                               ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [L] Xbox Game Callable UI                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps2"
 	if !errorlevel!==12 set "Component=XboxGameCallableUI"
@@ -3451,39 +3451,39 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseSN" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃ¶þ ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨äºŒ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ¼Ò³¤¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [A] å®¶é•¿æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÈËÂöÀ¸                                                           ^|
+	echo.   ^|   [B] äººè„‰æ                                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¿ìËÙÖúÊÖÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] å¿«é€ŸåŠ©æ‰‹åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÁãÊÛÑÝÊ¾ÄÚÈÝ                                                     ^|
+	echo.   ^|   [D] é›¶å”®æ¼”ç¤ºå†…å®¹                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÉèÖÃÍ¬²½                                                         ^|
+	echo.   ^|   [E] è®¾ç½®åŒæ­¥                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [F] Skype ORTC                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Smart Screen ^| ÒÀÀµÓÚ£ºWindows Defender                          ^|
+	echo.   ^|   [G] Smart Screen ^| ä¾èµ–äºŽï¼šWindows Defender                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Win32 Web View Ö÷»ú                                              ^|
+	echo.   ^|   [H] Win32 Web View ä¸»æœº                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Windows Defender Ó¦ÓÃ                                            ^|
+	echo.   ^|   [I] Windows Defender åº”ç”¨                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Windows »ìºÏÏÖÊµ                                                 ^|
+	echo.   ^|   [J] Windows æ··åˆçŽ°å®ž                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Windows PDF ÔÄ¶ÁÆ÷                                               ^|
+	echo.   ^|   [K] Windows PDF é˜…è¯»å™¨                                               ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [L] Xbox Game Callable UI                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps2"
 	if !errorlevel!==12 set "Component=XboxGameCallableUI"
@@ -3503,41 +3503,41 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃ¶þ ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨äºŒ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] OneDrive ×ÀÃæ¿Í»§¶Ë                                              ^|
+	echo.   ^|   [A] OneDrive æ¡Œé¢å®¢æˆ·ç«¯                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ¼Ò³¤¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [B] å®¶é•¿æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ÈËÂöÀ¸                                                           ^|
+	echo.   ^|   [C] äººè„‰æ                                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ¿ìËÙÖúÊÖÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [D] å¿«é€ŸåŠ©æ‰‹åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÁãÊÛÑÝÊ¾ÄÚÈÝ                                                     ^|
+	echo.   ^|   [E] é›¶å”®æ¼”ç¤ºå†…å®¹                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ÉèÖÃÍ¬²½                                                         ^|
+	echo.   ^|   [F] è®¾ç½®åŒæ­¥                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [G] Skype ORTC                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Smart Screen ^| ÒÀÀµÓÚ£ºWindows Defender                          ^|
+	echo.   ^|   [H] Smart Screen ^| ä¾èµ–äºŽï¼šWindows Defender                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Take Test Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [I] Take Test åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Win32 Web View Ö÷»ú                                              ^|
+	echo.   ^|   [J] Win32 Web View ä¸»æœº                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Windows Defender Ó¦ÓÃ                                            ^|
+	echo.   ^|   [K] Windows Defender åº”ç”¨                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] Windows »ìºÏÏÖÊµ                                                 ^|
+	echo.   ^|   [L] Windows æ··åˆçŽ°å®ž                                                 ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [M] Xbox Game Callable UI                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [N] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==15 goto :RemoveSystemAppsMenu
 	if !errorlevel!==14 set "Component=SystemApps2"
 	if !errorlevel!==13 set "Component=XboxGameCallableUI"
@@ -3558,39 +3558,39 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "183
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 	echo.        
-	echo.    ______________________________ ÏµÍ³Ó¦ÓÃ¶þ ______________________________
+	echo.    ______________________________ ç³»ç»Ÿåº”ç”¨äºŒ ______________________________
 	echo.   ^|                              ------------                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ¼Ò³¤¿ØÖÆÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [A] å®¶é•¿æŽ§åˆ¶åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÈËÂöÀ¸                                                           ^|
+	echo.   ^|   [B] äººè„‰æ                                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¿ìËÙÖúÊÖÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [C] å¿«é€ŸåŠ©æ‰‹åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÁãÊÛÑÝÊ¾ÄÚÈÝ                                                     ^|
+	echo.   ^|   [D] é›¶å”®æ¼”ç¤ºå†…å®¹                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÉèÖÃÍ¬²½                                                         ^|
+	echo.   ^|   [E] è®¾ç½®åŒæ­¥                                                         ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [F] Skype ORTC                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Smart Screen ^| ÒÀÀµÓÚ£ºWindows Defender                          ^|
+	echo.   ^|   [G] Smart Screen ^| ä¾èµ–äºŽï¼šWindows Defender                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Take Test Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [H] Take Test åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Win32 Web View Ö÷»ú                                              ^|
+	echo.   ^|   [I] Win32 Web View ä¸»æœº                                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Windows Defender Ó¦ÓÃ                                            ^|
+	echo.   ^|   [J] Windows Defender åº”ç”¨                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Windows »ìºÏÏÖÊµ                                                 ^|
+	echo.   ^|   [K] Windows æ··åˆçŽ°å®ž                                                 ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [L] Xbox Game Callable UI                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [M] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==14 goto :RemoveSystemAppsMenu
 	if !errorlevel!==13 set "Component=SystemApps2"
 	if !errorlevel!==12 set "Component=XboxGameCallableUI"
@@ -3609,74 +3609,74 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" (
 )
 
 :RemoveWindowsAppsMenu
-cls&mode con cols=80 lines=30&title ¾«¼òWindows Ó¦ÓÃ
+cls&mode con cols=80 lines=30&title ç²¾ç®€Windows åº”ç”¨
 set "goto="
 echo.        
-echo.    _____________________________ Windows Ó¦ÓÃ _____________________________
+echo.    _____________________________ Windows åº”ç”¨ _____________________________
 echo.   ^|                             --------------                             ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [1] WindowsÓ¦ÓÃÒ»                                                    ^|
+echo.   ^|   [1] Windowsåº”ç”¨ä¸€                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [2] WindowsÓ¦ÓÃ¶þ                                                    ^|
+echo.   ^|   [2] Windowsåº”ç”¨äºŒ                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [3] WindowsÓ¦ÓÃÈý                                                    ^|
+echo.   ^|   [3] Windowsåº”ç”¨ä¸‰                                                    ^|
 echo.   ^|                                                                        ^|
-echo.   ^|   [X] ·µ»Ø                                                             ^|
+echo.   ^|   [X] è¿”å›ž                                                             ^|
 echo.   ^|                                                                        ^|
 echo.   ^|________________________________________________________________________^|
 echo.
-choice /C:123X /n /m ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+choice /C:123X /n /m ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 if !errorlevel!==4 goto :RemoveMenu
 if !errorlevel!==3 goto :RemoveWindowsAppsMenu3
 if !errorlevel!==2 goto :RemoveWindowsAppsMenu2
 if !errorlevel!==1 goto :RemoveWindowsAppsMenu1
 
 :RemoveWindowsAppsMenu1
-cls&mode con cols=80 lines=48&title ¾«¼òWindowsÓ¦ÓÃÒ»
+cls&mode con cols=80 lines=48&title ç²¾ç®€Windowsåº”ç”¨ä¸€
 set "goto=:RemoveWindowsAppsMenu1"
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "x!Bit!" equ "x86" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÒ» ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸€ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [A] Advertising Xaml                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [B] é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¼ÆËãÆ÷Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [C] è®¡ç®—å™¨åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] Ïà»úÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [D] ç›¸æœºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ×ÀÃæÓ¦ÓÃ°²×°³ÌÐò                                                 ^|
+	echo.   ^|   [E] æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ·´À¡ÖÐÐÄÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [F] åé¦ˆä¸­å¿ƒåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] µçÓ°ºÍµçÊÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [G] ç”µå½±å’Œç”µè§†åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] »ñÈ¡°ïÖú                                                         ^|
+	echo.   ^|   [H] èŽ·å–å¸®åŠ©                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ                              ^|
+	echo.   ^|   [I] Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Groove ÒôÀÖÓ¦ÓÃ                                                  ^|
+	echo.   ^|   [J] Groove éŸ³ä¹åº”ç”¨                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] ¸ßÐ§Í¼ÏñÎÄ¼þ ^(HEIF^) ±à½âÂëÆ÷²å¼þ                                 ^|
+	echo.   ^|   [K] é«˜æ•ˆå›¾åƒæ–‡ä»¶ ^(HEIF^) ç¼–è§£ç å™¨æ’ä»¶                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] µØÍ¼Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºµØÍ¼¿Ø¼þ                                      ^|
+	echo.   ^|   [L] åœ°å›¾åº”ç”¨ ^| ä¾èµ–äºŽï¼šåœ°å›¾æŽ§ä»¶                                      ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [M] ÏûÏ¢Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [M] æ¶ˆæ¯åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] Microsoft Pay Ó¦ÓÃ                                               ^|
+	echo.   ^|   [N] Microsoft Pay åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Mixed Reality               ^|	
+	echo.   ^|   [O] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows Mixed Reality               ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] ÒÆ¶¯Ì×²ÍÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [P] ç§»åŠ¨å¥—é¤åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [Q] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==18 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==17 set "Component=WindowsApps1"
 	if !errorlevel!==16 set "Component=OneConnect"
@@ -3700,49 +3700,49 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "183
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "x!Bit!" equ "x64" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÒ» ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸€ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [A] Advertising Xaml                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [B] é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¼ÆËãÆ÷Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [C] è®¡ç®—å™¨åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] Ïà»úÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [D] ç›¸æœºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ×ÀÃæÓ¦ÓÃ°²×°³ÌÐò                                                 ^|
+	echo.   ^|   [E] æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ·´À¡ÖÐÐÄÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [F] åé¦ˆä¸­å¿ƒåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] µçÓ°ºÍµçÊÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [G] ç”µå½±å’Œç”µè§†åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] »ñÈ¡°ïÖú                                                         ^|
+	echo.   ^|   [H] èŽ·å–å¸®åŠ©                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ                              ^|
+	echo.   ^|   [I] Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Groove ÒôÀÖÓ¦ÓÃ                                                  ^|
+	echo.   ^|   [J] Groove éŸ³ä¹åº”ç”¨                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] ¸ßÐ§Í¼ÏñÎÄ¼þ ^(HEIF^) ±à½âÂëÆ÷²å¼þ                                 ^|
+	echo.   ^|   [K] é«˜æ•ˆå›¾åƒæ–‡ä»¶ ^(HEIF^) ç¼–è§£ç å™¨æ’ä»¶                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] µØÍ¼Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºµØÍ¼¿Ø¼þ                                      ^|
+	echo.   ^|   [L] åœ°å›¾åº”ç”¨ ^| ä¾èµ–äºŽï¼šåœ°å›¾æŽ§ä»¶                                      ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [M] ÏûÏ¢Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [M] æ¶ˆæ¯åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] Microsoft Pay Ó¦ÓÃ                                               ^|
+	echo.   ^|   [N] Microsoft Pay åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Mixed Reality               ^|
+	echo.   ^|   [O] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows Mixed Reality               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows »ìºÏÏÖÊµ                    ^|	
+	echo.   ^|   [P] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows æ··åˆçŽ°å®ž                    ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÒÆ¶¯Ì×²ÍÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [Q] ç§»åŠ¨å¥—é¤åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [R] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [R] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==19 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==18 set "Component=WindowsApps1"
 	if !errorlevel!==17 set "Component=OneConnect"
@@ -3767,45 +3767,45 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "183
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x86" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÒ» ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸€ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [A] Advertising Xaml                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [B] é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¼ÆËãÆ÷Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [C] è®¡ç®—å™¨åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] Ïà»úÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [D] ç›¸æœºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Cortana Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [E] Cortana åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ×ÀÃæÓ¦ÓÃ°²×°³ÌÐò                                                 ^|
+	echo.   ^|   [F] æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] ·´À¡ÖÐÐÄÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [G] åé¦ˆä¸­å¿ƒåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] »ñÈ¡°ïÖú                                                         ^|
+	echo.   ^|   [H] èŽ·å–å¸®åŠ©                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ                              ^|
+	echo.   ^|   [I] Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Groove ÒôÀÖÓ¦ÓÃ                                                  ^|
+	echo.   ^|   [J] Groove éŸ³ä¹åº”ç”¨                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] ¸ßÐ§Í¼ÏñÎÄ¼þ ^(HEIF^) ±à½âÂëÆ÷²å¼þ                                 ^|
+	echo.   ^|   [K] é«˜æ•ˆå›¾åƒæ–‡ä»¶ ^(HEIF^) ç¼–è§£ç å™¨æ’ä»¶                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] µØÍ¼Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºµØÍ¼¿Ø¼þ                                      ^|
+	echo.   ^|   [L] åœ°å›¾åº”ç”¨ ^| ä¾èµ–äºŽï¼šåœ°å›¾æŽ§ä»¶                                      ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] Microsoft Pay Ó¦ÓÃ                                               ^|
+	echo.   ^|   [M] Microsoft Pay åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows »ìºÏÏÖÊµ                    ^|
+	echo.   ^|   [N] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows æ··åˆçŽ°å®ž                    ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] µçÓ°ºÍµçÊÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [O] ç”µå½±å’Œç”µè§†åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [P] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==17 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==16 set "Component=WindowsApps1"
 	if !errorlevel!==15 set "Component=ZuneVideo"
@@ -3828,47 +3828,47 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x86" (
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x64" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÒ» ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸€ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [A] Advertising Xaml                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [B] é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] ¼ÆËãÆ÷Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [C] è®¡ç®—å™¨åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] Ïà»úÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [D] ç›¸æœºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] Cortana Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [E] Cortana åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ×ÀÃæÓ¦ÓÃ°²×°³ÌÐò                                                 ^|
+	echo.   ^|   [F] æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] ·´À¡ÖÐÐÄÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [G] åé¦ˆä¸­å¿ƒåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] »ñÈ¡°ïÖú                                                         ^|
+	echo.   ^|   [H] èŽ·å–å¸®åŠ©                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ                              ^|
+	echo.   ^|   [I] Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Groove ÒôÀÖÓ¦ÓÃ                                                  ^|
+	echo.   ^|   [J] Groove éŸ³ä¹åº”ç”¨                                                  ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] ¸ßÐ§Í¼ÏñÎÄ¼þ ^(HEIF^) ±à½âÂëÆ÷²å¼þ                                 ^|
+	echo.   ^|   [K] é«˜æ•ˆå›¾åƒæ–‡ä»¶ ^(HEIF^) ç¼–è§£ç å™¨æ’ä»¶                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] µØÍ¼Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºµØÍ¼¿Ø¼þ                                      ^|
+	echo.   ^|   [L] åœ°å›¾åº”ç”¨ ^| ä¾èµ–äºŽï¼šåœ°å›¾æŽ§ä»¶                                      ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] Microsoft Pay Ó¦ÓÃ                                               ^|
+	echo.   ^|   [M] Microsoft Pay åº”ç”¨                                               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows »ìºÏÏÖÊµ                    ^|
+	echo.   ^|   [N] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows æ··åˆçŽ°å®ž                    ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] »ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Mixed Reality               ^|
+	echo.   ^|   [O] æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows Mixed Reality               ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] µçÓ°ºÍµçÊÓÓ¦ÓÃ                                                   ^|
+	echo.   ^|   [P] ç”µå½±å’Œç”µè§†åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [Q] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==18 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==17 set "Component=WindowsApps1"
 	if !errorlevel!==16 set "Component=ZuneVideo"
@@ -3891,59 +3891,59 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x64" (
 )
 
 :RemoveWindowsAppsMenu2
-cls&mode con cols=80 lines=48&title ¾«¼òWindowsÓ¦ÓÃ¶þ
+cls&mode con cols=80 lines=48&title ç²¾ç®€Windowsåº”ç”¨äºŒ
 set "goto=:RemoveWindowsAppsMenu2"
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "x!Bit!" equ "x86" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃ¶þ ____________________________
+	echo.    ____________________________ Windows åº”ç”¨äºŒ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ÎÒµÄ Office Ó¦ÓÃ                                                 ^|
+	echo.   ^|   [A] æˆ‘çš„ Office åº”ç”¨                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] OneNote Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [B] OneNote åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] »­Í¼ 3D Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”»å›¾ 3D åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÈËÂöÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºÈËÂöÀ¸                                        ^|
+	echo.   ^|   [D] äººè„‰åº”ç”¨ ^| ä¾èµ–äºŽï¼šäººè„‰æ                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÕÕÆ¬Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [E] ç…§ç‰‡åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] Print 3D Ó¦ÓÃ                                                    ^|
+	echo.   ^|   [F] Print 3D åº”ç”¨                                                    ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] ½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [G] æˆªå›¾å’Œè‰å›¾åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Skype Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [H] Skype åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Solitaire Collection Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºXbox Game Callable UI        ^|
+	echo.   ^|   [I] Solitaire Collection åº”ç”¨ ^| ä¾èµ–äºŽï¼šXbox Game Callable UI        ^|
 	echo.   ^|                                                                        ^|
 if "!ImageBuild!" equ "17763" (
-	echo.   ^|   [J] ±ã¼ãÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [J] ä¾¿ç¬ºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
 )
 if "!ImageBuild!" neq "17763" (
-	echo.   ^|   [J] ±ã¼ãÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Ó¦ÓÃÉÌµê                              ^|
+	echo.   ^|   [J] ä¾¿ç¬ºåº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows åº”ç”¨å•†åº—                              ^|
 	echo.   ^|                                                                        ^|
 )
-	echo.   ^|   [K] Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [K] ä½¿ç”¨æŠ€å·§åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] Â¼Òô»úÓ¦ÓÃ                                                       ^|
+	echo.   ^|   [L] å½•éŸ³æœºåº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÌìÆøÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                              ^|
+	echo.   ^|   [M] å¤©æ°”åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                              ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [N] Web Ã½Ìå±à½âÂëÆ÷²å¼þ                                             ^|
+	echo.   ^|   [N] Web åª’ä½“ç¼–è§£ç å™¨æ’ä»¶                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] WebP Í¼Ïñ±à½âÂëÆ÷²å¼þ                                            ^|
+	echo.   ^|   [O] WebP å›¾åƒç¼–è§£ç å™¨æ’ä»¶                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] Windows ÓÊ¼þÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                      ^|	
+	echo.   ^|   [P] Windows é‚®ä»¶åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                      ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÄãµÄÊÖ»úÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [Q] ä½ çš„æ‰‹æœºåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [R] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [R] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==19 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==18 set "Component=WindowsApps2"
 	if !errorlevel!==17 set "Component=YourPhone"
@@ -3968,55 +3968,55 @@ if "!ImageBuild!" neq "17763" (
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "x!Bit!" equ "x64" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃ¶þ ____________________________
+	echo.    ____________________________ Windows åº”ç”¨äºŒ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ÎÒµÄ Office Ó¦ÓÃ                                                 ^|
+	echo.   ^|   [A] æˆ‘çš„ Office åº”ç”¨                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] OneNote Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [B] OneNote åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] »­Í¼ 3D Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”»å›¾ 3D åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÈËÂöÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºÈËÂöÀ¸                                        ^|
+	echo.   ^|   [D] äººè„‰åº”ç”¨ ^| ä¾èµ–äºŽï¼šäººè„‰æ                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÕÕÆ¬Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [E] ç…§ç‰‡åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] Print 3D Ó¦ÓÃ                                                    ^|
+	echo.   ^|   [F] Print 3D åº”ç”¨                                                    ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] ½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [G] æˆªå›¾å’Œè‰å›¾åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Skype Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [H] Skype åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] Solitaire Collection Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºXbox Game Callable UI        ^|
+	echo.   ^|   [I] Solitaire Collection åº”ç”¨ ^| ä¾èµ–äºŽï¼šXbox Game Callable UI        ^|
 	echo.   ^|                                                                        ^|
 if "!ImageBuild!" equ "17763" (
-	echo.   ^|   [J] ±ã¼ãÓ¦ÓÃ                                                         ^|
+	echo.   ^|   [J] ä¾¿ç¬ºåº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
 )
 if "!ImageBuild!" neq "17763" (
-	echo.   ^|   [J] ±ã¼ãÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Ó¦ÓÃÉÌµê                              ^|
+	echo.   ^|   [J] ä¾¿ç¬ºåº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows åº”ç”¨å•†åº—                              ^|
 	echo.   ^|                                                                        ^|
 )
-	echo.   ^|   [K] Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [K] ä½¿ç”¨æŠ€å·§åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] Â¼Òô»úÓ¦ÓÃ                                                       ^|
+	echo.   ^|   [L] å½•éŸ³æœºåº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [M] ÌìÆøÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                              ^|
+	echo.   ^|   [M] å¤©æ°”åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                              ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [N] Web Ã½Ìå±à½âÂëÆ÷²å¼þ                                             ^|
+	echo.   ^|   [N] Web åª’ä½“ç¼–è§£ç å™¨æ’ä»¶                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] WebP Í¼Ïñ±à½âÂëÆ÷²å¼þ                                            ^|
+	echo.   ^|   [O] WebP å›¾åƒç¼–è§£ç å™¨æ’ä»¶                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] Windows ÓÊ¼þÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                      ^|	
+	echo.   ^|   [P] Windows é‚®ä»¶åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                      ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÄãµÄÊÖ»úÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [Q] ä½ çš„æ‰‹æœºåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [R] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [R] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQRX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==19 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==18 set "Component=WindowsApps2"
 	if !errorlevel!==17 set "Component=YourPhone"
@@ -4041,47 +4041,47 @@ if "!ImageBuild!" neq "17763" (
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x86" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃ¶þ ____________________________
+	echo.    ____________________________ Windows åº”ç”¨äºŒ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ÎÒµÄ Office Ó¦ÓÃ                                                 ^|
+	echo.   ^|   [A] æˆ‘çš„ Office åº”ç”¨                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] OneNote Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [B] OneNote åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] »­Í¼ 3D Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”»å›¾ 3D åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÈËÂöÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºÈËÂöÀ¸                                        ^|
+	echo.   ^|   [D] äººè„‰åº”ç”¨ ^| ä¾èµ–äºŽï¼šäººè„‰æ                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÕÕÆ¬Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [E] ç…§ç‰‡åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [F] æˆªå›¾å’Œè‰å›¾åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Skype Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [G] Skype åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Solitaire Collection Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºXbox Game Callable UI        ^|
+	echo.   ^|   [H] Solitaire Collection åº”ç”¨ ^| ä¾èµ–äºŽï¼šXbox Game Callable UI        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] ±ã¼ãÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Ó¦ÓÃÉÌµê                              ^|
+	echo.   ^|   [I] ä¾¿ç¬ºåº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows åº”ç”¨å•†åº—                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [J] ä½¿ç”¨æŠ€å·§åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Â¼Òô»úÓ¦ÓÃ                                                       ^|
+	echo.   ^|   [K] å½•éŸ³æœºåº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] ÌìÆøÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                              ^|
+	echo.   ^|   [L] å¤©æ°”åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                              ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [M] Web Ã½Ìå±à½âÂëÆ÷²å¼þ                                             ^|
+	echo.   ^|   [M] Web åª’ä½“ç¼–è§£ç å™¨æ’ä»¶                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] WebP Í¼Ïñ±à½âÂëÆ÷²å¼þ                                            ^|
+	echo.   ^|   [N] WebP å›¾åƒç¼–è§£ç å™¨æ’ä»¶                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] Windows ÓÊ¼þÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                      ^|	
+	echo.   ^|   [O] Windows é‚®ä»¶åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                      ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] ÄãµÄÊÖ»úÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [P] ä½ çš„æ‰‹æœºåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [Q] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==18 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==17 set "Component=WindowsApps2"
 	if !errorlevel!==16 set "Component=YourPhone"
@@ -4105,47 +4105,47 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x86" (
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x64" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃ¶þ ____________________________
+	echo.    ____________________________ Windows åº”ç”¨äºŒ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [A] ÎÒµÄ Office Ó¦ÓÃ                                                 ^|
+	echo.   ^|   [A] æˆ‘çš„ Office åº”ç”¨                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [B] OneNote Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [B] OneNote åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [C] »­Í¼ 3D Ó¦ÓÃ                                                     ^|
+	echo.   ^|   [C] ç”»å›¾ 3D åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [D] ÈËÂöÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºÈËÂöÀ¸                                        ^|
+	echo.   ^|   [D] äººè„‰åº”ç”¨ ^| ä¾èµ–äºŽï¼šäººè„‰æ                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [E] ÕÕÆ¬Ó¦ÓÃ                                                         ^|
+	echo.   ^|   [E] ç…§ç‰‡åº”ç”¨                                                         ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [F] ½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ                                                   ^|
+	echo.   ^|   [F] æˆªå›¾å’Œè‰å›¾åº”ç”¨                                                   ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [G] Skype Ó¦ÓÃ                                                       ^|
+	echo.   ^|   [G] Skype åº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [H] Solitaire Collection Ó¦ÓÃ ^| ÒÀÀµÓÚ£ºXbox Game Callable UI        ^|
+	echo.   ^|   [H] Solitaire Collection åº”ç”¨ ^| ä¾èµ–äºŽï¼šXbox Game Callable UI        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [I] ±ã¼ãÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºWindows Ó¦ÓÃÉÌµê                              ^|
+	echo.   ^|   [I] ä¾¿ç¬ºåº”ç”¨ ^| ä¾èµ–äºŽï¼šWindows åº”ç”¨å•†åº—                              ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [J] Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [J] ä½¿ç”¨æŠ€å·§åº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [K] Â¼Òô»úÓ¦ÓÃ                                                       ^|
+	echo.   ^|   [K] å½•éŸ³æœºåº”ç”¨                                                       ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [L] ÌìÆøÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                              ^|
+	echo.   ^|   [L] å¤©æ°”åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                              ^|
 	echo.   ^|                                                                        ^|	
-	echo.   ^|   [M] Web Ã½Ìå±à½âÂëÆ÷²å¼þ                                             ^|
+	echo.   ^|   [M] Web åª’ä½“ç¼–è§£ç å™¨æ’ä»¶                                             ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [N] WebP Í¼Ïñ±à½âÂëÆ÷²å¼þ                                            ^|
+	echo.   ^|   [N] WebP å›¾åƒç¼–è§£ç å™¨æ’ä»¶                                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [O] Windows ÓÊ¼þÓ¦ÓÃ ^| ÒÀÀµÓÚ£ºAdvertising Xaml                      ^|	
+	echo.   ^|   [O] Windows é‚®ä»¶åº”ç”¨ ^| ä¾èµ–äºŽï¼šAdvertising Xaml                      ^|	
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [P] ÄãµÄÊÖ»úÓ¦ÓÃ                                                     ^|
+	echo.   ^|   [P] ä½ çš„æ‰‹æœºåº”ç”¨                                                     ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [Q] ÒÆ³ýÒÔÉÏÈ«²¿Ñ¡Ïî                                                 ^|
+	echo.   ^|   [Q] ç§»é™¤ä»¥ä¸Šå…¨éƒ¨é€‰é¡¹                                                 ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:ABCDEFGHIJKLMNOPQX /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==18 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==17 set "Component=WindowsApps2"
 	if !errorlevel!==16 set "Component=YourPhone"
@@ -4168,21 +4168,21 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "19041" if "x!Bit!" equ "x64" (
 )
 
 :RemoveWindowsAppsMenu3
-cls&mode con cols=80 lines=30&title ¾«¼òWindowsÓ¦ÓÃÈý
+cls&mode con cols=80 lines=30&title ç²¾ç®€Windowsåº”ç”¨ä¸‰
 set "goto=:RemoveWindowsAppsMenu3"
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseS" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÈý ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸‰ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] Windows Ó¦ÓÃÉÌµê ^| ÒÀÀµÓÚ£ºSmart Screen                          ^|
+	echo.   ^|   [1] Windows åº”ç”¨å•†åº— ^| ä¾èµ–äºŽï¼šSmart Screen                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] Xbox Ó¦ÓÃ                                                        ^|
+	echo.   ^|   [2] Xbox åº”ç”¨                                                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:12X /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:12X /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==3 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==2 set "Component=XboxApp"
 	if !errorlevel!==1 set "Component=WindowsStore"
@@ -4191,17 +4191,17 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÈý ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸‰ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] Windows Ó¦ÓÃÉÌµê ^| ÒÀÀµÓÚ£ºSmart Screen                          ^|
+	echo.   ^|   [1] Windows åº”ç”¨å•†åº— ^| ä¾èµ–äºŽï¼šSmart Screen                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] Xbox Ó¦ÓÃ                                                        ^|
+	echo.   ^|   [2] Xbox åº”ç”¨                                                        ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:12X /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:12X /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==3 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==2 set "Component=XboxApp"
 	if !errorlevel!==1 set "Component=WindowsStore"
@@ -4210,19 +4210,19 @@ if "!Version!" equ "10" if "!ImageBuild!" equ "17763" if "!ImageFlag!" equ "Ente
 
 if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" (
 	echo.        
-	echo.    ____________________________ Windows Ó¦ÓÃÈý ____________________________
+	echo.    ____________________________ Windows åº”ç”¨ä¸‰ ____________________________
 	echo.   ^|                            ----------------                            ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [1] Windows Ó¦ÓÃÉÌµê ^| ÒÀÀµÓÚ£ºSmart Screen                          ^|
+	echo.   ^|   [1] Windows åº”ç”¨å•†åº— ^| ä¾èµ–äºŽï¼šSmart Screen                          ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [2] Xbox Ó¦ÓÃ                                                        ^|
+	echo.   ^|   [2] Xbox åº”ç”¨                                                        ^|
 	echo.   ^|                                                                        ^|
 	echo.   ^|   [3] Xbox Identity Provider                                           ^|
 	echo.   ^|                                                                        ^|
-	echo.   ^|   [X] ·µ»Ø                                                             ^|
+	echo.   ^|   [X] è¿”å›ž                                                             ^|
 	echo.   ^|                                                                        ^|
 		echo.
-	choice /C:123X /N /M ">>>>>>>ÇëÊäÈëÑ¡Ôñ:"
+	choice /C:123X /N /M ">>>>>>>è¯·è¾“å…¥é€‰æ‹©:"
 	if !errorlevel!==4 goto :RemoveWindowsAppsMenu
 	if !errorlevel!==3 set "Component=XboxIdentityProvider"
 	if !errorlevel!==2 set "Component=XboxApp"
@@ -4231,210 +4231,210 @@ if "!Version!" equ "10" if "!ImageBuild!" geq "17763" if "!ImageFlag!" neq "Ente
 )
 
 :RemoveWindowsComponents
-:: Internet ×é¼þ
-if "!Component!" equ "AdobeFlashForWindows" call :RemoveWindowsComponent "Mount" "ÊÊÓÃÓÚ Windows µÄ Adobe Flash" "AdobeFlashForWindows"
+:: Internet ç»„ä»¶
+if "!Component!" equ "AdobeFlashForWindows" call :RemoveWindowsComponent "Mount" "é€‚ç”¨äºŽ Windows çš„ Adobe Flash" "AdobeFlashForWindows"
 :: if "!Component!" equ "InternetExplorer" call :RemoveWindowsComponent "Mount", "Internet Explorer", "InternetExplorer"
 
-:: ¶àÃ½Ìå×é¼þ
-if "!Component!" equ "FirstLogonAnimation" call :RemoveWindowsComponent "Mount", "Ê×´ÎµÇÂ¼¶¯»­", "FirstLogonAnimation"
-if "!Component!" equ "GameExplorer" call :RemoveWindowsComponent "Mount", "ÓÎÏ·ä¯ÀÀÆ÷", "GameExplorer"
-if "!Component!" equ "SnippingTool" call :RemoveWindowsComponent "Mount", "½ØÍ¼¹¤¾ß", "SnippingTool"
-if "!Component!" equ "SpeechRecognition" call :RemoveWindowsComponent "Mount", "ÓïÒôÊ¶±ð", "SpeechRecognition"
+:: å¤šåª’ä½“ç»„ä»¶
+if "!Component!" equ "FirstLogonAnimation" call :RemoveWindowsComponent "Mount", "é¦–æ¬¡ç™»å½•åŠ¨ç”»", "FirstLogonAnimation"
+if "!Component!" equ "GameExplorer" call :RemoveWindowsComponent "Mount", "æ¸¸æˆæµè§ˆå™¨", "GameExplorer"
+if "!Component!" equ "SnippingTool" call :RemoveWindowsComponent "Mount", "æˆªå›¾å·¥å…·", "SnippingTool"
+if "!Component!" equ "SpeechRecognition" call :RemoveWindowsComponent "Mount", "è¯­éŸ³è¯†åˆ«", "SpeechRecognition"
 if "!Component!" equ "WindowsMediaPlayer" call :RemoveWindowsComponent "Mount", "Windows Media Player", "WindowsMediaPlayer"
-if "!Component!" equ "WindowsPhotoViewer" call :RemoveWindowsComponent "Mount", "Windows ÕÕÆ¬²é¿´Æ÷", "WindowsPhotoViewer"
-if "!Component!" equ "WinSAT" call :RemoveWindowsComponent "Mount", "Windows ÏµÍ³ÆÀ¹À¹¤¾ß", "WinSAT"
+if "!Component!" equ "WindowsPhotoViewer" call :RemoveWindowsComponent "Mount", "Windows ç…§ç‰‡æŸ¥çœ‹å™¨", "WindowsPhotoViewer"
+if "!Component!" equ "WinSAT" call :RemoveWindowsComponent "Mount", "Windows ç³»ç»Ÿè¯„ä¼°å·¥å…·", "WinSAT"
 
-:: ÒþË½×é¼þ
-if "!Component!" equ "AssignedAccess" call :RemoveWindowsComponent "Mount", "·ÖÅäµÄ·ÃÎÊÈ¨ÏÞ", "AssignedAccess"
-if "!Component!" equ "CEIP_SQM" call :RemoveWindowsComponent "Mount", "¿Í»§ÌåÑé¸ÄÉÆ¼Æ»® [CEIP]", "CEIP_SQM"
-if "!Component!" equ "FaceRecognition" call :RemoveWindowsComponent "Mount", "ÈËÁ³Ê¶±ð", "FaceRecognition"
-if "!Component!" equ "KernelDebugging" call :RemoveWindowsComponent "Mount", "ÄÚºËµ÷ÊÔ", "KernelDebugging"
-if "!Component!" equ "LocationService" call :RemoveWindowsComponent "Mount", "¶¨Î»·þÎñ", "LocationService"
-if "!Component!" equ "PicturePassword" call :RemoveWindowsComponent "Mount", "Í¼Æ¬ÃÜÂë", "PicturePassword"
+:: éšç§ç»„ä»¶
+if "!Component!" equ "AssignedAccess" call :RemoveWindowsComponent "Mount", "åˆ†é…çš„è®¿é—®æƒé™", "AssignedAccess"
+if "!Component!" equ "CEIP_SQM" call :RemoveWindowsComponent "Mount", "å®¢æˆ·ä½“éªŒæ”¹å–„è®¡åˆ’ [CEIP]", "CEIP_SQM"
+if "!Component!" equ "FaceRecognition" call :RemoveWindowsComponent "Mount", "äººè„¸è¯†åˆ«", "FaceRecognition"
+if "!Component!" equ "KernelDebugging" call :RemoveWindowsComponent "Mount", "å†…æ ¸è°ƒè¯•", "KernelDebugging"
+if "!Component!" equ "LocationService" call :RemoveWindowsComponent "Mount", "å®šä½æœåŠ¡", "LocationService"
+if "!Component!" equ "PicturePassword" call :RemoveWindowsComponent "Mount", "å›¾ç‰‡å¯†ç ", "PicturePassword"
 if "!Component!" equ "PinEnrollment" call :RemoveWindowsComponent "Mount", "Pin Enrollment", "PinEnrollment"
-if "!Component!" equ "UnifiedTelemetryClient" call :RemoveWindowsComponent "Mount", "Í³Ò»Ò£²â¿Í»§¶Ë [Asimov]", "UnifiedTelemetryClient"
+if "!Component!" equ "UnifiedTelemetryClient" call :RemoveWindowsComponent "Mount", "ç»Ÿä¸€é¥æµ‹å®¢æˆ·ç«¯ [Asimov]", "UnifiedTelemetryClient"
 if "!Component!" equ "WiFiNetworkManager" call :RemoveWindowsComponent "Mount", "WiFi Network Manager", "WiFiNetworkManager"
-if "!Component!" equ "WindowsErrorReporting" call :RemoveWindowsComponent "Mount", "Windows ´íÎó±¨¸æ", "WindowsErrorReporting"
-if "!Component!" equ "WindowsInsiderHub" call :RemoveWindowsComponent "Mount", "Windows »áÔ±ÖÐÐÄ", "WindowsInsiderHub"
+if "!Component!" equ "WindowsErrorReporting" call :RemoveWindowsComponent "Mount", "Windows é”™è¯¯æŠ¥å‘Š", "WindowsErrorReporting"
+if "!Component!" equ "WindowsInsiderHub" call :RemoveWindowsComponent "Mount", "Windows ä¼šå‘˜ä¸­å¿ƒ", "WindowsInsiderHub"
 
-:: Ô¶³Ì´¦Àí×é¼þ
-if "!Component!" equ "HomeGroup" call :RemoveWindowsComponent "Mount", "¼ÒÍ¥×é", "HomeGroup"
+:: è¿œç¨‹å¤„ç†ç»„ä»¶
+if "!Component!" equ "HomeGroup" call :RemoveWindowsComponent "Mount", "å®¶åº­ç»„", "HomeGroup"
 if "!Component!" equ "MultiPointConnector" call :RemoveWindowsComponent "Mount", "MultiPoint Connector", "MultiPointConnector"
-if "!Component!" equ "RemoteAssistance" call :RemoveWindowsComponent "Mount", "Ô¶³ÌÐ­Öú", "RemoteAssistance"
+if "!Component!" equ "RemoteAssistance" call :RemoveWindowsComponent "Mount", "è¿œç¨‹ååŠ©", "RemoteAssistance"
 
-:: ÏµÍ³×é¼þ
-if "!Component!" equ "DeviceLockdown" call :RemoveWindowsComponent "Mount", "Éè±¸Ëø¶¨ [Ç¶ÈëÊ½ÌåÑé]", "DeviceLockdown"
-if "!Component!" equ "EaseOfAccessThemes" call :RemoveWindowsComponent "Mount", "ÇáËÉ·ÃÎÊÖ÷Ìâ", "EaseOfAccessThemes"
-if "!Component!" equ "EasyTransfer" call :RemoveWindowsComponent "Mount", "ÇáËÉ´«ËÍ", "EasyTransfer"
-if "!Component!" equ "FileHistory" call :RemoveWindowsComponent "Mount", "ÎÄ¼þÀúÊ·¼ÇÂ¼", "FileHistory"
+:: ç³»ç»Ÿç»„ä»¶
+if "!Component!" equ "DeviceLockdown" call :RemoveWindowsComponent "Mount", "è®¾å¤‡é”å®š [åµŒå…¥å¼ä½“éªŒ]", "DeviceLockdown"
+if "!Component!" equ "EaseOfAccessThemes" call :RemoveWindowsComponent "Mount", "è½»æ¾è®¿é—®ä¸»é¢˜", "EaseOfAccessThemes"
+if "!Component!" equ "EasyTransfer" call :RemoveWindowsComponent "Mount", "è½»æ¾ä¼ é€", "EasyTransfer"
+if "!Component!" equ "FileHistory" call :RemoveWindowsComponent "Mount", "æ–‡ä»¶åŽ†å²è®°å½•", "FileHistory"
 if "!Component!" equ "ManualSetup" call :RemoveWindowsManualSetup
-if "!Component!" equ "Paint" call :RemoveWindowsComponent "Mount", "Microsoft »­Í¼", "Paint"
-if "!Component!" equ "SecurityCenter" call :RemoveWindowsComponent "Mount", "°²È«ÖÐÐÄ", "SecurityCenter"
-if "!Component!" equ "StepsRecorder" call :RemoveWindowsComponent "Mount", "²½Öè¼ÇÂ¼Æ÷", "StepsRecorder"
-if "!Component!" equ "SystemRestore" call :RemoveWindowsComponent "Mount", "ÏµÍ³»Ö¸´", "SystemRestore"
-if "!Component!" equ "WindowsBackup" call :RemoveWindowsComponent "Mount", "Windows ±¸·Ý", "WindowsBackup"
-if "!Component!" equ "WindowsSubsystemForLinux" call :RemoveWindowsComponent "Mount", "ÊÊÓÃÓÚ Linux µÄ Windows ×ÓÏµÍ³", "WindowsSubsystemForLinux"
+if "!Component!" equ "Paint" call :RemoveWindowsComponent "Mount", "Microsoft ç”»å›¾", "Paint"
+if "!Component!" equ "SecurityCenter" call :RemoveWindowsComponent "Mount", "å®‰å…¨ä¸­å¿ƒ", "SecurityCenter"
+if "!Component!" equ "StepsRecorder" call :RemoveWindowsComponent "Mount", "æ­¥éª¤è®°å½•å™¨", "StepsRecorder"
+if "!Component!" equ "SystemRestore" call :RemoveWindowsComponent "Mount", "ç³»ç»Ÿæ¢å¤", "SystemRestore"
+if "!Component!" equ "WindowsBackup" call :RemoveWindowsComponent "Mount", "Windows å¤‡ä»½", "WindowsBackup"
+if "!Component!" equ "WindowsSubsystemForLinux" call :RemoveWindowsComponent "Mount", "é€‚ç”¨äºŽ Linux çš„ Windows å­ç³»ç»Ÿ", "WindowsSubsystemForLinux"
 if "!Component!" equ "WindowsToGo" call :RemoveWindowsComponent "Mount", "Windows To Go", "WindowsToGo"
-if "!Component!" equ "Wordpad" call :RemoveWindowsComponent "Mount", "Ð´×Ö°å", "Wordpad"
+if "!Component!" equ "Wordpad" call :RemoveWindowsComponent "Mount", "å†™å­—æ¿", "Wordpad"
 
 :: System Apps
-if "!Component!" equ "AADBrokerPlugin" call :RemoveWindowsComponent "Mount", "Azure Active Directory AppX ´úÀí²å¼þ", "AADBrokerPlugin"
-if "!Component!" equ "AssignedAccessLockApp" call :RemoveWindowsComponent "Mount", "Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ", "AssignedAccessLockApp"
-if "!Component!" equ "BioEnrollment" call :RemoveWindowsComponent "Mount", "ÉúÎï×¢²áÓ¦ÓÃ", "BioEnrollment"
+if "!Component!" equ "AADBrokerPlugin" call :RemoveWindowsComponent "Mount", "Azure Active Directory AppX ä»£ç†æ’ä»¶", "AADBrokerPlugin"
+if "!Component!" equ "AssignedAccessLockApp" call :RemoveWindowsComponent "Mount", "æŒ‡å®šè®¿é—®é”å®šåº”ç”¨", "AssignedAccessLockApp"
+if "!Component!" equ "BioEnrollment" call :RemoveWindowsComponent "Mount", "ç”Ÿç‰©æ³¨å†Œåº”ç”¨", "BioEnrollment"
 if "!Component!" equ "CBSPreview" call :RemoveWindowsComponent "Mount", "Camera Barcode Scanner", "CBSPreview"
 if "!Component!" equ "ContentDeliveryManager" call :RemoveWindowsComponent "Mount", "Content Delivery Manager", "ContentDeliveryManager"
-if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!Component!" equ "Cortana" call :RemoveWindowsComponent "Mount", "Cortana¡¢¿ªÊ¼²Ëµ¥ºÍÉèÖÃËÑË÷Ó¦ÓÃ", "Cortana"
-if "!Component!" equ "ECApp" call :RemoveWindowsComponent "Mount", "Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ", "ECApp"
+if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!Component!" equ "Cortana" call :RemoveWindowsComponent "Mount", "Cortanaã€å¼€å§‹èœå•å’Œè®¾ç½®æœç´¢åº”ç”¨", "Cortana"
+if "!Component!" equ "ECApp" call :RemoveWindowsComponent "Mount", "ç›®è§†æŽ§åˆ¶åº”ç”¨", "ECApp"
 if "!Component!" equ "Edge" (
-	call :RemoveWindowsComponent "Mount", "Edge ¿ª·¢Õß¹¤¾ß¿Í»§¶Ë", "EdgeDevToolsClient"
-	call :RemoveWindowsComponent "Mount", "Edge ä¯ÀÀÆ÷Ó¦ÓÃ", "Edge"
-	call :RemoveWindowsComponent "Mount", "Windows ÔÄ¶ÁÆ÷ [PDF]", "WindowsReaderPDF"
+	call :RemoveWindowsComponent "Mount", "Edge å¼€å‘è€…å·¥å…·å®¢æˆ·ç«¯", "EdgeDevToolsClient"
+	call :RemoveWindowsComponent "Mount", "Edge æµè§ˆå™¨åº”ç”¨", "Edge"
+	call :RemoveWindowsComponent "Mount", "Windows é˜…è¯»å™¨ [PDF]", "WindowsReaderPDF"
 )
-if "!Component!" equ "EdgeDevToolsClient" call :RemoveWindowsComponent "Mount", "Edge ¿ª·¢Õß¹¤¾ß¿Í»§¶Ë", "EdgeDevToolsClient"
-if "!Component!" equ "FileExplorer" call :RemoveWindowsComponent "Mount", "ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ", "FileExplorer"
-if "!Component!" equ "LockApp" call :RemoveWindowsComponent "Mount", "ËøÆÁÓ¦ÓÃ", "LockApp"
-if "!Component!" equ "MapControl" call :RemoveWindowsComponent "Mount", "µØÍ¼¿Ø¼þ", "MapControl"
+if "!Component!" equ "EdgeDevToolsClient" call :RemoveWindowsComponent "Mount", "Edge å¼€å‘è€…å·¥å…·å®¢æˆ·ç«¯", "EdgeDevToolsClient"
+if "!Component!" equ "FileExplorer" call :RemoveWindowsComponent "Mount", "æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨", "FileExplorer"
+if "!Component!" equ "LockApp" call :RemoveWindowsComponent "Mount", "é”å±åº”ç”¨", "LockApp"
+if "!Component!" equ "MapControl" call :RemoveWindowsComponent "Mount", "åœ°å›¾æŽ§ä»¶", "MapControl"
 if "!Component!" equ "NarratorQuickStart" call :RemoveWindowsComponent "Mount", "Narrator QuickStart", "NarratorQuickStart"
-if "!Component!" equ "OneDrive" call :RemoveWindowsComponent "Mount", "OneDrive ×ÀÃæ¿Í»§¶Ë", "OneDrive"
-if "!Component!" equ "ParentalControls" call :RemoveWindowsComponent "Mount", "¼Ò³¤¿ØÖÆÓ¦ÓÃ", "ParentalControls"
-if "!Component!" equ "PeopleExperienceHost" call :RemoveWindowsComponent "Mount", "People Experience Ö÷»ú", "PeopleExperienceHost"
-if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!Component!" equ "PPIProjection" call :RemoveWindowsComponent "Mount", "Connect Ó¦ÓÃ", "PPIProjection"
-if "!Component!" equ "QuickAssist" call :RemoveWindowsComponent "Mount", "¿ìËÙÖúÊÖÓ¦ÓÃ", "QuickAssist"
-if "!Component!" equ "RetailDemoContent" call :RemoveWindowsComponent "Mount", "ÁãÊÛÑÝÊ¾ÄÚÈÝ", "RetailDemoContent"
-if "!Component!" equ "SecureAssessmentBrowser" call :RemoveWindowsComponent "Mount", "Take Test Ó¦ÓÃ", "SecureAssessmentBrowser"
-if "!Component!" equ "SettingSync" call :RemoveWindowsComponent "Mount", "ÉèÖÃÍ¬²½", "SettingSync"
+if "!Component!" equ "OneDrive" call :RemoveWindowsComponent "Mount", "OneDrive æ¡Œé¢å®¢æˆ·ç«¯", "OneDrive"
+if "!Component!" equ "ParentalControls" call :RemoveWindowsComponent "Mount", "å®¶é•¿æŽ§åˆ¶åº”ç”¨", "ParentalControls"
+if "!Component!" equ "PeopleExperienceHost" call :RemoveWindowsComponent "Mount", "People Experience ä¸»æœº", "PeopleExperienceHost"
+if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!Component!" equ "PPIProjection" call :RemoveWindowsComponent "Mount", "Connect åº”ç”¨", "PPIProjection"
+if "!Component!" equ "QuickAssist" call :RemoveWindowsComponent "Mount", "å¿«é€ŸåŠ©æ‰‹åº”ç”¨", "QuickAssist"
+if "!Component!" equ "RetailDemoContent" call :RemoveWindowsComponent "Mount", "é›¶å”®æ¼”ç¤ºå†…å®¹", "RetailDemoContent"
+if "!Component!" equ "SecureAssessmentBrowser" call :RemoveWindowsComponent "Mount", "Take Test åº”ç”¨", "SecureAssessmentBrowser"
+if "!Component!" equ "SettingSync" call :RemoveWindowsComponent "Mount", "è®¾ç½®åŒæ­¥", "SettingSync"
 if "!Component!" equ "SkypeORTC" call :RemoveWindowsComponent "Mount", "Skype ORTC", "SkypeORTC"
-if "!Component!" equ "SmartScreen" call :RemoveWindowsComponent "Mount", "SmartScreen Ó¦ÓÃ", "SmartScreen"
-if "!Component!" equ "Win32WebViewHost" call :RemoveWindowsComponent "Mount", "Win32 WebView Ö÷»ú", "Win32WebViewHost"
-if "!Component!" equ "WindowsDefender" call :RemoveWindowsComponent "Mount", "Windows Defender Ó¦ÓÃ", "WindowsDefender"
-if "!Component!" equ "WindowsMixedReality" call :RemoveWindowsComponent "Mount", "Windows »ìºÏÏÖÊµ", "WindowsMixedReality"
-if "!Component!" equ "WindowsReaderPDF" call :RemoveWindowsComponent "Mount", "Windows ÔÄ¶ÁÆ÷ [PDF]", "WindowsReaderPDF"
+if "!Component!" equ "SmartScreen" call :RemoveWindowsComponent "Mount", "SmartScreen åº”ç”¨", "SmartScreen"
+if "!Component!" equ "Win32WebViewHost" call :RemoveWindowsComponent "Mount", "Win32 WebView ä¸»æœº", "Win32WebViewHost"
+if "!Component!" equ "WindowsDefender" call :RemoveWindowsComponent "Mount", "Windows Defender åº”ç”¨", "WindowsDefender"
+if "!Component!" equ "WindowsMixedReality" call :RemoveWindowsComponent "Mount", "Windows æ··åˆçŽ°å®ž", "WindowsMixedReality"
+if "!Component!" equ "WindowsReaderPDF" call :RemoveWindowsComponent "Mount", "Windows é˜…è¯»å™¨ [PDF]", "WindowsReaderPDF"
 if "!Component!" equ "XboxGameCallableUI" call :RemoveWindowsComponent "Mount", "Xbox Game Callable UI", "XboxGameCallableUI"
 
-:: Windows Ó¦ÓÃ
-if "!Component!" equ "3DViewer" call :RemoveWindowsComponent "Mount", "»ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ", "3DViewer"
+:: Windows åº”ç”¨
+if "!Component!" equ "3DViewer" call :RemoveWindowsComponent "Mount", "æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨", "3DViewer"
 if "!Component!" equ "AdvertisingXaml" call :RemoveWindowsComponent "Mount", "Advertising Xaml", "AdvertisingXaml"
-if "!Component!" equ "Alarms" call :RemoveWindowsComponent "Mount", "ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ", "Alarms"
-if "!Component!" equ "BingWeather" call :RemoveWindowsComponent "Mount", "ÌìÆøÓ¦ÓÃ", "BingWeather"
-if "!Component!" equ "Calculator" call :RemoveWindowsComponent "Mount", "¼ÆËãÆ÷Ó¦ÓÃ", "Calculator"
-if "!Component!" equ "Camera" call :RemoveWindowsComponent "Mount", "Ïà»úÓ¦ÓÃ", "Camera"
-if "!ImageBuild!" equ "19041" if "!Component!" equ "Cortana" call :RemoveWindowsComponent "Mount", "Cortana Ó¦ÓÃ", "Cortana"
-if "!Component!" equ "CommunicationsApps" call :RemoveWindowsComponent "Mount", "Windows ÓÊ¼þÓ¦ÓÃ", "CommunicationsApps"
-if "!Component!" equ "DesktopAppInstaller" call :RemoveWindowsComponent "Mount", "×ÀÃæÓ¦ÓÃ°²×°³ÌÐò", "DesktopAppInstaller"
-if "!Component!" equ "FeedbackHub" call :RemoveWindowsComponent "Mount", "·´À¡ÖÐÐÄÓ¦ÓÃ", "FeedbackHub"
-if "!Component!" equ "GetHelp" call :RemoveWindowsComponent "Mount", "»ñÈ¡°ïÖúÓ¦ÓÃ", "GetHelp"
-if "!Component!" equ "Getstarted" call :RemoveWindowsComponent "Mount", "Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ", "Getstarted"
-if "!Component!" equ "HEIFImageExtension" call :RemoveWindowsComponent "Mount", "¸ßÐ§Í¼ÏñÎÄ¼þ±à½âÂëÆ÷²å¼þ", "HEIFImageExtension"
-if "!Component!" equ "Maps" call :RemoveWindowsComponent "Mount", "µØÍ¼Ó¦ÓÃ", "Maps"
-if "!Component!" equ "Messaging" call :RemoveWindowsComponent "Mount", "ÏûÏ¢Ó¦ÓÃ", "Messaging"
-if "!Component!" equ "MixedRealityPortal" call :RemoveWindowsComponent "Mount", "»ìºÏÏÖÊµÃÅ»§Ó¦ÓÃ", "MixedRealityPortal"
-if "!Component!" equ "OfficeHub" call :RemoveWindowsComponent "Mount", "ÎÒµÄ Office Ó¦ÓÃ", "OfficeHub"
-if "!Component!" equ "OfficeOneNote" call :RemoveWindowsComponent "Mount", "OneNote Ó¦ÓÃ", "OfficeOneNote"
-if "!Component!" equ "OneConnect" call :RemoveWindowsComponent "Mount", "ÒÆ¶¯Ì×²ÍÓ¦ÓÃ", "OneConnect"
-if "!Component!" equ "Paint3D" call :RemoveWindowsComponent "Mount", "»­Í¼ 3D Ó¦ÓÃ", "Paint3D"
-if "!Component!" equ "People" call :RemoveWindowsComponent "Mount", "ÈËÂöÓ¦ÓÃ", "People"
-if "!Component!" equ "Photos" call :RemoveWindowsComponent "Mount", "ÕÕÆ¬Ó¦ÓÃ", "Photos"
-if "!Component!" equ "Print3D" call :RemoveWindowsComponent "Mount", "Print 3D Ó¦ÓÃ", "Print3D"
-if "!Component!" equ "ScreenSketch" call :RemoveWindowsComponent "Mount", "½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ", "ScreenSketch"
-if "!Component!" equ "SkypeApp" call :RemoveWindowsComponent "Mount", "Skype Ó¦ÓÃ", "SkypeApp"
-if "!Component!" equ "SolitaireCollection" call :RemoveWindowsComponent "Mount", "Solitaire Collection Ó¦ÓÃ", "SolitaireCollection"
-if "!Component!" equ "SoundRecorder" call :RemoveWindowsComponent "Mount", "Â¼Òô»úÓ¦ÓÃ", "SoundRecorder"
-if "!Component!" equ "StickyNotes" call :RemoveWindowsComponent "Mount", "±ã¼ãÓ¦ÓÃ", "StickyNotes"
-if "!Component!" equ "VP9VideoExtensions" call :RemoveWindowsComponent "Mount", "Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ", "VP9VideoExtensions"
-if "!Component!" equ "WalletService" call :RemoveWindowsComponent "Mount", "Microsoft Pay Ó¦ÓÃ", "WalletService"
-if "!Component!" equ "WebMediaExtensions" call :RemoveWindowsComponent "Mount", "Web Ã½ÌåÀ©Õ¹²å¼þ", "WebMediaExtensions"
-if "!Component!" equ "WebpImageExtensions" call :RemoveWindowsComponent "Mount", "Webp Í¼ÏñÀ©Õ¹²å¼þ", "WebpImageExtensions"
-if "!Component!" equ "WindowsStore" call :RemoveWindowsComponent "Mount", "Windows Ó¦ÓÃÉÌµêÓ¦ÓÃ", "WindowsStore"
-if "!Component!" equ "XboxApp" call :RemoveWindowsComponent "Mount", "Xbox Ó¦ÓÃ", "XboxApp"
+if "!Component!" equ "Alarms" call :RemoveWindowsComponent "Mount", "é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨", "Alarms"
+if "!Component!" equ "BingWeather" call :RemoveWindowsComponent "Mount", "å¤©æ°”åº”ç”¨", "BingWeather"
+if "!Component!" equ "Calculator" call :RemoveWindowsComponent "Mount", "è®¡ç®—å™¨åº”ç”¨", "Calculator"
+if "!Component!" equ "Camera" call :RemoveWindowsComponent "Mount", "ç›¸æœºåº”ç”¨", "Camera"
+if "!ImageBuild!" equ "19041" if "!Component!" equ "Cortana" call :RemoveWindowsComponent "Mount", "Cortana åº”ç”¨", "Cortana"
+if "!Component!" equ "CommunicationsApps" call :RemoveWindowsComponent "Mount", "Windows é‚®ä»¶åº”ç”¨", "CommunicationsApps"
+if "!Component!" equ "DesktopAppInstaller" call :RemoveWindowsComponent "Mount", "æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº", "DesktopAppInstaller"
+if "!Component!" equ "FeedbackHub" call :RemoveWindowsComponent "Mount", "åé¦ˆä¸­å¿ƒåº”ç”¨", "FeedbackHub"
+if "!Component!" equ "GetHelp" call :RemoveWindowsComponent "Mount", "èŽ·å–å¸®åŠ©åº”ç”¨", "GetHelp"
+if "!Component!" equ "Getstarted" call :RemoveWindowsComponent "Mount", "ä½¿ç”¨æŠ€å·§åº”ç”¨", "Getstarted"
+if "!Component!" equ "HEIFImageExtension" call :RemoveWindowsComponent "Mount", "é«˜æ•ˆå›¾åƒæ–‡ä»¶ç¼–è§£ç å™¨æ’ä»¶", "HEIFImageExtension"
+if "!Component!" equ "Maps" call :RemoveWindowsComponent "Mount", "åœ°å›¾åº”ç”¨", "Maps"
+if "!Component!" equ "Messaging" call :RemoveWindowsComponent "Mount", "æ¶ˆæ¯åº”ç”¨", "Messaging"
+if "!Component!" equ "MixedRealityPortal" call :RemoveWindowsComponent "Mount", "æ··åˆçŽ°å®žé—¨æˆ·åº”ç”¨", "MixedRealityPortal"
+if "!Component!" equ "OfficeHub" call :RemoveWindowsComponent "Mount", "æˆ‘çš„ Office åº”ç”¨", "OfficeHub"
+if "!Component!" equ "OfficeOneNote" call :RemoveWindowsComponent "Mount", "OneNote åº”ç”¨", "OfficeOneNote"
+if "!Component!" equ "OneConnect" call :RemoveWindowsComponent "Mount", "ç§»åŠ¨å¥—é¤åº”ç”¨", "OneConnect"
+if "!Component!" equ "Paint3D" call :RemoveWindowsComponent "Mount", "ç”»å›¾ 3D åº”ç”¨", "Paint3D"
+if "!Component!" equ "People" call :RemoveWindowsComponent "Mount", "äººè„‰åº”ç”¨", "People"
+if "!Component!" equ "Photos" call :RemoveWindowsComponent "Mount", "ç…§ç‰‡åº”ç”¨", "Photos"
+if "!Component!" equ "Print3D" call :RemoveWindowsComponent "Mount", "Print 3D åº”ç”¨", "Print3D"
+if "!Component!" equ "ScreenSketch" call :RemoveWindowsComponent "Mount", "æˆªå›¾å’Œè‰å›¾åº”ç”¨", "ScreenSketch"
+if "!Component!" equ "SkypeApp" call :RemoveWindowsComponent "Mount", "Skype åº”ç”¨", "SkypeApp"
+if "!Component!" equ "SolitaireCollection" call :RemoveWindowsComponent "Mount", "Solitaire Collection åº”ç”¨", "SolitaireCollection"
+if "!Component!" equ "SoundRecorder" call :RemoveWindowsComponent "Mount", "å½•éŸ³æœºåº”ç”¨", "SoundRecorder"
+if "!Component!" equ "StickyNotes" call :RemoveWindowsComponent "Mount", "ä¾¿ç¬ºåº”ç”¨", "StickyNotes"
+if "!Component!" equ "VP9VideoExtensions" call :RemoveWindowsComponent "Mount", "Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶", "VP9VideoExtensions"
+if "!Component!" equ "WalletService" call :RemoveWindowsComponent "Mount", "Microsoft Pay åº”ç”¨", "WalletService"
+if "!Component!" equ "WebMediaExtensions" call :RemoveWindowsComponent "Mount", "Web åª’ä½“æ‰©å±•æ’ä»¶", "WebMediaExtensions"
+if "!Component!" equ "WebpImageExtensions" call :RemoveWindowsComponent "Mount", "Webp å›¾åƒæ‰©å±•æ’ä»¶", "WebpImageExtensions"
+if "!Component!" equ "WindowsStore" call :RemoveWindowsComponent "Mount", "Windows åº”ç”¨å•†åº—åº”ç”¨", "WindowsStore"
+if "!Component!" equ "XboxApp" call :RemoveWindowsComponent "Mount", "Xbox åº”ç”¨", "XboxApp"
 if "!Component!" equ "XboxIdentityProvider" call :RemoveWindowsComponent "Mount", "Xbox Identity Provider", "XboxIdentityProvider"
-if "!Component!" equ "YourPhone" call :RemoveWindowsComponent "Mount", "ÄãµÄÊÖ»úÓ¦ÓÃ", "YourPhone"
-if "!Component!" equ "ZuneMusic" call :RemoveWindowsComponent "Mount", "Groove ÒôÀÖÓ¦ÓÃ", "ZuneMusic"
-if "!Component!" equ "ZuneVideo" if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "µçÓ°ºÍµçÊÓÓ¦ÓÃ", "ZuneVideo"
-if "!Component!" equ "ZuneVideo" if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "µçÓ°ºÍµçÊÓÓ¦ÓÃ", "ZuneVideo"
+if "!Component!" equ "YourPhone" call :RemoveWindowsComponent "Mount", "ä½ çš„æ‰‹æœºåº”ç”¨", "YourPhone"
+if "!Component!" equ "ZuneMusic" call :RemoveWindowsComponent "Mount", "Groove éŸ³ä¹åº”ç”¨", "ZuneMusic"
+if "!Component!" equ "ZuneVideo" if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "ç”µå½±å’Œç”µè§†åº”ç”¨", "ZuneVideo"
+if "!Component!" equ "ZuneVideo" if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "ç”µå½±å’Œç”µè§†åº”ç”¨", "ZuneVideo"
 
-if "!Component!" equ "InternetComponents" call :RemoveWindowsComponent "Mount", "Internet ×é¼þ", "Internet"
-if "!Component!" equ "MultimediaComponents" call :RemoveWindowsComponent "Mount", "È«²¿¶àÃ½Ìå×é¼þ", "Multimedia"
-if "!Component!" equ "PrivacyComponents" call :RemoveWindowsComponent "Mount", "È«²¿ÒþË½×é¼þ", "Privacy"
-if "!Component!" equ "RemotingComponents" call :RemoveWindowsComponent "Mount", "È«²¿Ô¶³Ì´¦Àí×é¼þ", "Remoting"
-if "!Component!" equ "SystemComponents" call :RemoveWindowsComponent "Mount", "È«²¿ÏµÍ³×é¼þ", "System"
+if "!Component!" equ "InternetComponents" call :RemoveWindowsComponent "Mount", "Internet ç»„ä»¶", "Internet"
+if "!Component!" equ "MultimediaComponents" call :RemoveWindowsComponent "Mount", "å…¨éƒ¨å¤šåª’ä½“ç»„ä»¶", "Multimedia"
+if "!Component!" equ "PrivacyComponents" call :RemoveWindowsComponent "Mount", "å…¨éƒ¨éšç§ç»„ä»¶", "Privacy"
+if "!Component!" equ "RemotingComponents" call :RemoveWindowsComponent "Mount", "å…¨éƒ¨è¿œç¨‹å¤„ç†ç»„ä»¶", "Remoting"
+if "!Component!" equ "SystemComponents" call :RemoveWindowsComponent "Mount", "å…¨éƒ¨ç³»ç»Ÿç»„ä»¶", "System"
 
 if "!Component!" equ "SystemApps1" (
-	if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" call :RemoveWindowsComponent "Mount", "Ö¸¶¨·ÃÎÊËø¶¨Ó¦ÓÃ", "AssignedAccessLockApp"
-	call :RemoveWindowsComponent "Mount", "Azure Active Directory AppX ´úÀí²å¼þ", "AADBrokerPlugin"
-	call :RemoveWindowsComponent "Mount", "ÉúÎï×¢²áÓ¦ÓÃ", "BioEnrollment"
+	if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" call :RemoveWindowsComponent "Mount", "æŒ‡å®šè®¿é—®é”å®šåº”ç”¨", "AssignedAccessLockApp"
+	call :RemoveWindowsComponent "Mount", "Azure Active Directory AppX ä»£ç†æ’ä»¶", "AADBrokerPlugin"
+	call :RemoveWindowsComponent "Mount", "ç”Ÿç‰©æ³¨å†Œåº”ç”¨", "BioEnrollment"
 	call :RemoveWindowsComponent "Mount", "Camera Barcode Scanner", "CBSPreview"
-	if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Connect Ó¦ÓÃ", "PPIProjection"
+	if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Connect åº”ç”¨", "PPIProjection"
 	call :RemoveWindowsComponent "Mount", "Content Delivery Manager", "ContentDeliveryManager"
-	if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "Cortana¡¢¿ªÊ¼²Ëµ¥ºÍÉèÖÃËÑË÷Ó¦ÓÃ", "Cortana"
-	if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Edge ä¯ÀÀÆ÷Ó¦ÓÃ", "Edge"
-	call :RemoveWindowsComponent "Mount", "Edge ¿ª·¢Õß¹¤¾ß¿Í»§¶Ë", "EdgeDevToolsClient"
-	call :RemoveWindowsComponent "Mount", "Ä¿ÊÓ¿ØÖÆÓ¦ÓÃ", "ECApp"
-	call :RemoveWindowsComponent "Mount", "ÎÄ¼þ×ÊÔ´¹ÜÀíÆ÷Ó¦ÓÃ", "FileExplorer"
-	call :RemoveWindowsComponent "Mount", "ËøÆÁÓ¦ÓÃ", "LockApp"
-	call :RemoveWindowsComponent "Mount", "µØÍ¼¿Ø¼þ", "MapControl"
+	if "!ImageBuild!" geq "17763" if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "Cortanaã€å¼€å§‹èœå•å’Œè®¾ç½®æœç´¢åº”ç”¨", "Cortana"
+	if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Edge æµè§ˆå™¨åº”ç”¨", "Edge"
+	call :RemoveWindowsComponent "Mount", "Edge å¼€å‘è€…å·¥å…·å®¢æˆ·ç«¯", "EdgeDevToolsClient"
+	call :RemoveWindowsComponent "Mount", "ç›®è§†æŽ§åˆ¶åº”ç”¨", "ECApp"
+	call :RemoveWindowsComponent "Mount", "æ–‡ä»¶èµ„æºç®¡ç†å™¨åº”ç”¨", "FileExplorer"
+	call :RemoveWindowsComponent "Mount", "é”å±åº”ç”¨", "LockApp"
+	call :RemoveWindowsComponent "Mount", "åœ°å›¾æŽ§ä»¶", "MapControl"
 	call :RemoveWindowsComponent "Mount", "Narrator QuickStart", "NarratorQuickStart"
-	if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "OneDrive ×ÀÃæ¿Í»§¶Ë", "OneDrive"
+	if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "OneDrive æ¡Œé¢å®¢æˆ·ç«¯", "OneDrive"
 )
 
 if "!Component!" equ "SystemApps2" (
-	call :RemoveWindowsComponent "Mount", "¼Ò³¤¿ØÖÆÓ¦ÓÃ", "ParentalControls"
-	call :RemoveWindowsComponent "Mount", "People Experience Ö÷»ú", "PeopleExperienceHost"
-	call :RemoveWindowsComponent "Mount", "¿ìËÙÖúÊÖÓ¦ÓÃ", "QuickAssist"
-	call :RemoveWindowsComponent "Mount", "ÁãÊÛÑÝÊ¾ÄÚÈÝ", "RetailDemoContent"
-	call :RemoveWindowsComponent "Mount", "ÉèÖÃÍ¬²½", "SettingSync"
+	call :RemoveWindowsComponent "Mount", "å®¶é•¿æŽ§åˆ¶åº”ç”¨", "ParentalControls"
+	call :RemoveWindowsComponent "Mount", "People Experience ä¸»æœº", "PeopleExperienceHost"
+	call :RemoveWindowsComponent "Mount", "å¿«é€ŸåŠ©æ‰‹åº”ç”¨", "QuickAssist"
+	call :RemoveWindowsComponent "Mount", "é›¶å”®æ¼”ç¤ºå†…å®¹", "RetailDemoContent"
+	call :RemoveWindowsComponent "Mount", "è®¾ç½®åŒæ­¥", "SettingSync"
 	call :RemoveWindowsComponent "Mount", "Skype ORTC", "SkypeORTC"
-	call :RemoveWindowsComponent "Mount", "SmartScreen Ó¦ÓÃ", "SmartScreen"
-	if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Take Test Ó¦ÓÃ", "SecureAssessmentBrowser"
-	call :RemoveWindowsComponent "Mount", "Win32 WebView Ö÷»ú", "Win32WebViewHost"
-	call :RemoveWindowsComponent "Mount", "Windows Defender Ó¦ÓÃ", "WindowsDefender"
-	call :RemoveWindowsComponent "Mount", "Windows »ìºÏÏÖÊµ", "WindowsMixedReality"
-	call :RemoveWindowsComponent "Mount", "Windows ÔÄ¶ÁÆ÷ [PDF]", "WindowsReaderPDF"
+	call :RemoveWindowsComponent "Mount", "SmartScreen åº”ç”¨", "SmartScreen"
+	if "!ImageFlag!" neq "Core" if "!ImageFlag!" neq "CoreN" if "!ImageFlag!" neq "CoreSingleEdition" if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Take Test åº”ç”¨", "SecureAssessmentBrowser"
+	call :RemoveWindowsComponent "Mount", "Win32 WebView ä¸»æœº", "Win32WebViewHost"
+	call :RemoveWindowsComponent "Mount", "Windows Defender åº”ç”¨", "WindowsDefender"
+	call :RemoveWindowsComponent "Mount", "Windows æ··åˆçŽ°å®ž", "WindowsMixedReality"
+	call :RemoveWindowsComponent "Mount", "Windows é˜…è¯»å™¨ [PDF]", "WindowsReaderPDF"
 	call :RemoveWindowsComponent "Mount", "Xbox Game Callable UI", "XboxGameCallableUI"
 )
 
 if "!Component!" equ "WindowsApps1" (
 	call :RemoveWindowsComponent "Mount", "Advertising Xaml", "AdvertisingXaml"
-	call :RemoveWindowsComponent "Mount", "ÄÖÖÓºÍÊ±ÖÓÓ¦ÓÃ", "Alarms"
-	call :RemoveWindowsComponent "Mount", "¼ÆËãÆ÷Ó¦ÓÃ", "Calculator"
-	call :RemoveWindowsComponent "Mount", "Ïà»úÓ¦ÓÃ", "Camera"
-	if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "Cortana Ó¦ÓÃ", "Cortana"
-	call :RemoveWindowsComponent "Mount", "×ÀÃæÓ¦ÓÃ°²×°³ÌÐò", "DesktopAppInstaller"
-	call :RemoveWindowsComponent "Mount", "·´À¡ÖÐÐÄÓ¦ÓÃ", "FeedbackHub"
-	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "µçÓ°ºÍµçÊÓÓ¦ÓÃ", "ZuneVideo"
-	call :RemoveWindowsComponent "Mount", "»ñÈ¡°ïÖúÓ¦ÓÃ", "GetHelp"
-	call :RemoveWindowsComponent "Mount", "Google µÄ VP9 WebM ÊÓÆµ±à½âÂëÆ÷²å¼þ", "VP9VideoExtensions"
-	call :RemoveWindowsComponent "Mount", "Groove ÒôÀÖÓ¦ÓÃ", "ZuneMusic"
-	call :RemoveWindowsComponent "Mount", "¸ßÐ§Í¼ÏñÎÄ¼þ±à½âÂëÆ÷²å¼þ", "HEIFImageExtension"
-	call :RemoveWindowsComponent "Mount", "µØÍ¼Ó¦ÓÃ", "Maps"
-	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "ÏûÏ¢Ó¦ÓÃ", "Messaging"
-	call :RemoveWindowsComponent "Mount", "Microsoft Pay Ó¦ÓÃ", "WalletService"
-	call :RemoveWindowsComponent "Mount", "»ìºÏÏÖÊµ²é¿´Æ÷Ó¦ÓÃ", "3DViewer"
-	if "x!Bit!" equ "x64" call :RemoveWindowsComponent "Mount", "»ìºÏÏÖÊµÃÅ»§Ó¦ÓÃ", "MixedRealityPortal"
-	if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "µçÓ°ºÍµçÊÓÓ¦ÓÃ", "ZuneVideo"
-	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "ÒÆ¶¯Ì×²ÍÓ¦ÓÃ", "OneConnect"
+	call :RemoveWindowsComponent "Mount", "é—¹é’Ÿå’Œæ—¶é’Ÿåº”ç”¨", "Alarms"
+	call :RemoveWindowsComponent "Mount", "è®¡ç®—å™¨åº”ç”¨", "Calculator"
+	call :RemoveWindowsComponent "Mount", "ç›¸æœºåº”ç”¨", "Camera"
+	if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "Cortana åº”ç”¨", "Cortana"
+	call :RemoveWindowsComponent "Mount", "æ¡Œé¢åº”ç”¨å®‰è£…ç¨‹åº", "DesktopAppInstaller"
+	call :RemoveWindowsComponent "Mount", "åé¦ˆä¸­å¿ƒåº”ç”¨", "FeedbackHub"
+	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "ç”µå½±å’Œç”µè§†åº”ç”¨", "ZuneVideo"
+	call :RemoveWindowsComponent "Mount", "èŽ·å–å¸®åŠ©åº”ç”¨", "GetHelp"
+	call :RemoveWindowsComponent "Mount", "Google çš„ VP9 WebM è§†é¢‘ç¼–è§£ç å™¨æ’ä»¶", "VP9VideoExtensions"
+	call :RemoveWindowsComponent "Mount", "Groove éŸ³ä¹åº”ç”¨", "ZuneMusic"
+	call :RemoveWindowsComponent "Mount", "é«˜æ•ˆå›¾åƒæ–‡ä»¶ç¼–è§£ç å™¨æ’ä»¶", "HEIFImageExtension"
+	call :RemoveWindowsComponent "Mount", "åœ°å›¾åº”ç”¨", "Maps"
+	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "æ¶ˆæ¯åº”ç”¨", "Messaging"
+	call :RemoveWindowsComponent "Mount", "Microsoft Pay åº”ç”¨", "WalletService"
+	call :RemoveWindowsComponent "Mount", "æ··åˆçŽ°å®žæŸ¥çœ‹å™¨åº”ç”¨", "3DViewer"
+	if "x!Bit!" equ "x64" call :RemoveWindowsComponent "Mount", "æ··åˆçŽ°å®žé—¨æˆ·åº”ç”¨", "MixedRealityPortal"
+	if "!ImageBuild!" equ "19041" call :RemoveWindowsComponent "Mount", "ç”µå½±å’Œç”µè§†åº”ç”¨", "ZuneVideo"
+	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "ç§»åŠ¨å¥—é¤åº”ç”¨", "OneConnect"
 )
 
 if "!Component!" equ "WindowsApps2" (
-	call :RemoveWindowsComponent "Mount", "ÎÒµÄ Office Ó¦ÓÃ", "OfficeHub"
-	call :RemoveWindowsComponent "Mount", "OneNote Ó¦ÓÃ", "OfficeOneNote"
-	call :RemoveWindowsComponent "Mount", "»­Í¼ 3D Ó¦ÓÃ", "Paint3D"
-	call :RemoveWindowsComponent "Mount", "ÈËÂöÓ¦ÓÃ", "People"
-	call :RemoveWindowsComponent "Mount", "ÕÕÆ¬Ó¦ÓÃ", "Photos"
-	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "Print 3D Ó¦ÓÃ", "Print3D"
-	call :RemoveWindowsComponent "Mount", "½ØÍ¼ºÍ²ÝÍ¼Ó¦ÓÃ", "ScreenSketch"
-	call :RemoveWindowsComponent "Mount", "Skype Ó¦ÓÃ", "SkypeApp"
-	call :RemoveWindowsComponent "Mount", "Solitaire Collection Ó¦ÓÃ", "SolitaireCollection"
-	call :RemoveWindowsComponent "Mount", "±ã¼ãÓ¦ÓÃ", "StickyNotes"
-	call :RemoveWindowsComponent "Mount", "Ê¹ÓÃ¼¼ÇÉÓ¦ÓÃ", "Getstarted"
-	call :RemoveWindowsComponent "Mount", "Â¼Òô»úÓ¦ÓÃ", "SoundRecorder"
-	call :RemoveWindowsComponent "Mount", "ÌìÆøÓ¦ÓÃ", "BingWeather"
-	call :RemoveWindowsComponent "Mount", "Web Ã½ÌåÀ©Õ¹²å¼þ", "WebMediaExtensions"
-	call :RemoveWindowsComponent "Mount", "Webp Í¼ÏñÀ©Õ¹²å¼þ", "WebpImageExtensions"
-	call :RemoveWindowsComponent "Mount", "Windows ÓÊ¼þÓ¦ÓÃ", "CommunicationsApps"
-	call :RemoveWindowsComponent "Mount", "Windows Ó¦ÓÃÉÌµêÓ¦ÓÃ", "WindowsStore"
-	call :RemoveWindowsComponent "Mount", "Xbox Ó¦ÓÃ", "XboxApp"
+	call :RemoveWindowsComponent "Mount", "æˆ‘çš„ Office åº”ç”¨", "OfficeHub"
+	call :RemoveWindowsComponent "Mount", "OneNote åº”ç”¨", "OfficeOneNote"
+	call :RemoveWindowsComponent "Mount", "ç”»å›¾ 3D åº”ç”¨", "Paint3D"
+	call :RemoveWindowsComponent "Mount", "äººè„‰åº”ç”¨", "People"
+	call :RemoveWindowsComponent "Mount", "ç…§ç‰‡åº”ç”¨", "Photos"
+	if "!ImageBuild!" leq "18363" call :RemoveWindowsComponent "Mount", "Print 3D åº”ç”¨", "Print3D"
+	call :RemoveWindowsComponent "Mount", "æˆªå›¾å’Œè‰å›¾åº”ç”¨", "ScreenSketch"
+	call :RemoveWindowsComponent "Mount", "Skype åº”ç”¨", "SkypeApp"
+	call :RemoveWindowsComponent "Mount", "Solitaire Collection åº”ç”¨", "SolitaireCollection"
+	call :RemoveWindowsComponent "Mount", "ä¾¿ç¬ºåº”ç”¨", "StickyNotes"
+	call :RemoveWindowsComponent "Mount", "ä½¿ç”¨æŠ€å·§åº”ç”¨", "Getstarted"
+	call :RemoveWindowsComponent "Mount", "å½•éŸ³æœºåº”ç”¨", "SoundRecorder"
+	call :RemoveWindowsComponent "Mount", "å¤©æ°”åº”ç”¨", "BingWeather"
+	call :RemoveWindowsComponent "Mount", "Web åª’ä½“æ‰©å±•æ’ä»¶", "WebMediaExtensions"
+	call :RemoveWindowsComponent "Mount", "Webp å›¾åƒæ‰©å±•æ’ä»¶", "WebpImageExtensions"
+	call :RemoveWindowsComponent "Mount", "Windows é‚®ä»¶åº”ç”¨", "CommunicationsApps"
+	call :RemoveWindowsComponent "Mount", "Windows åº”ç”¨å•†åº—åº”ç”¨", "WindowsStore"
+	call :RemoveWindowsComponent "Mount", "Xbox åº”ç”¨", "XboxApp"
 	if "!ImageFlag!" neq "EnterpriseS" if "!ImageFlag!" neq "EnterpriseSN" call :RemoveWindowsComponent "Mount", "Xbox Identity Provider", "XboxIdentityProvider"
-	call :RemoveWindowsComponent "Mount", "ÄãµÄÊÖ»úÓ¦ÓÃ", "YourPhone"
+	call :RemoveWindowsComponent "Mount", "ä½ çš„æ‰‹æœºåº”ç”¨", "YourPhone"
 )
 
 if "!Component!" equ "MultimediaComponents" set "goto=:RemoveMenu"
@@ -4445,11 +4445,11 @@ if "!Component!" equ "SystemApps1" set "goto=:RemoveSystemAppsMenu"
 if "!Component!" equ "SystemApps2" set "goto=:RemoveSystemAppsMenu"
 if "!Component!" equ "WindowsApps1" set "goto=:RemoveWindowsAppsMenu"
 if "!Component!" equ "WindowsApps2" set "goto=:RemoveWindowsAppsMenu"
-cls&echo.&echo.ÒÆ³ýËùÑ¡ÏîÄ¿ÒÑÍê³É£¬Çë°´ÈÎÒâ¼ü·µ»Ø...&pause>nul&set "Item="&set "Component="&goto !goto!
+cls&echo.&echo.ç§»é™¤æ‰€é€‰é¡¹ç›®å·²å®Œæˆï¼Œè¯·æŒ‰ä»»æ„é”®è¿”å›ž...&pause>nul&set "Item="&set "Component="&goto !goto!
 
 :RemoveWindowsComponent
-cls&echo.&echo.ÕýÔÚÒÆ³ý %2 ÇëÉÔµÈ...
-set "Item=ÒÆ³ý %2"
+cls&echo.&echo.æ­£åœ¨ç§»é™¤ %2 è¯·ç¨ç­‰...
+set "Item=ç§»é™¤ %2"
 "!ToolsPath!\ToolKitHelper.exe" %1 %3
 call :Log
 goto :eof
