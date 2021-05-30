@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN" οndragstart='return false' onselectstart ='return false' οnselect='document.selection.empty()'>
+	<head>
+		<title>农场大亨 v0.0.1 @ArsiIiksait</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	</head>
+	<body>
+	<h4 style="position:absolute; bottom:0; right:0;">钱: <text id="money-num">50</div>$</h4>
+	<h3>农场</h3>
+	<div>水: <text id="item-01-num">0</text>(水+<text id="item-01-make">0</text>/s) [LV.<text id="item-01-lv">0</text>] <button id="item-01-make-button" type="button">[生产]</button> <button id="item-01-upgrade-button" type="button">[升级 -<text id="item-01-upgrade-spend">20</text>$]</button></div>
+	<div>肥料: <text id="item-02-num">0</text>(肥料+<text id="item-02-make">0</text>/s) [LV.<text id="item-02-lv">0</text>] <button id="item-02-make-button" type="button">[生产]</button> <button id="item-02-upgrade-button" type="button">[升级 -<text id="item-02-upgrade-spend">20</text>$]</button></div>
+	<div>玉米: <text id="item-03-num">0</text>(玉米+<text id="item-03-make">0</text>/s 水-<text id="item-03-use-01">0</text>/s 肥料-<text id="item-03-use-02">0</text>/s) [LV.<text id="item-03-lv">0</text>] <button id="item-03-make-button" type="button">[生产]</button> <button id="item-03-upgrade-button" type="button">[升级 -<text id="item-03-upgrade-spend">20</text>$]</button></div>
+	<h3>市场</h3>
+	<div>玉米: <text id="item-01-value">5</text>$*<text id="item-01-sell-num">0</text> (<text id="item-01-sell-total">0</text>$)<button id="item-01-lessen-sell-button" type="button">-</button><button id="item-01-add-sell-button" type="button">+</button><button id="item-01-sell-button" type="button">[出售]</button> <button id="item-01-auto-sell-button-on" type="button">[开启自动出售]</button> <button id="item-01-auto-sell-button-off" type="button">[关闭自动出售]</button></div>
+	</body>
+	<script name="initialization">
+		let money_num=50
+		let item_01_num=0
+		let item_02_num=0
+		let item_03_num=0
+		let item_01_value=5
+		
+		let item_01_make=0
+		let item_02_make=0
+		let item_03_make=0
+		let item_03_use_01=0
+		let item_03_use_02=0
+		let item_01_sell_num=0
+		
+		let item_01_lv=0
+		let item_02_lv=0
+		let item_03_lv=0
+		let item_01_sell_total=0
+		
+		let item_01_upgrade_spend=20
+		let item_02_upgrade_spend=20
+		let item_03_upgrade_spend=20
+		var isAutoSellOn=false
+	</script>
+	<script name="button-behavior">
+		$(document).ready(function(){
+			$("#item-01-auto-sell-button-off").hide();
+			
+			$("#item-01-make-button").click(function(){
+				item_01_num=item_01_num+0.1
+				$("#item-01-num").text(item_01_num.toFixed(2));
+			});
+			$("#item-02-make-button").click(function(){
+				item_02_num=item_02_num+0.1
+				$("#item-02-num").text(item_02_num.toFixed(2));
+			});
+			$("#item-03-make-button").click(function(){
+				item_03_num=item_03_num+0.01
+				$("#item-03-num").text(item_03_num.toFixed(2));
+			});
+			
+			$("#item-01-upgrade-button").click(function(){
+				money_num=money_num-item_01_upgrade_spend
+				item_01_lv++;
+				item_01_upgrade_spend=item_01_upgrade_spend+item_01_upgrade_spend*0.5
+				item_01_make=item_01_make+item_01_lv*1.5
+				$("#item-01-lv").text(item_01_lv.toFixed(0));
+				$("#money-num").text(money_num.toFixed(2));
+				$("#item-01-upgrade-spend").text(item_01_upgrade_spend.toFixed(2));
+				$("#item-01-make").text(item_01_make.toFixed(2));
+			});
+			$("#item-02-upgrade-button").click(function(){
+				money_num=money_num-item_02_upgrade_spend
+				item_02_lv++;
+				item_02_upgrade_spend=item_02_upgrade_spend+item_02_upgrade_spend*0.5
+				item_02_make=item_02_make+item_02_lv*1.5
+				$("#item-02-lv").text(item_02_lv.toFixed(0));
+				$("#money-num").text(money_num.toFixed(2));
+				$("#item-02-upgrade-spend").text(item_02_upgrade_spend.toFixed(2));
+				$("#item-02-make").text(item_02_make.toFixed(2));
+			});
+			$("#item-03-upgrade-button").click(function(){
+				money_num=money_num-item_03_upgrade_spend
+				item_03_lv++;
+				item_03_upgrade_spend=item_03_upgrade_spend+item_03_upgrade_spend*0.5
+				item_03_make=item_03_make+item_03_lv*1.5
+				item_03_use_01=item_03_use_01+item_03_lv*1.5
+				item_03_use_02=item_03_use_02+item_03_lv*1.5
+				$("#item-03-lv").text(item_03_lv.toFixed(0));
+				$("#money-num").text(money_num.toFixed(2));
+				$("#item-03-upgrade-spend").text(item_03_upgrade_spend.toFixed(2));
+				$("#item-03-make").text(item_03_make.toFixed(2));
+				$("#item-03-use-01").text(item_03_use_01.toFixed(2));
+				$("#item-03-use-02").text(item_03_use_02.toFixed(2));
+			});
+			
+			$("#item-01-lessen-sell-button").click(function(){
+				item_01_sell_num=item_01_sell_num-1
+				item_01_sell_total=item_01_value*item_01_sell_num
+				$("#item-01-sell-num").text(item_01_sell_num.toFixed(0));
+				$("#item-01-sell-total").text(item_01_sell_total.toFixed(2));
+			});
+			$("#item-01-add-sell-button").click(function(){
+				item_01_sell_num=item_01_sell_num+1
+				item_01_sell_total=item_01_value*item_01_sell_num
+				$("#item-01-sell-num").text(item_01_sell_num.toFixed(0));
+				$("#item-01-sell-total").text(item_01_sell_total.toFixed(2));
+			});
+			$("#item-01-sell-button").click(function(){
+				item_03_num=item_03_num-item_01_sell_num
+				money_num=money_num+item_01_sell_total
+				item_01_sell_num=0
+				item_01_sell_total=0
+				$("#item-03-num").text(item_03_num.toFixed(2));
+				$("#money-num").text(money_num.toFixed(2));
+				$("#item-01-sell-num").text(item_01_sell_num.toFixed(2));
+				$("#item-01-sell-total").text(item_01_sell_total.toFixed(2));
+			});
+			$("#item-01-auto-sell-button-on").click(function(){
+				$("#item-01-auto-sell-button-on").hide();
+				$("#item-01-auto-sell-button-off").show();
+				isAutoSellOn=true
+			});
+			$("#item-01-auto-sell-button-off").click(function(){
+				$("#item-01-auto-sell-button-off").hide();
+				$("#item-01-auto-sell-button-on").show();
+				isAutoSellOn=false
+			});
+		});
+	</script>
+	<script name="automatic-production">
+		setInterval(function(){
+			item_01_num=item_01_num+item_01_make-item_03_use_01
+			$("#item-01-num").text(item_01_num.toFixed(2));
+			item_02_num=item_02_num+item_02_make-item_03_use_02
+			$("#item-02-num").text(item_02_num.toFixed(2));
+			item_03_num=item_03_num+item_03_make
+			$("#item-03-num").text(item_03_num.toFixed(2));
+			if(isAutoSellOn==true) {
+				item_03_num=item_03_num-item_01_sell_num
+				money_num=money_num+item_01_sell_total
+				$("#item-03-num").text(item_03_num.toFixed(2));
+				$("#money-num").text(money_num.toFixed(2));
+			};
+		},1000)
+	</script>
+	</html>
